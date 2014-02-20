@@ -27,7 +27,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'author' => 'Kay Strobach',
+	'author' => 'Kay Strobach, Jo Hasenau',
 	'author_email' => 'typo3@kay-strobach.de',
 	'author_company' => 'private',
 	'CGLcompliance' => '',
@@ -35,7 +35,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'php' => '5.2.0-0.0.0',
-			'typo3' => '4.5.0-6.0.99',
+			'typo3' => '6.1.99-6.2.99',
 		),
 		'conflicts' => array(
 		),
