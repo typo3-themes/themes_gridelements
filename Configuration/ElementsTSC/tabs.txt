@@ -1,0 +1,23 @@
+tx_gridelements.setup.tabs {
+	topLevelLayout = 1
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/tabs.xml
+	icon =
+	title = Tabs
+	description =
+	frame = 12352345
+	config {
+        colCount = 1
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = Content
+                        colPos = 0
+                        allowed = text,textpic,gridelements_pi1
+                    }
+                }
+            }
+        }
+	}
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<ROOT type="array">
+		<type>array</type>
+		<el type="array">
+			<tabs type="array">
+				<TCEforms type="array">
+					<label>Tabs active</label>
+					<config type="array">
+						<type>check</type>
+						<default>0</default>
+					</config>
+				</TCEforms>
+			</tabs>
+		</el>
+	</ROOT>
+</T3DataStructure>
+

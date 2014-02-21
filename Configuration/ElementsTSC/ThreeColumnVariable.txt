@@ -1,0 +1,30 @@
+tx_gridelements.setup.threeColumnVariable {
+	topLevelLayout = 1
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/threeColumnVariable.xml
+	icon =
+	title = 3 variable columns
+	description =
+	frame = 12352345
+	config {
+        colCount = 3
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = Left
+                        colPos = 2
+                    }
+                    2 {
+                        name = Middle
+                        colPos = 0
+                    }
+                    3 {
+                        name = Right
+                        colPos = 1
+                    }
+                }
+            }
+        }
+	}
+}
