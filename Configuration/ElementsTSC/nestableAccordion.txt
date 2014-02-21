@@ -1,25 +1,23 @@
 tx_gridelements.setup.nestableAccordion {
 	topLevelLayout = 1
-	#flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/nestableAccordion.xml
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/nestableAccordion.xml
 	icon =
 	title = Nested Accodion
 	description =
 	frame = 12352345
 	config {
-		backend_layout {
-            colCount = 1
-            rowCount = 1
-            rows {
-                1 {
-                    columns {
-                        1 {
-                            name = Content
-                            colPos = 0
-                            allowed = text,textpic,gridelements_pi1
-                        }
-	                }
-	            }
-	        }
+        colCount = 1
+        rowCount = 1
+        rows {
+            1 {
+                columns {
+                    1 {
+                        name = Content
+                        colPos = 0
+                        allowed = text,textpic,gridelements_pi1
+                    }
+                }
+            }
         }
 	}
 }
