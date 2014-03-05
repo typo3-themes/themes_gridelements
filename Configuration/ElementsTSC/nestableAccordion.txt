@@ -1,5 +1,4 @@
 tx_gridelements.setup.nestableAccordion {
-	topLevelLayout = 1
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/nestableAccordion.xml
 	icon =
 	title = Nested Accodion

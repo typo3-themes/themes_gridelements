@@ -1,5 +1,4 @@
 tx_gridelements.setup.tabs {
-	topLevelLayout = 1
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/tabs.xml
 	icon =
 	title = Tabs
