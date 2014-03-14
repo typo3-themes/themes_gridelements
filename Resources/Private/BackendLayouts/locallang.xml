@@ -6,7 +6,9 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="Layout_1">Example Layout_1</label>
+			<label index="Layout_1">Layout one column and Feature</label>
+			<label index="Layout_2">Layout two column and Feature</label>
+			<label index="Layout_3">Layout three column and Feature</label>
 		</languageKey>
 
 	</data>

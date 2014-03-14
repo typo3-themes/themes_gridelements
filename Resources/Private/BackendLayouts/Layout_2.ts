@@ -7,14 +7,19 @@ backend_layout {
 				1 {
 					name = Feature
 					colPos = 11
+					colspan = 2
 				}
 			}
 		}
 		2 {
 			columns {
 				1 {
-					name = Content
+					name = Main Content
 					colPos = 0
+				}
+				2 {
+					name = Side Content
+					colPos = 22
 				}
 			}
 		}
