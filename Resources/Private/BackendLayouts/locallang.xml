@@ -6,23 +6,17 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="Layout_1">Layout one column and Feature</label>
-			<label index="Layout_2">Layout two column and Feature</label>
-			<label index="Layout_3">Layout three column and Feature</label>
-
-            <label index="BackendLayout_C">Content only</label>
-            <label index="BackendLayout_CM">Content - Menu</label>
-            <label index="BackendLayout_CMS">Content - Menu - Sidebar</label>
-            <label index="BackendLayout_CS">Content - Sidebar</label>
-            <label index="BackendLayout_CSM">Content - Sidebar - Menu</label>
-            <label index="BackendLayout_MC">Menu - Content</label>
-            <label index="BackendLayout_MCS">Menu - Content - Sidebar</label>
-            <label index="BackendLayout_MSC">Menu - Sidebar - Content</label>
-            <label index="BackendLayout_SC">Sidebar - Content</label>
-            <label index="BackendLayout_SCM">Sidebar - Content - Menu</label>
-            <label index="BackendLayout_SMC">Sidebar - Menu - Content</label>
-
+            <label index="Content">Content only</label>
+            <label index="ContentMenu">Content - Menu</label>
+            <label index="ContentMenuSidebar">Content - Menu - Sidebar</label>
+            <label index="ContentSidebar">Content - Sidebar</label>
+            <label index="ContentSidebarMenu">Content - Sidebar - Menu</label>
+            <label index="MenuContent">Menu - Content</label>
+            <label index="MenuContentSidebar">Menu - Content - Sidebar</label>
+            <label index="MenuSidebarContent">Menu - Sidebar - Content</label>
+            <label index="SidebarContent">Sidebar - Content</label>
+            <label index="SidebarContentMenu">Sidebar - Content - Menu</label>
+            <label index="SidebarMenuContent">Sidebar - Menu - Content</label>
 		</languageKey>
-
 	</data>
 </T3locallang>
