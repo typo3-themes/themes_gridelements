@@ -2,12 +2,12 @@
 
 
 
-lib.nav.main = HMENU
-lib.nav.main.entryLevel       = 0
-lib.nav.main.includeNotInMenu = 0
-lib.nav.main.wrap    = <ul class="nav navbar-nav"> | </ul>
-lib.nav.main.1 = TMENU
-lib.nav.main.1 {
+lib.menu.main = HMENU
+lib.menu.main.entryLevel       = 0
+lib.menu.main.includeNotInMenu = 0
+lib.menu.main.wrap    = <ul class="nav navbar-nav"> | </ul>
+lib.menu.main.1 = TMENU
+lib.menu.main.1 {
   expAll = 1
   stdWrapHtmlSpecialChars = 0
   wrapHtmlSpecialChars    = 0
@@ -40,8 +40,8 @@ lib.nav.main.1 {
   ACTIFSUB.after = <b class="caret"></b></a>
   ACTIFSUB.doNotLinkIt = 1
 }
-lib.nav.main.2 = TMENU
-lib.nav.main.2 {
+lib.menu.main.2 = TMENU
+lib.menu.main.2 {
   expAll = 0
   stdWrapHtmlSpecialChars = 0
   wrapHtmlSpecialChars    = 0

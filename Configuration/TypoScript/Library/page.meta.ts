@@ -1,0 +1,30 @@
+page.meta {
+    abstract.data = levelfield :-1, abstract, slide
+    abstract.override.data = page:abstract
+    abstract.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.abstract}
+    abstract.abstract = 1
+    keywords.data = levelfield :-1, keywords, slide
+    keywords.override.data = page:keywords
+    keywords.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.keywords}
+    keywords.keywords = 1
+    description.data = levelfield :-1, description, slide
+    description.override.data = page:description
+    description.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.description}
+    description.description = 1
+    author.data = levelfield :-1, author, slide
+    author.override.data = page:author
+    author.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.author}
+    author.author = 1
+    publisher.data = levelfield :-1, author, slide
+    publisher.override.data = page:author
+    publisher.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.author}
+    publisher.publisher = 1
+    author_email.data = levelfield :-1, author_email, slide
+    author_email.override.data = page:author_email
+    author_email.ifEmpty = {$plugin.tx_themes_gridelements.confirguration.meta.defaults.author_email}
+    author_email.author_email = 1
+    copyright = {$plugin.tx_themes_gridelements.confirguration.meta.copyright}
+    robots = noindex,nofollow
+    revisit-after = 7 days
+    application-name = DEV-FTM Website
+}
