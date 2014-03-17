@@ -1,9 +1,10 @@
+page = PAGE
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Library">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library">
+
 
 includeLibs.t3jquery = EXT:t3jquery/class.tx_t3jquery.php
 
-page = PAGE
 page {
 	typeNum = 0
     10 = FLUIDTEMPLATE
@@ -28,7 +29,8 @@ page {
         layoutRootPath = EXT:themes_gridelements/Resources/Private/Layouts/
         partialRootPath = EXT:themes_gridelements/Resources/Private/Partials/
         variables {
-
+            test = TEXT
+            test.value = irgendwas
         }
     }
     75 = USER
