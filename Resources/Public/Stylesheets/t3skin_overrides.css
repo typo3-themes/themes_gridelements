@@ -1,0 +1,23 @@
+#typo3-inner-docbody > div > .t3-gridContainer > table > tbody > tr > td.t3-page-column-1 {
+	background: #F4F4E2;
+	border-color: #F4F4E2!important;
+	border-bottom-color: #E6E68A!important;
+}
+
+#typo3-inner-docbody > div > .t3-gridContainer > table > tbody > tr > td.t3-page-column-2 {
+	background: #F1EDF9;
+	border-color: #F1EDF9!important;
+	border-bottom-color: #DBBFFF!important;
+}
+
+#typo3-inner-docbody > div > .t3-gridContainer > table > tbody > tr > td.t3-page-column-3 {
+	background: #F9EDE0;
+	border-color: #F9EDE0!important;
+	border-bottom-color: #FFB77F!important;
+}
+
+#typo3-inner-docbody > div > .t3-gridContainer > table > tbody > tr > td.t3-page-column-4 {
+	background: #F8E7EF;
+	border-color: #F8E7EF!important;
+	border-bottom-color: #FAA3CA!important;
+}

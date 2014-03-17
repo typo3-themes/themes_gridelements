@@ -1,6 +1,6 @@
 backend_layout {
     colCount = 4
-    rowCount = 5
+    rowCount = 3
     rows {
         1 {
             columns {
@@ -15,26 +15,16 @@ backend_layout {
             columns {
                 1 {
                     name = Sidebar
-                    rowspan = 3
                     colPos = 2
                 }
                 2 {
                     name = Content
                     colspan = 3
-                    rowspan = 3
                     colPos = 0
                 }
             }
         }
         3 {
-            columns {
-            }
-        }
-        4 {
-            columns {
-            }
-        }
-        5 {
             columns {
                 1 {
                     name = Extended
