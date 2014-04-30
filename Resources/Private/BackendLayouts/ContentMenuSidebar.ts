@@ -5,7 +5,8 @@ backend_layout {
         1 {
             columns {
                 1 {
-                    name = Feature
+                    name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_feature
+                    rowspan = 1
                     colspan = 5
                     colPos = 3
                 }
@@ -14,16 +15,21 @@ backend_layout {
         2 {
             columns {
                 1 {
-                    name = Content
+                    name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_content
+                    rowspan = 1
                     colspan = 3
                     colPos = 0
                 }
                 2 {
-                    name = Menu
+                    name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_menu
+                    rowspan = 1
+                    colspan = 1
                     colPos = 1
                 }
                 3 {
-                    name = Sidebar
+                    name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_sidebar
+                    rowspan = 1
+                    colspan = 1
                     colPos = 2
                 }
             }
@@ -31,7 +37,8 @@ backend_layout {
         3 {
             columns {
                 1 {
-                    name = Extended
+                    name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_extended
+                    rowspan = 1
                     colspan = 5
                     colPos = 4
                 }

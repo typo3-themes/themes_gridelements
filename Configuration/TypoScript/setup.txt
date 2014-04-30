@@ -29,8 +29,8 @@ page {
         layoutRootPath = EXT:themes_gridelements/Resources/Private/Layouts/
         partialRootPath = EXT:themes_gridelements/Resources/Private/Partials/
         variables {
-            test = TEXT
-            test.value = irgendwas
+            pageTitle = TEXT
+            pageTitle.data = page:title
         }
     }
     75 = USER

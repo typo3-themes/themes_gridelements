@@ -1,8 +1,17 @@
-plugin.tx_themes_gridelements {
-	bootstrapTheme = {$plugin.tx_themes.resourcesPublicPath}Contrib/Bootstrap/css/bootstrap.min.css
+#
+# Theme-Constants
+#
+# More information about Constants:
+# http://wiki.typo3.org/TypoScript_Constants
+#
+themes {
+	bootstrapTheme = {$themes.resourcesPublicPath}Contrib/Bootstrap/css/bootstrap.min.css
 
-    confirguration {
+    configuration {
+        # cat=theme; type=string; label= Name of the site
         siteName = Bootstrap Theme
+        # cat=theme; type=options[development,production]; label= Production or development mode
+        themeMode = development
         colors {
             # cat=siteColors; type=color; label= Link color
             link      = #FF8700
@@ -22,7 +31,7 @@ plugin.tx_themes_gridelements {
                 # cat=metaDefaults; type=string; label= Default author
                 author = TYPO3 Themes-Team
                 # cat=metaDefaults; type=string; label= Default author email
-                author_email = team@typo3-themes.org
+                authorEmail = team@typo3-themes.org
             }
             # cat=meta; type=string; label= Copyright
             copyright = TYPO3 Themes-Team - www.typo3-themes.org
