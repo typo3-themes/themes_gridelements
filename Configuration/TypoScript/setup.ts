@@ -1,6 +1,6 @@
 page = PAGE
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extension="setupts">
 
 
 includeLibs.t3jquery = EXT:t3jquery/class.tx_t3jquery.php
@@ -15,19 +15,19 @@ page {
                 data = levelfield:-1, backend_layout_next_level, slide
                 override.field = backend_layout
                 split {
-                    token = file__
+                    token     = pagets__
                     1.current = 1
-                    1.wrap = |
+                    1.wrap    = |
                 }
-                wrap = EXT:themes_gridelements/Resources/Private/Templates/|.html
+                stdWrap.dataWrap    = {$themes.relativePath}Resources/Private/Templates/|.html
             }
             stdWrap.ifEmpty.cObject = TEXT
             stdWrap.ifEmpty.cObject {
-                value = EXT:themes_gridelements/Resources/Private/Templates/Error.html
+                value   = EXT:themes_gridelements/Resources/Private/Templates/Error.html
             }
         }
-        layoutRootPath = EXT:themes_gridelements/Resources/Private/Layouts/
-        partialRootPath = EXT:themes_gridelements/Resources/Private/Partials/
+        layoutRootPath  = {$themes.relativePath}Resources/Private/Layouts/
+        partialRootPath = {$themes.relativePath}Resources/Private/Partials/
         variables {
             pageTitle = TEXT
             pageTitle.data = page:title
