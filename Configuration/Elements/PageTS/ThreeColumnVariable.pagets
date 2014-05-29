@@ -1,5 +1,5 @@
 tx_gridelements.setup.threeColumnVariable {
-	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/threeColumnVariable.xml
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/threeColumnVariable.xml
 	icon =
 	title = 3 variable columns
 	description =

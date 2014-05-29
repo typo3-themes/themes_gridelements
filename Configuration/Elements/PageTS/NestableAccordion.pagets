@@ -1,5 +1,5 @@
 tx_gridelements.setup.nestableAccordion {
-	flexformDS = FILE:EXT:themes_gridelements/Configuration/ElementsFlexform/nestableAccordion.xml
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/nestableAccordion.xml
 	icon =
 	title = Nested Accodion
 	description =
