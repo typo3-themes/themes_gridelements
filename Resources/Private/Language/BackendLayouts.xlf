@@ -68,6 +68,9 @@
             <trans-unit id="area_extended">
                 <source>Extended</source>
             </trans-unit>
+            <trans-unit id="area_unused">
+                <source>Unused Elements</source>
+            </trans-unit>
 
         </body>
     </file>

@@ -3,15 +3,14 @@ backendlayouts {
         icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/Content.jpg
         name = Content
         backend_layout (
-			colCount = 3
-            rowCount = 3
+			colCount = 1
+            rowCount = 4
             rows {
                 1 {
                     columns {
                         1 {
                             name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_feature
                             rowspan = 1
-                            colspan = 3
                             colPos = 3
                         }
                     }
@@ -21,7 +20,6 @@ backendlayouts {
                         1 {
                             name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_content
                             rowspan = 1
-                            colspan = 3
                             colPos = 0
                         }
                     }
@@ -31,8 +29,16 @@ backendlayouts {
                         1 {
                             name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_extended
                             rowspan = 1
-                            colspan = 3
                             colPos = 4
+                        }
+                    }
+                }
+                4 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_unused
+                            rowspan = 1
+                            colPos = -2
                         }
                     }
                 }

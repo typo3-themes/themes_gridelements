@@ -4,7 +4,7 @@ backendlayouts {
         name = ContentSidebar
         backend_layout (
 		    colCount = 4
-            rowCount = 3
+            rowCount = 4
             rows {
                 1 {
                     columns {
@@ -38,6 +38,16 @@ backendlayouts {
                             rowspan = 1
                             colspan = 4
                             colPos = 4
+                        }
+                    }
+                }
+                4 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_unused
+                            rowspan = 1
+                            colspan = 4
+                            colPos = -2
                         }
                     }
                 }
