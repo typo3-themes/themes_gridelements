@@ -53,7 +53,7 @@ backendlayouts {
                         1 {
                             name = LLL:EXT:themes_gridelements/Resources/Private/Language/BackendLayouts.xlf:area_unused
                             rowspan = 1
-                            colspan = 4
+                            colspan = 5
                             colPos = -2
                         }
                     }
