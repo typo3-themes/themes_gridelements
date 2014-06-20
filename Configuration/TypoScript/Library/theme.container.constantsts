@@ -1,0 +1,12 @@
+#############################################
+# Container: Container/Storages constants
+#############################################
+
+# cat=container; type=int+; label= Container for Top-Menu pages
+themes.configuration.container.menuTop = 0
+
+# cat=container; type=int+; label= Container for Footer-Menu pages
+themes.configuration.container.menuFooter = 0
+
+# cat=container; type=int+; label= Container for Special-Menu pages
+themes.configuration.container.menuSpecial = 0
