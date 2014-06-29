@@ -1,0 +1,22 @@
+#############################################
+# Basic: Basic constants
+#############################################
+
+# cat=theme; type=string; label= Name of the site
+themes.configuration.siteName = FTM - Theme
+
+# cat=theme; type=string; label= Base URL of the site
+themes.configuration.baseurl = http://dev.fluid-template-manager.de/
+
+# cat=theme; type=string; label= Image base URL of the site (http://cdn.fluid-template-manager.de/ftm_theme_kazhua/default/Images/; http://dev.fluid-template-manager.de/fileadmin/ftm_theme_kazhua/default/Images/)
+themes.configuration.baseurlImage = http://dev.fluid-template-manager.de/fileadmin/ftm_theme_kazhua/default/Images/
+
+# cat=theme; type=options[0,1]; label= Use additional CSS/LESS/SASS file?
+themes.configuration.useAdditionalCssFile = 0
+
+# cat=theme; type=string; label= Additional local CSS/LESS/SASS file (fileadmin/ftm_theme_preparo/wgh/Dyncss/import.less)
+themes.configuration.additionalCssFile = fileadmin/ftm_theme_preparo/wgh/Dyncss/import.less
+
+# cat=theme; type=string; label= Path and file for favicon (fileadmin/ftm_theme_preparo/wgh/Icons/favicon.ico; )
+themes.configuration.favicon = fileadmin/ftm_theme_preparo/wgh/Icons/favicon.ico
+

@@ -6,7 +6,7 @@
 themes.configuration.header.logo.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
 
 # cat=header; type=int+; label= Width of header logo
-themes.configuration.header.logo.width = 140
+themes.configuration.header.logo.width = 40
 
 # cat=header; type=int+; label= Height of header logo
 themes.configuration.header.logo.height =
