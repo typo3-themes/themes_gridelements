@@ -19,4 +19,3 @@ themes.configuration.additionalCssFile = fileadmin/ftm_theme_preparo/wgh/Dyncss/
 
 # cat=theme; type=string; label= Path and file for favicon (fileadmin/ftm_theme_preparo/wgh/Icons/favicon.ico; )
 themes.configuration.favicon = fileadmin/ftm_theme_preparo/wgh/Icons/favicon.ico
-

@@ -4,9 +4,13 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
- * @todo Doc missing
+ * @todo missing docblock
  */
 class Tx_ThemesGridelements_Hooks_PreHeaderRenderHook {
+
+	/**
+	 * @todo missing docblock
+	 */
 	function main($arg) {
 		/** @var $pagerenderer t3lib_PageRenderer */
 		$pagerenderer = $arg['pageRenderer'];
