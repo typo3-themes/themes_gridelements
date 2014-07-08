@@ -7,8 +7,8 @@ lib.slideShowWrapper (
 )
 
 lib.gridelements {
-	bootstrapCarousel < lib.gridelements.defaultGridSetup
-	bootstrapCarousel {
+	carousel < lib.gridelements.defaultGridSetup
+	carousel {
 		wrap = <div class="row">|</div>
 		columns {
 			default {
@@ -56,4 +56,4 @@ lib.gridelements {
 	}
 }
 
-tt_content.gridelements_pi1.20.10.setup.bootstrapCarousel < lib.gridelements.bootstrapCarousel
+tt_content.gridelements_pi1.20.10.setup.carousel < lib.gridelements.carousel

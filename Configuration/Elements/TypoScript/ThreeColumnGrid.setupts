@@ -1,6 +1,6 @@
 lib.gridelements {
-	bootstrapThreeColumnGrid < .defaultGridSetup
-	bootstrapThreeColumnGrid {
+	threeColumnGrid < .defaultGridSetup
+	threeColumnGrid {
 		wrap = <div class="row">|</div>
 		columns	{
 			default	{
@@ -19,4 +19,4 @@ lib.gridelements {
 		}
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.bootstrapThreeColumnGrid < lib.gridelements.bootstrapThreeColumnGrid
+tt_content.gridelements_pi1.20.10.setup.threeColumnGrid < lib.gridelements.threeColumnGrid
