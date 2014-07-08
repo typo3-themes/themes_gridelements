@@ -47,11 +47,11 @@
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">Show Toggle</numIndex>
+								<numIndex index="0">Show toggle</numIndex>
 								<numIndex index="1">0</numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">Hide Toggle</numIndex>
+								<numIndex index="0">Hide toggle</numIndex>
 								<numIndex index="1">1</numIndex>
 							</numIndex>
 						</items>

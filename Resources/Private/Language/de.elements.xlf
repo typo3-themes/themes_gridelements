@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-09-19T09:11:39Z" product-name="themes_gridelements">
+        <header/>
+        <body>
+            <trans-unit id="carousel">
+                <source>Carousel</source>
+                <target>Karussell</target>
+            </trans-unit>
+            <trans-unit id="carousel_description">
+                <source>Carousel/Slider</source>
+                <target>Karussell/Bildwechsler</target>
+            </trans-unit>
+            <trans-unit id="carousel_images">
+                <source>Images</source>
+                <target>Bilder</target>
+            </trans-unit>
+            <trans-unit id="carousel_element_handling">
+                <source>Handling of image elements</source>
+                <target>Verhalten der Bildelemente</target>
+            </trans-unit>
+            <trans-unit id="carousel_grouped_slider">
+                <source>Image elements grouped into a single slider</source>
+                <target>Alle Bildelemente in einem Karussell gruppiert</target>
+            </trans-unit>
+            <trans-unit id="carousel_separate_sliders">
+                <source>1 slider per image element</source>
+                <target>1 Bildwechsler pro Bildelement</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

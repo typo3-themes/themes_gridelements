@@ -48,8 +48,8 @@ tt_content.gridelements_pi1.20.10.setup.bootstrapTabsContainer {
 	cObject = FLUIDTEMPLATE
 	cObject {
 		# @todo: wieso geht das hier nicht?! Antwort an tdeuling ;)
-		#file = FILE:EXT:theme_bootstrap/Resources/Private/Templates/Elements/BootstrapTabs.html
-		file = typo3conf/ext/theme_bootstrap/Resources/Private/Templates/Elements/BootstrapTabs.html
+		#file = FILE:EXT:themes_gridelements/Resources/Private/Templates/Elements/BootstrapTabs.html
+		file = typo3conf/ext/themes_gridelements/Resources/Private/Templates/Elements/BootstrapTabs.html
 	}
 
 	# Add the renderObj of the tab directly, this prevents the "csc-default"-wrap

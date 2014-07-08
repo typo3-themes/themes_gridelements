@@ -1,9 +1,8 @@
-
  # Tabs Container
- tx_gridelements.setup.bootstrapTabsContainer {
-	 title = Bootstrap Tabs (Container)
-	 description = Container which wraps some Bootstrap-Tabs
-	 flexformDS = FILE:EXT:theme_bootstrap/Configuration/Elements/FlexForms/BootstrapTabs.xml
+ tx_gridelements.setup.tabsContainer {
+	 title = Tabs (Container)
+	 description = Container which wraps some Tabs
+	 flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Tabs.xml
  	 frame = 12352345
 	 config {
 		 colCount = 1
@@ -24,9 +23,9 @@
 	 }
 
 	 # Tab Element
-	 tx_gridelements.setup.bootstrapTabsTab {
-	 title = Bootstrap Tabs (Tab)
-	 description = Tab which must inserted into a Tab-Container
+	 tx_gridelements.setup.tabsTab {
+	 title = Tabs (Tab)
+	 description = Tab which must be inserted into a Tab-Container
 
 	 config {
 		 colCount = 1

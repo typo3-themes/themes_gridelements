@@ -7,14 +7,13 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (normal)</sheetTitle>
+					<sheetTitle>Columns (normal)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<width_column_md_1 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 1</label>
+							
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -37,8 +36,7 @@
 					</width_column_md_1>
 					<width_column_md_2 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 2</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -65,14 +63,12 @@
 		<columns_xs>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (sehr klein)</sheetTitle>
+					<sheetTitle>Columns (very small)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<width_column_xs_1 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 1</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -95,8 +91,7 @@
 					</width_column_xs_1>
 					<width_column_xs_2 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 2</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -123,18 +118,16 @@
 		<columns_sm>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (klein)</sheetTitle>
+					<sheetTitle>Columns (small)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<width_column_sm_1 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 1</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
@@ -153,12 +146,11 @@
 					</width_column_sm_1>
 					<width_column_sm_2 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 2</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
@@ -181,18 +173,16 @@
 		<columns_lg>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (sehr groß)</sheetTitle>
+					<sheetTitle>Columns (very large)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<width_column_lg_1 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 1</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
@@ -211,12 +201,11 @@
 					</width_column_lg_1>
 					<width_column_lg_2 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Breite Spalte 2</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
@@ -239,25 +228,23 @@
 		<visibility>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Erweiterte Einstellungen</sheetTitle>
+					<sheetTitle>Extended settings</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<visibility_element type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Sichtbarkeit komplettes Element</label>
+							<label>Visbility of the the whole element</label>
 							<config type="array">
 								<type>select</type>
 								<items>
-									<numIndex index="1"><numIndex index="0">Nicht sichtbar auf sehr klein</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
-									<numIndex index="2"><numIndex index="0">Nicht sichtbar auf klein</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
-									<numIndex index="3"><numIndex index="0">Nicht sichtbar auf normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
-									<numIndex index="4"><numIndex index="0">Nicht sichtbar auf sehr groß</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
-									<numIndex index="5"><numIndex index="0">Nur sichtbar auf sehr klein</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
-									<numIndex index="6"><numIndex index="0">Nur sichtbar auf klein</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
-									<numIndex index="7"><numIndex index="0">Nur sichtbar auf normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
-									<numIndex index="8"><numIndex index="0">Nur sichtbar auf sehr groß</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
 								</items>
 								<maxitems>3</maxitems>
 								<size>8</size>
@@ -267,19 +254,18 @@
 					</visibility_element>
 					<visibility_col1 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Sichtbarkeit Spalte 1</label>
+							<label>Visibility of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items>
-									<numIndex index="1"><numIndex index="0">Nicht sichtbar auf sehr klein</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
-									<numIndex index="2"><numIndex index="0">Nicht sichtbar auf klein</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
-									<numIndex index="3"><numIndex index="0">Nicht sichtbar auf normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
-									<numIndex index="4"><numIndex index="0">Nicht sichtbar auf sehr groß</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
-									<numIndex index="5"><numIndex index="0">Nur sichtbar auf sehr klein</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
-									<numIndex index="6"><numIndex index="0">Nur sichtbar auf klein</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
-									<numIndex index="7"><numIndex index="0">Nur sichtbar auf normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
-									<numIndex index="8"><numIndex index="0">Nur sichtbar auf sehr groß</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
 								</items>
 								<maxitems>3</maxitems>
 								<size>8</size>
@@ -289,20 +275,18 @@
 					</visibility_col1>
 					<visibility_col2 type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Sichtbarkeit Spalte 2</label>
+							<label>Visibility of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items>
-									<!-- German? missing a lang label here -->
-									<numIndex index="1"><numIndex index="0">Nicht sichtbar auf sehr klein</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
-									<numIndex index="2"><numIndex index="0">Nicht sichtbar auf klein</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
-									<numIndex index="3"><numIndex index="0">Nicht sichtbar auf normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
-									<numIndex index="4"><numIndex index="0">Nicht sichtbar auf sehr groß</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
-									<numIndex index="5"><numIndex index="0">Nur sichtbar auf sehr klein</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
-									<numIndex index="6"><numIndex index="0">Nur sichtbar auf klein</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
-									<numIndex index="7"><numIndex index="0">Nur sichtbar auf normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
-									<numIndex index="8"><numIndex index="0">Nur sichtbar auf sehr groß</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
 								</items>
 								<maxitems>3</maxitems>
 								<size>8</size>
@@ -312,14 +296,12 @@
 					</visibility_col2>
 					<equalHeight type="array">
 						<TCEforms type="array">
-							<!-- German? missing a lang label here -->
-							<label>Gleiche Höhe für alle Spalten</label>
+							<label>Equalized height for each column</label>
 							<config type="array">
 								<type>check</type>
 								<items>
 									<numIndex index="0">
-										<!-- German? missing a lang label here -->
-										<numIndex index="0">Aktiviert</numIndex>
+										<numIndex index="0">Activated</numIndex>
 										<numIndex index="1">1</numIndex>
 									</numIndex>
 								</items>

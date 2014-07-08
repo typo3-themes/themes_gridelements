@@ -8,7 +8,7 @@
 		<el type="array">
 			<display_type type="array">
 				<TCEforms type="array">
-					<label>Aussehen</label>
+					<label>Appearance</label>
 					<config type="array">
 						<type>select</type>
 						<items type="array">
@@ -27,16 +27,16 @@
 			</display_type>
 			<switch_effect type="array">
 				<TCEforms type="array">
-					<label>Switch effekt</label>
+					<label>Switch effect</label>
 					<config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">Ohne</numIndex>
+								<numIndex index="0">None</numIndex>
 								<numIndex index="1"> </numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">Einblenden</numIndex>
+								<numIndex index="0">Fade in</numIndex>
 								<numIndex index="1">fade</numIndex>
 							</numIndex>
 						</items>

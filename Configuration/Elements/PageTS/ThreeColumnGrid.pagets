@@ -1,7 +1,7 @@
-tx_gridelements.setup.bootstrapThreeColumnGrid {
-	flexformDS = FILE:EXT:theme_bootstrap/Configuration/Elements/FlexForms/BootstrapThreeColumnGrid.xml
+tx_gridelements.setup.threeColumnGrid {
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/ThreeColumnGrid.xml
 	icon =
-	title = Bootstrap Three-Column-Grid
+	title = Three column grid
 	description =
 	frame = 12352345
 	config {

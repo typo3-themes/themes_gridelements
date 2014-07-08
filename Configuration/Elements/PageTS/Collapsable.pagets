@@ -1,7 +1,7 @@
-tx_gridelements.setup.bootstrapCollapse {
-	flexformDS = FILE:EXT:theme_bootstrap/Configuration/Elements/FlexForms/BootstrapCollapse.xml
+tx_gridelements.setup.collapsable {
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Collapsable.xml
 	icon =
-	title = Bootstrap Collapse
+	title = Collapsable
 	description =
 	frame = 12352345
 	config {

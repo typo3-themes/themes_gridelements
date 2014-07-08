@@ -1,0 +1,23 @@
+tx_gridelements.setup.twoColumGrid {
+	title = Two column grid
+	description =
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/TwoColumnGrid.xml
+	config {
+		colCount = 2
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = Column 1
+						colPos = 0
+					}
+					2 {
+						name = Column 2
+						colPos = 1
+					}
+				}
+			}
+		}
+	}
+}

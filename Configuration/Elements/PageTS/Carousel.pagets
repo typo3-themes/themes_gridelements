@@ -1,0 +1,22 @@
+tx_gridelements.setup.carousel {
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Carousel.xml
+	icon =
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_description
+	frame = 12352345
+	config {
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_images
+						colPos = 0
+						allowed = image
+					}
+				}
+			}
+		}
+	}
+}

@@ -7,8 +7,7 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (normal)</sheetTitle>
+					<sheetTitle>Columns (normal)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<columnArrangementMd type="array">
@@ -67,8 +66,7 @@
 		<columns_xs>
 			<ROOT type="array">
 				<TCEforms>
-					<!-- German? missing a lang label here -->
-					<sheetTitle>Spalten (sehr klein)</sheetTitle>
+					<sheetTitle>Columns (very small)</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<columnArrangementXs type="array">
