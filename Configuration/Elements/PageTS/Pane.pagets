@@ -1,0 +1,20 @@
+tx_gridelements.setup.pane {
+ 	icon =
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:pane
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:pane_description
+ 	frame = 12352345
+	config {
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:pane_content
+						colPos = 0
+					}
+				}
+			}
+		}
+	}
+}

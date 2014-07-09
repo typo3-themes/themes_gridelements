@@ -1,46 +1,22 @@
- # Tabs Container
- tx_gridelements.setup.tabsContainer {
-	 title = Tabs (Container)
-	 description = Container which wraps some Tabs
-	 flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Tabs.xml
- 	 frame = 12352345
-	 config {
-		 colCount = 1
-		 rowCount = 1
-
-			 rows {
-				 1 {
-					 columns {
-						 1 {
-							 name = Tab Container Element
-							 colPos = 0
-							 allowed = gridelements_pi1
-						 }
-					 }
-				 }
-			 }
-		 }
-	 }
-
-	 # Tab Element
-	 tx_gridelements.setup.tabsTab {
-	 title = Tabs (Tab)
-	 description = Tab which must be inserted into a Tab-Container
-
-	 config {
-		 colCount = 1
-		 rowCount = 1
-
-		 rows {
-			 1 {
-				 columns {
-					 1 {
-						 name = Tab Element
-						 colPos = 0
-						 #allowed = text,textpic,gridelements_pi1
-					 }
-				 }
-			 }
-		 }
-	 }
- }
+tx_gridelements.setup.tabs {
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Tabs.xml
+	icon =
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_description
+	frame = 12352345
+	config {
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_container
+						colPos = 0
+						allowed = gridelements_pi1
+					}
+				}
+			}
+		}
+	}
+}

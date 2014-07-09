@@ -21,6 +21,78 @@
             <trans-unit id="carousel_separate_sliders">
                 <source>1 slider per content element</source>
             </trans-unit>
+
+            <trans-unit id="accordion">
+                <source>Accordion</source>
+            </trans-unit>
+            <trans-unit id="accordion_description">
+                <source>Container with collapsible child elements, which can either be single elements or containers as well</source>
+            </trans-unit>
+            <trans-unit id="accordion_content">
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="accordion_active">
+                <source>Accordion active</source>
+            </trans-unit>
+            <trans-unit id="accordion_settings">
+                <source>Accordion settings</source>
+            </trans-unit>
+            <trans-unit id="accordion_settings_all_closed">
+                <source>All elements closed</source>
+            </trans-unit>
+            <trans-unit id="accordion_settings_first_open">
+                <source>First element open</source>
+            </trans-unit>
+            <trans-unit id="accordion_settings_all_open">
+                <source>All elements open</source>
+            </trans-unit>
+            <trans-unit id="accordion_toggle">
+                <source>Accordion show/hide all</source>
+            </trans-unit>
+            <trans-unit id="accordion_toggle_show">
+                <source>Show toggle</source>
+            </trans-unit>
+            <trans-unit id="accordion_toggle_hide">
+                <source>Hide toggle</source>
+            </trans-unit>
+
+            <trans-unit id="pane">
+                <source>Pane</source>
+            </trans-unit>
+            <trans-unit id="pane_description">
+                <source>Panes can be used as subcontainers within accordions or tabs to group elements vertically without additional functionality</source>
+            </trans-unit>
+            <trans-unit id="pane_content">
+                <source>Pane content</source>
+            </trans-unit>
+
+            <trans-unit id="tabs">
+                <source>Tabs</source>
+            </trans-unit>
+            <trans-unit id="tabs_description">
+                <source>Container that wraps some tabbed panes</source>
+            </trans-unit>
+            <trans-unit id="tabs_container">
+                <source>Tab container element</source>
+            </trans-unit>
+            <trans-unit id="tabs_appearance">
+                <source>Appearance</source>
+            </trans-unit>
+            <trans-unit id="tabs_appearance_tabs">
+                <source>Tabs</source>
+            </trans-unit>
+            <trans-unit id="tabs_appearance_pills">
+                <source>Pills</source>
+            </trans-unit>
+            <trans-unit id="tabs_transition">
+                <source>Transition</source>
+            </trans-unit>
+            <trans-unit id="tabs_transition_none">
+                <source>None</source>
+            </trans-unit>
+            <trans-unit id="tabs_transition_fade">
+                <source>Fade in</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>

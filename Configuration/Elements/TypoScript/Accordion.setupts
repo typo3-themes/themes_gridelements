@@ -9,8 +9,8 @@ lib.accordionheader {
 	outerWrap = <h4>|</h4>
 }
 lib.gridelements {
-	collapsable < .defaultGridSetup
-	collapsable {
+	accordion < .defaultGridSetup
+	accordion {
 		prepend < lib.accordionheader
 		prepend {
 			wrap3 >
@@ -46,4 +46,4 @@ lib.gridelements {
 		}
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.collapsable < lib.gridelements.collapsable
+tt_content.gridelements_pi1.20.10.setup.accordion < lib.gridelements.accordion

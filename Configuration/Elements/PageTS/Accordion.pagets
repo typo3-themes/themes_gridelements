@@ -1,0 +1,22 @@
+tx_gridelements.setup.accordion {
+ 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Accordion.xml
+ 	icon =
+ 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion
+ 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_description
+ 	frame = 12352345
+ 	config {
+ 		colCount = 1
+ 		rowCount = 1
+ 		rows {
+ 			1 {
+ 				columns {
+ 					1 {
+ 						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_content
+ 						colPos = 0
+ 						allowed = text,textpic,gridelements_pi1
+ 					}
+ 				}
+ 			}
+ 		}
+ 	}
+ }

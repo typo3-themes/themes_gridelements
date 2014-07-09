@@ -27,6 +27,101 @@
                 <source>1 slider per image element</source>
                 <target>1 Bildwechsler pro Bildelement</target>
             </trans-unit>
+
+            <trans-unit id="accordion">
+                <source>Accordion</source>
+                <target>Akkordeon</target>
+            </trans-unit>
+            <trans-unit id="accordion_description">
+                <source>Container with collapsible child elements, which can either be single elements or containers as well</source>
+                <target>Behälter mit zusammenklappbaren Kind-Elementen, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</target>
+            </trans-unit>
+            <trans-unit id="accordion_content">
+                <source>Content</source>
+                <target>Inhalt</target>
+            </trans-unit>
+            <trans-unit id="accordion_active">
+                <source>Accordion active</source>
+                <target>Akkordeon aktiv</target>
+            </trans-unit>
+            <trans-unit id="accordion_settings">
+                <source>Accordion settings</source>
+                <target>Akkordeon-Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="accordion_settings_all_closed">
+                <source>All elements closed</source>
+                <target>Alle Elemente geschlossen</target>
+            </trans-unit>
+            <trans-unit id="accordion_settings_first_open">
+                <source>First element open</source>
+                <target>Erstes Element geöffnet</target>
+            </trans-unit>
+            <trans-unit id="accordion_settings_all_open">
+                <source>All elements open</source>
+                <target>Alle Elemente geöffnet</target>
+            </trans-unit>
+            <trans-unit id="accordion_toggle">
+                <source>Accordion show/hide all</source>
+                <target>Alle Akkordeons öffnen/schliessen</target>
+            </trans-unit>
+            <trans-unit id="accordion_toggle_show">
+                <source>Show toggle</source>
+                <target>Schalter anzeigen</target>
+            </trans-unit>
+            <trans-unit id="accordion_toggle_hide">
+                <source>Hide toggle</source>
+                <target>Schalter verbergen</target>
+            </trans-unit>
+
+            <trans-unit id="pane">
+                <source>Pane</source>
+                <source>Paneele</source>
+            </trans-unit>
+            <trans-unit id="pane_description">
+                <source>Panes can be used as columns within accordions or tabs to group elements without additional functionality</source>
+                <source>Paneele können als Spalten innerhalb von Akkordeons oder Tabs eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</source>
+            </trans-unit>
+            <trans-unit id="pane_content">
+                <source>Pane content</source>
+                <source>Paneel-Inhalt</source>
+            </trans-unit>
+
+            <trans-unit id="tabs">
+                <source>Tabs</source>
+                <source>Tabs</source>
+            </trans-unit>
+            <trans-unit id="tabs_description">
+                <source>A container to switch with tabs between child elements, which can either be single elements or containers as well</source>
+                <source>Ein Behälter, um mithilfe von Reitern zwischen einzelnen Kind-Elementen zu wechseln, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</source>
+            </trans-unit>
+            <trans-unit id="tabs_container">
+                <source>Tab container</source>
+                <source>Tab-Behälter</source>
+            </trans-unit>
+            <trans-unit id="tabs_appearance">
+                <source>Appearance</source>
+                <target>Erscheinungsbild</target>
+            </trans-unit>
+            <trans-unit id="tabs_appearance_tabs">
+                <source>Tabs</source>
+                <target>Reiter</target>
+            </trans-unit>
+            <trans-unit id="tabs_appearance_pills">
+                <source>Pills</source>
+                <target>Schaltflächen</target>
+            </trans-unit>
+            <trans-unit id="tabs_transition">
+                <source>Transition</source>
+                <target>Übergangseffekt</target>
+            </trans-unit>
+            <trans-unit id="tabs_transition_none">
+                <source>None</source>
+                <target>Keiner</target>
+            </trans-unit>
+            <trans-unit id="tabs_transition_fade">
+                <source>Fade in</source>
+                <target>Einblenden</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

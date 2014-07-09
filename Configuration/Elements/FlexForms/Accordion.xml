@@ -8,7 +8,7 @@
 		<el type="array">
 			<accordion type="array">
 				<TCEforms type="array">
-					<label>Accordion active</label>
+					<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_active</label>
 					<onChange>reload</onChange>
 					<config type="array">
 						<type>check</type>
@@ -23,21 +23,21 @@
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">All elements closed</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_settings_all_closed</numIndex>
 								<numIndex index="1">nestable-accordion all-closed</numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">First element open</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_settings_first_open</numIndex>
 								<numIndex index="1">nestable-accordion first-open</numIndex>
 							</numIndex>
 							<numIndex index="2" type="array">
-								<numIndex index="0">All elements open</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_settings_all_open</numIndex>
 								<numIndex index="1">nestable-accordion all-open</numIndex>
 							</numIndex>
 						</items>
 						<default>0</default>
 					</config>
-					<label>Accordion settings</label>
+					<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_settings</label>
 				</TCEforms>
 			</settings>
 			<toggle type="array">
@@ -47,17 +47,17 @@
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">Show toggle</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_toggle_show</numIndex>
 								<numIndex index="1">0</numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">Hide toggle</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_toggle_hide</numIndex>
 								<numIndex index="1">1</numIndex>
 							</numIndex>
 						</items>
 						<default>0</default>
 					</config>
-					<label>Accordion show/hide all</label>
+					<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_toggle</label>
 				</TCEforms>
 			</toggle>
 		</el>

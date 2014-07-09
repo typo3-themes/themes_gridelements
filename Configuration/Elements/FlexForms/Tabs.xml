@@ -8,16 +8,16 @@
 		<el type="array">
 			<display_type type="array">
 				<TCEforms type="array">
-					<label>Appearance</label>
+					<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_appearance</label>
 					<config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">Tabs</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_appearance_tabs</numIndex>
 								<numIndex index="1">nav-tabs</numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">Pills</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_appearance_pills</numIndex>
 								<numIndex index="1">nav-pills</numIndex>
 							</numIndex>
 						</items>
@@ -25,25 +25,25 @@
 					</config>
 				</TCEforms>
 			</display_type>
-			<switch_effect type="array">
+			<transition type="array">
 				<TCEforms type="array">
-					<label>Switch effect</label>
+					<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_transition</label>
 					<config type="array">
 						<type>select</type>
 						<items type="array">
 							<numIndex index="0" type="array">
-								<numIndex index="0">None</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_transition_none</numIndex>
 								<numIndex index="1"> </numIndex>
 							</numIndex>
 							<numIndex index="1" type="array">
-								<numIndex index="0">Fade in</numIndex>
+								<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_transition_fade</numIndex>
 								<numIndex index="1">fade</numIndex>
 							</numIndex>
 						</items>
 						<default> </default>
 					</config>
 				</TCEforms>
-			</switch_effect>
+			</transition>
 		</el>
 	</ROOT>
 </T3DataStructure>
