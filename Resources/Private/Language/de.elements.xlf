@@ -86,17 +86,30 @@
                 <source>Paneel-Inhalt</source>
             </trans-unit>
 
+            <trans-unit id="row">
+                <source>Row</source>
+                <target>Zeile</target>
+            </trans-unit>
+            <trans-unit id="row_description">
+                <source>Rows can be used as containers to group elements horizontally without additional functionality</source>
+                <target>Zeilen dienen als Behälter, um Elemente ohne zusätzliche Funktionalität horizontal angeordnet zu gruppieren</target>
+            </trans-unit>
+            <trans-unit id="row_content">
+                <source>Row content</source>
+                <target>Zeilen-Inhalt</target>
+            </trans-unit>
+
             <trans-unit id="tabs">
                 <source>Tabs</source>
-                <source>Tabs</source>
+                <target>Reiter</target>
             </trans-unit>
             <trans-unit id="tabs_description">
                 <source>A container to switch with tabs between child elements, which can either be single elements or containers as well</source>
-                <source>Ein Behälter, um mithilfe von Reitern zwischen einzelnen Kind-Elementen zu wechseln, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</source>
+                <target>Ein Behälter, um mithilfe von Reitern zwischen einzelnen Kind-Elementen zu wechseln, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</target>
             </trans-unit>
             <trans-unit id="tabs_container">
                 <source>Tab container</source>
-                <source>Tab-Behälter</source>
+                <target>Tab-Behälter</target>
             </trans-unit>
             <trans-unit id="tabs_appearance">
                 <source>Appearance</source>

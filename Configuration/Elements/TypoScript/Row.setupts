@@ -1,0 +1,13 @@
+# First define the pane cObject, we want this within containers
+lib.gridelements {
+	row < .defaultGridSetup
+	row {
+		# Render the children the default way
+		columns.0 {
+			renderObj = < tt_content
+		}
+		wrap = <div class="row">|</div>
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup.row < lib.gridelements.row

@@ -66,6 +66,16 @@
                 <source>Pane content</source>
             </trans-unit>
 
+            <trans-unit id="row">
+                <source>Row</source>
+            </trans-unit>
+            <trans-unit id="row_description">
+                <source>Rows can be used as containers to group elements horizontally without additional functionality</source>
+            </trans-unit>
+            <trans-unit id="row_content">
+                <source>Row content</source>
+            </trans-unit>
+
             <trans-unit id="tabs">
                 <source>Tabs</source>
             </trans-unit>
