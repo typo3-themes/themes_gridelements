@@ -73,17 +73,17 @@
                 <target>Schalter verbergen</target>
             </trans-unit>
 
-            <trans-unit id="pane">
-                <source>Pane</source>
-                <source>Paneele</source>
+            <trans-unit id="column">
+                <source>Column</source>
+                <target>Spalte</target>
             </trans-unit>
-            <trans-unit id="pane_description">
-                <source>Panes can be used as columns within accordions or tabs to group elements without additional functionality</source>
-                <source>Paneele können als Spalten innerhalb von Akkordeons oder Tabs eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</source>
+            <trans-unit id="column_description">
+                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
+                <target>Spalten können innerhalb von Zeilen, Akkordeons oder Reitern (Tabs) eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</target>
             </trans-unit>
-            <trans-unit id="pane_content">
-                <source>Pane content</source>
-                <source>Paneel-Inhalt</source>
+            <trans-unit id="column_content">
+                <source>Column content</source>
+                <target>Spalten-Inhalt</target>
             </trans-unit>
 
             <trans-unit id="row">
@@ -101,11 +101,11 @@
 
             <trans-unit id="tabs">
                 <source>Tabs</source>
-                <target>Reiter</target>
+                <target>Reiter (Tabs)</target>
             </trans-unit>
             <trans-unit id="tabs_description">
                 <source>A container to switch with tabs between child elements, which can either be single elements or containers as well</source>
-                <target>Ein Behälter, um mithilfe von Reitern zwischen einzelnen Kind-Elementen zu wechseln, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</target>
+                <target>Ein Behälter, um mithilfe von Reitern (Tabs) zwischen einzelnen Kind-Elementen zu wechseln, die ihrerseits entweder einzelne Elemente oder ebenfalls Behälter sein können</target>
             </trans-unit>
             <trans-unit id="tabs_container">
                 <source>Tab container</source>

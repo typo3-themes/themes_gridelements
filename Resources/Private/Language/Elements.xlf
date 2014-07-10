@@ -56,14 +56,14 @@
                 <source>Hide toggle</source>
             </trans-unit>
 
-            <trans-unit id="pane">
-                <source>Pane</source>
+            <trans-unit id="column">
+                <source>Column</source>
             </trans-unit>
-            <trans-unit id="pane_description">
-                <source>Panes can be used as subcontainers within accordions or tabs to group elements vertically without additional functionality</source>
+            <trans-unit id="column_description">
+                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
             </trans-unit>
-            <trans-unit id="pane_content">
-                <source>Pane content</source>
+            <trans-unit id="column_content">
+                <source>Column content</source>
             </trans-unit>
 
             <trans-unit id="row">

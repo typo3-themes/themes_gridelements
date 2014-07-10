@@ -1,7 +1,7 @@
-tx_gridelements.setup.pane {
- 	icon =
+tx_gridelements.setup.row {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:row
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:row_description
+ 	icon =
 	horizontal = 1
  	frame = 12352345
 	config {

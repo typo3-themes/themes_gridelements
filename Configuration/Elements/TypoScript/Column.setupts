@@ -1,0 +1,12 @@
+lib.gridelements {
+	column < .defaultGridSetup
+	column {
+		# Render the children the default way
+		columns.0 {
+			renderObj = < tt_content
+		}
+		dataWrap = <div class="{field:flexform_width_column_md} {field:flexform_width_column_xs} {field:flexform_width_column_sm} {field:flexform_width_column_lg}">|</div>
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup.column < lib.gridelements.column
