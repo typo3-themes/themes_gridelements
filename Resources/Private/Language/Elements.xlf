@@ -65,6 +65,24 @@
             <trans-unit id="column_content">
                 <source>Column content</source>
             </trans-unit>
+            <trans-unit id="column_width">
+                <source>Column width</source>
+            </trans-unit>
+            <trans-unit id="column_width_medium">
+                <source>Medium devices</source>
+            </trans-unit>
+            <trans-unit id="column_width_very_small">
+                <source>Very small devices</source>
+            </trans-unit>
+            <trans-unit id="column_width_small">
+                <source>Small devices</source>
+            </trans-unit>
+            <trans-unit id="column_width_large">
+                <source>Large devices</source>
+            </trans-unit>
+            <trans-unit id="column_width_undefined">
+                <source>Undefined</source>
+            </trans-unit>
 
             <trans-unit id="row">
                 <source>Row</source>

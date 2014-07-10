@@ -85,6 +85,30 @@
                 <source>Column content</source>
                 <target>Spalten-Inhalt</target>
             </trans-unit>
+            <trans-unit id="column_width">
+                <source>Column width</source>
+                <target>Spaltenbreite</target>
+            </trans-unit>
+            <trans-unit id="column_width_medium">
+                <source>Medium devices</source>
+                <target>Mittlere Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_very_small">
+                <source>Very small devices</source>
+                <target>Sehr kleine Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_small">
+                <source>Small devices</source>
+                <target>Kleine Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_large">
+                <source>Large devices</source>
+                <target>Große Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_undefined">
+                <source>Undefined</source>
+                <target>Nicht definiert</target>
+            </trans-unit>
 
             <trans-unit id="row">
                 <source>Row</source>

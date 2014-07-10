@@ -7,12 +7,12 @@
 		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>Column width</sheetTitle>
+					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width</sheetTitle>
 				</TCEforms>
 				<el type="array">
 					<width_column_md type="array">
 						<TCEforms type="array">
-							<label>Column width (medium devices)</label>
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_medium</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -35,11 +35,11 @@
 					</width_column_md>
 					<width_column_xs type="array">
 						<TCEforms type="array">
-							<label>Column width (very small devices)</label>
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_very_small</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-3</numIndex></numIndex>
@@ -58,11 +58,11 @@
 					</width_column_xs>
 					<width_column_sm type="array">
 						<TCEforms type="array">
-							<label>Column width (small devices)</label>
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_small</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
@@ -81,11 +81,11 @@
 					</width_column_sm>
 					<width_column_lg type="array">
 						<TCEforms type="array">
-							<label>Column width (large devices)</label>
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_large</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
@@ -104,6 +104,6 @@
 					</width_column_lg>
 				</el>
 			</ROOT>
-		</visibility>
+		</general>
 	</sheets>
 </T3DataStructure>
