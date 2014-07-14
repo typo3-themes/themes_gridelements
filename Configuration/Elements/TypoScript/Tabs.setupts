@@ -9,7 +9,7 @@ lib.gridelements {
 			file = typo3conf/ext/themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
 		}
 		columns.0 {
-			renderObj < tt_content
+			renderObj =< tt_content
 			renderObj.stdWrap {
 				# Add the ID and the Class to the tab container
 				preCObject = LOAD_REGISTER
