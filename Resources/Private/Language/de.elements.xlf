@@ -85,30 +85,99 @@
                 <source>Column content</source>
                 <target>Spalten-Inhalt</target>
             </trans-unit>
+            <trans-unit id="column_size_medium">
+                <source>Medium sized devices</source>
+                <target>Mittlere Anzeige</target>
+            </trans-unit>
+            <trans-unit id="column_size_very_small">
+                <source>Very small devices</source>
+                <target>Sehr kleine Anzeige</target>
+            </trans-unit>
+            <trans-unit id="column_size_small">
+                <source>Small devices</source>
+                <target>Kleine Anzeige</target>
+            </trans-unit>
+            <trans-unit id="column_size_large">
+                <source>Large devices</source>
+                <target>Große Anzeige</target>
+            </trans-unit>
             <trans-unit id="column_width">
                 <source>Column width</source>
                 <target>Spaltenbreite</target>
             </trans-unit>
-            <trans-unit id="column_width_medium">
-                <source>Medium devices</source>
-                <target>Mittlere Geräte</target>
+            <trans-unit id="column_offset">
+                <source>Column offset</source>
+                <target>Einrückung</target>
             </trans-unit>
-            <trans-unit id="column_width_very_small">
-                <source>Very small devices</source>
-                <target>Sehr kleine Geräte</target>
+            <trans-unit id="column_push">
+                <source>Column push</source>
+                <target>Nach rechts verschieben</target>
             </trans-unit>
-            <trans-unit id="column_width_small">
-                <source>Small devices</source>
-                <target>Kleine Geräte</target>
+            <trans-unit id="column_pull">
+                <source>Column pull</source>
+                <target>Nach links verschieben</target>
             </trans-unit>
-            <trans-unit id="column_width_large">
-                <source>Large devices</source>
-                <target>Große Geräte</target>
-            </trans-unit>
-            <trans-unit id="column_width_undefined">
+            <trans-unit id="column_undefined">
                 <source>Undefined</source>
                 <target>Nicht definiert</target>
             </trans-unit>
+            <trans-unit id="column_width_undefined">
+                <source>Undefined - Using definition for medium size</source>
+                <target>Nicht definiert - Wert für mittlere Anzeige wird genutzt</target>
+            </trans-unit>
+            <trans-unit id="extended_settings">
+                <source>Extended Settings</source>
+                <target>Erweiterte Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="column_equalheight">
+                <source>Equal height</source>
+                <target>Gleiche Höhe</target>
+            </trans-unit>
+            <trans-unit id="column_equalheight_activated">
+                <source>Activated</source>
+                <target>Aktiviert</target>
+            </trans-unit>
+            <trans-unit id="column_visibility">
+                <source>Column Visibility</source>
+                <target>Sichtbarkeit der Spalte</target>
+            </trans-unit>
+            <trans-unit id="column_visible_all">
+                <source>Visible for every device (Default)</source>
+                <target>Sichtbar auf allen Geräten (Voreinstellung)</target>
+            </trans-unit>
+            <trans-unit id="column_visible_xs">
+                <source>Only visible for very small devices</source>
+                <target>Nur sichtbar auf sehr kleinen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_hidden_xs">
+                <source>Hidden for very small devices</source>
+                <target>Unsichtbar auf sehr kleinen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_visible_sm">
+                <source>Only visible for small devices</source>
+                <target>Nur sichtbar auf kleinen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_hidden_sm">
+                <source>Hidden for small devices</source>
+                <target>Unsichtbar auf kleinen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_visible_md">
+                <source>Only visible for medium devices</source>
+                <target>Nur sichtbar auf normalen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_hidden_md">
+                <source>Hidden for medium devices</source>
+                <target>Unsichtbar auf normalen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_visible_lg">
+                <source>Only visible for large devices</source>
+                <target>Nur sichtbar auf großen Geräten</target>
+            </trans-unit>
+            <trans-unit id="column_hidden_lg">
+                <source>Hidden for large devices</source>
+                <target>Unsichtbar auf großen Geräten</target>
+            </trans-unit>
+
 
             <trans-unit id="row">
                 <source>Row</source>

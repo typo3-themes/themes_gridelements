@@ -65,23 +65,74 @@
             <trans-unit id="column_content">
                 <source>Column content</source>
             </trans-unit>
+            <trans-unit id="column_size_medium">
+                <source>Medium sized devices</source>
+            </trans-unit>
+            <trans-unit id="column_size_very_small">
+                <source>Very small devices</source>
+            </trans-unit>
+            <trans-unit id="column_size_small">
+                <source>Small devices</source>
+            </trans-unit>
+            <trans-unit id="column_size_large">
+                <source>Large devices</source>
+            </trans-unit>
             <trans-unit id="column_width">
                 <source>Column width</source>
             </trans-unit>
-            <trans-unit id="column_width_medium">
-                <source>Medium devices</source>
+            <trans-unit id="column_offset">
+                <source>Column offset</source>
             </trans-unit>
-            <trans-unit id="column_width_very_small">
-                <source>Very small devices</source>
+            <trans-unit id="column_push">
+                <source>Column push</source>
             </trans-unit>
-            <trans-unit id="column_width_small">
-                <source>Small devices</source>
+            <trans-unit id="column_pull">
+                <source>Column pull</source>
             </trans-unit>
-            <trans-unit id="column_width_large">
-                <source>Large devices</source>
+            <trans-unit id="column_undefined">
+                <source>Undefined</source>
             </trans-unit>
             <trans-unit id="column_width_undefined">
-                <source>Undefined</source>
+                <source>Undefined - Using definition for medium size</source>
+            </trans-unit>
+            <trans-unit id="extended_settings">
+                <source>Extended Settings</source>
+            </trans-unit>
+            <trans-unit id="column_equalheight">
+                <source>Equal height</source>
+            </trans-unit>
+            <trans-unit id="column_equalheight_activated">
+                <source>Activated</source>
+            </trans-unit>
+            <trans-unit id="column_visibility">
+                <source>Column Visibility</source>
+            </trans-unit>
+            <trans-unit id="column_visible_all">
+                <source>Visible for every device</source>
+            </trans-unit>
+            <trans-unit id="column_visible_xs">
+                <source>Only visible for very small devices</source>
+            </trans-unit>
+            <trans-unit id="column_hidden_xs">
+                <source>Hidden for very small devices</source>
+            </trans-unit>
+            <trans-unit id="column_visible_sm">
+                <source>Only visible for small devices</source>
+            </trans-unit>
+            <trans-unit id="column_hidden_sm">
+                <source>Hidden for small devices</source>
+            </trans-unit>
+            <trans-unit id="column_visible_md">
+                <source>Only visible for medium devices</source>
+            </trans-unit>
+            <trans-unit id="column_hidden_md">
+                <source>Hidden for medium devices</source>
+            </trans-unit>
+            <trans-unit id="column_visible_lg">
+                <source>Only visible for large devices</source>
+            </trans-unit>
+            <trans-unit id="column_hidden_lg">
+                <source>Hidden for large devices</source>
             </trans-unit>
 
             <trans-unit id="row">
