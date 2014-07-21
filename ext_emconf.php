@@ -36,7 +36,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'php' => '5.2.0-0.0.0',
 			'typo3' => '6.1.99-6.2.99',
-            'belayout_tsprovider' => '0.0.1-0.0.1',
+			'belayout_tsprovider' => '0.0.1-0.0.1',
 		),
 		'conflicts' => array(
 		),
