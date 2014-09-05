@@ -5,7 +5,7 @@ lib.gridelements {
 		columns.0 {
 			renderObj = < tt_content
 		}
-		dataWrap = <div class="{field:flexform_width_column_md} {field:flexform_width_column_xs} {field:flexform_width_column_sm} {field:flexform_width_column_lg}">|</div>
+		stdWrap.dataWrap = <div id="c{field:uid}" class="{field:flexform_width_column_md} {field:flexform_offset_column_md} {field:flexform_push_column_md} {field:flexform_pull_column_md} {field:flexform_width_column_xs} {field:flexform_offset_column_xs} {field:flexform_push_column_xs} {field:flexform_pull_column_xs} {field:flexform_width_column_sm} {field:flexform_offset_column_sm} {field:flexform_push_column_sm} {field:flexform_pull_column_sm} {field:flexform_width_column_lg} {field:flexform_offset_column_lg} {field:flexform_push_column_lg} {field:flexform_pull_column_lg} {field:flexform_column_equalheight} {field:flexform_column_visibility}">|</div>
 	}
 }
 

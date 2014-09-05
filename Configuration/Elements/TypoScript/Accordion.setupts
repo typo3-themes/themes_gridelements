@@ -16,7 +16,7 @@ lib.gridelements {
 			wrap3 >
 			outerWrap = <h3>|</h3>
 		}
-		wrap = <div class="pane first">|</div>
+		dataWrap = <div id="c{field:uid}" class="pane first">|</div>
 		outerWrap = <div class="nestable-accordion-first-level">|</div>
 		columns {
 			default {

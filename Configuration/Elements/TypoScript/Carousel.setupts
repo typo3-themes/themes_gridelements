@@ -9,7 +9,7 @@ lib.slideShowWrapper (
 lib.gridelements {
 	carousel < lib.gridelements.defaultGridSetup
 	carousel {
-		wrap = <div class="row">|</div>
+		dataWrap = <div id="c{field:uid}" class="row">|</div>
 		columns {
 			default {
 				dataWrap < lib.slideShowWrapper

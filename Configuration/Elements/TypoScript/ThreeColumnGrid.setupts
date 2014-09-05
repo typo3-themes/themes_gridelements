@@ -1,7 +1,7 @@
 lib.gridelements {
 	threeColumnGrid < .defaultGridSetup
 	threeColumnGrid {
-		wrap = <div class="row">|</div>
+		dataWrap = <div id="c{field:uid}" class="row">|</div>
 		columns	{
 			default	{
 				wrap {

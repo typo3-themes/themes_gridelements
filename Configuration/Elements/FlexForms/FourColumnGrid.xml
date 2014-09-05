@@ -4,15 +4,16 @@
 		<langDisable>1</langDisable>
 	</meta>
 	<sheets>
-		<size_md>
+		<general>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_size_medium</sheetTitle>
+					<sheetTitle>Columns (normal)</sheetTitle>
 				</TCEforms>
 				<el type="array">
-					<width_column1_md type="array">
+					<width_column_md_1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column1_width</label>
+							
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -32,10 +33,10 @@
 								<default>col-md-6</default>
 							</config>
 						</TCEforms>
-					</width_column1_md>
-					<width_column2_md type="array">
+					</width_column_md_1>
+					<width_column_md_2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column2_width</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
@@ -55,46 +56,23 @@
 								<default>col-md-6</default>
 							</config>
 						</TCEforms>
-					</width_column2_md>
-					<width_column3_md type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column3_width</label>
-							<config type="array">
-								<type>select</type>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-md-1</numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-md-2</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-md-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-md-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-md-5</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-md-6</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-md-7</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-md-8</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-md-9</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-md-10</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-md-11</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-md-12</numIndex></numIndex>
-								</items>
-								<default>col-md-6</default>
-							</config>
-						</TCEforms>
-					</width_column3_md>
+					</width_column_md_2>
 				</el>
 			</ROOT>
-		</size_md>
-		<size_xs>
+		</general>
+		<columns_xs>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_size_very_small</sheetTitle>
+					<sheetTitle>Columns (very small)</sheetTitle>
 				</TCEforms>
 				<el type="array">
-					<width_column1_xs type="array">
+					<width_column_xs_1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column1_width</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-3</numIndex></numIndex>
@@ -110,14 +88,14 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column1_xs>
-					<width_column2_xs type="array">
+					</width_column_xs_1>
+					<width_column_xs_2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column2_width</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Nicht definiert</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-3</numIndex></numIndex>
@@ -133,70 +111,23 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column2_xs>
-					<width_column3_xs type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column3_width</label>
-							<config type="array">
-								<type>select</type>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-xs-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-xs-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-xs-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-xs-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-xs-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-xs-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-xs-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-xs-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-xs-12</numIndex></numIndex>
-								</items>
-							</config>
-						</TCEforms>
-					</width_column3_xs>
+					</width_column_xs_2>
 				</el>
 			</ROOT>
-		</size_xs>
-		<size_sm>
+		</columns_xs>
+		<columns_sm>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_size_small</sheetTitle>
+					<sheetTitle>Columns (small)</sheetTitle>
 				</TCEforms>
 				<el type="array">
-					<width_column1_sm type="array">
+					<width_column_sm_1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column1_width</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-sm-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-sm-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-sm-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-sm-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-sm-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-sm-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-sm-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-sm-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-sm-12</numIndex></numIndex>
-								</items>
-								<default>col-sm-6</default>
-							</config>
-						</TCEforms>
-					</width_column1_sm>
-					<width_column2_sm type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column2_width</label>
-							<config type="array">
-								<type>select</type>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
@@ -212,14 +143,14 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column2_sm>
-					<width_column3_sm type="array">
+					</width_column_sm_1>
+					<width_column_sm_2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column3_width</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
@@ -235,47 +166,23 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column3_sm>
+					</width_column_sm_2>
 				</el>
 			</ROOT>
-		</size_sm>
-		<size_lg>
+		</columns_sm>
+		<columns_lg>
 			<ROOT type="array">
 				<TCEforms>
-					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_size_large</sheetTitle>
+					<sheetTitle>Columns (very large)</sheetTitle>
 				</TCEforms>
 				<el type="array">
-					<width_column1_lg type="array">
+					<width_column_lg_1 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column1_width</label>
+							<label>Width of column 1</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-lg-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-lg-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-lg-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-lg-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-lg-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-lg-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-lg-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-lg-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-lg-12</numIndex></numIndex>
-								</items>
-								<default>col-lg-6</default>
-							</config>
-						</TCEforms>
-					</width_column1_lg>
-					<width_column2_lg type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column2_width</label>
-							<config type="array">
-								<type>select</type>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
@@ -291,14 +198,14 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column2_lg>
-					<width_column3_lg type="array">
+					</width_column_lg_1>
+					<width_column_lg_2 type="array">
 						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column3_width</label>
+							<label>Width of column 2</label>
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">Undefined</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
 									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
@@ -314,9 +221,95 @@
 								</items>
 							</config>
 						</TCEforms>
-					</width_column3_lg>
+					</width_column_lg_2>
 				</el>
 			</ROOT>
-		</size_lg>
+		</columns_lg>
+		<visibility>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>Extended settings</sheetTitle>
+				</TCEforms>
+				<el type="array">
+					<visibility_element type="array">
+						<TCEforms type="array">
+							<label>Visbility of the the whole element</label>
+							<config type="array">
+								<type>select</type>
+								<items>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+								</items>
+								<maxitems>3</maxitems>
+								<size>8</size>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_element>
+					<visibility_col1 type="array">
+						<TCEforms type="array">
+							<label>Visibility of column 1</label>
+							<config type="array">
+								<type>select</type>
+								<items>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+								</items>
+								<maxitems>3</maxitems>
+								<size>8</size>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_col1>
+					<visibility_col2 type="array">
+						<TCEforms type="array">
+							<label>Visibility of column 2</label>
+							<config type="array">
+								<type>select</type>
+								<items>
+									<numIndex index="1"><numIndex index="0">Invisible when very small</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+									<numIndex index="2"><numIndex index="0">Invisible when small</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+									<numIndex index="3"><numIndex index="0">Invisible when normal</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+									<numIndex index="4"><numIndex index="0">Invisible when very large</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+									<numIndex index="5"><numIndex index="0">Only visible when very small</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+									<numIndex index="6"><numIndex index="0">Only visible when small</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+									<numIndex index="7"><numIndex index="0">Only visible when normal</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+									<numIndex index="8"><numIndex index="0">Only visible when very large</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+								</items>
+								<maxitems>3</maxitems>
+								<size>8</size>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_col2>
+					<equalHeight type="array">
+						<TCEforms type="array">
+							<label>Equalized height for each column</label>
+							<config type="array">
+								<type>check</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">Activated</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</equalHeight>
+				</el>
+			</ROOT>
+		</visibility>
 	</sheets>
 </T3DataStructure>

@@ -3,3 +3,8 @@ page = PAGE
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="setupts">
 
 includeLibs.t3jquery = EXT:t3jquery/class.tx_t3jquery.php
+tt_content.stdWrap.innerWrap.cObject.if {
+  value = gridelements_pi1
+  equals.field = CType
+  negate = 1
+}

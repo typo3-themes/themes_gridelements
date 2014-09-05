@@ -1,6 +1,6 @@
 lib.gridelements {
 	twoColumGrid {
-		wrap = <div class="row">|</div>
+		dataWrap = <div id="c{field:uid}" class="row">|</div>
 		columns.0 {
 
 			preCObject = LOAD_REGISTER

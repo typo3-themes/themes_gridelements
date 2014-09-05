@@ -6,7 +6,7 @@ lib.gridelements {
 		columns.0 {
 			renderObj = < tt_content
 		}
-		wrap = <div class="row">|</div>
+		dataWrap = <div id="c{field:uid}" class="row">|</div>
 	}
 }
 
