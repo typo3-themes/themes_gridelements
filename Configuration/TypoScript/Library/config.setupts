@@ -1,0 +1,9 @@
+
+# Dont use the default JavaScript
+removeDefaultJS = 1
+
+config {
+
+    # Set the baseurl
+    baseURL = {$themes.configuration.baseurl}
+}

@@ -1,0 +1,3 @@
+page.bodyTagCObject = TEXT
+page.bodyTagCObject.field = uid
+page.bodyTagCObject.wrap = <body id="pid-|" class="language-{$themes.languages.current.isoCodeShort}">
