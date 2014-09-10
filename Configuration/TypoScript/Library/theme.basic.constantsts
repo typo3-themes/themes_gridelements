@@ -6,10 +6,10 @@
 themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
 
 # cat=theme; type=string; label= Base URL of the site
-themes.configuration.baseurl = http://192.168.31.16/
+themes.configuration.baseurl = /
 
 # cat=theme; type=string; label= Image base URL of the site (http://cdn.domain.tdl/project/Images/; http://www.domain.tdl/fileadmin/project/Images/)
-themes.configuration.baseurlImage = http://192.168.31.16/typo3conf/ext/theme_bootstrap/Resources/Public/Images/
+themes.configuration.baseurlImage = typo3conf/ext/theme_bootstrap/Resources/Public/Images/
 
 # cat=theme; type=options[0,1]; label= Use additional CSS/LESS/SASS file?
 themes.configuration.useAdditionalCssFile = 0
@@ -18,4 +18,4 @@ themes.configuration.useAdditionalCssFile = 0
 themes.configuration.additionalCssFile = fileadmin/project/Dyncss/import.less
 
 # cat=theme; type=string; label= Path and file for favicon (fileadmin/project/Icons/favicon.ico)
-themes.configuration.favicon = http://192.168.31.16/typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
+themes.configuration.favicon = typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
