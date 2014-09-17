@@ -80,6 +80,18 @@
             <trans-unit id="column_width">
                 <source>Column width</source>
             </trans-unit>
+            <trans-unit id="column1_width">
+                <source>Column 1 width</source>
+            </trans-unit>
+            <trans-unit id="column2_width">
+                <source>Column 2 width</source>
+            </trans-unit>
+            <trans-unit id="column3_width">
+                <source>Column 3 width</source>
+            </trans-unit>
+            <trans-unit id="column4_width">
+                <source>Column 4 width</source>
+            </trans-unit>
             <trans-unit id="column_offset">
                 <source>Column offset</source>
             </trans-unit>
@@ -98,41 +110,44 @@
             <trans-unit id="extended_settings">
                 <source>Extended Settings</source>
             </trans-unit>
-            <trans-unit id="column_equalheight">
-                <source>Equal height</source>
+            <trans-unit id="equalheight">
+                <source>Force equal column height</source>
             </trans-unit>
-            <trans-unit id="column_equalheight_activated">
-                <source>Activated</source>
+            <trans-unit id="visible">
+                <source>Element is visible</source>
             </trans-unit>
-            <trans-unit id="column_visibility">
-                <source>Column Visibility</source>
+            <trans-unit id="visible_block">
+                <source>Element is visible as block</source>
             </trans-unit>
-            <trans-unit id="column_visible_all">
-                <source>Visible for every device</source>
+            <trans-unit id="visible_inline">
+                <source>Element is visible inline</source>
             </trans-unit>
-            <trans-unit id="column_visible_xs">
-                <source>Only visible for very small devices</source>
+            <trans-unit id="visible_inline_block">
+                <source>Element is visible as inline block</source>
             </trans-unit>
-            <trans-unit id="column_hidden_xs">
-                <source>Hidden for very small devices</source>
+            <trans-unit id="invisible">
+                <source>Element is hidden</source>
             </trans-unit>
-            <trans-unit id="column_visible_sm">
-                <source>Only visible for small devices</source>
+            <trans-unit id="outer_left">
+                <source>Outer left</source>
             </trans-unit>
-            <trans-unit id="column_hidden_sm">
-                <source>Hidden for small devices</source>
+            <trans-unit id="middle_left">
+                <source>Middle left</source>
             </trans-unit>
-            <trans-unit id="column_visible_md">
-                <source>Only visible for medium devices</source>
+            <trans-unit id="left">
+                <source>Left</source>
             </trans-unit>
-            <trans-unit id="column_hidden_md">
-                <source>Hidden for medium devices</source>
+            <trans-unit id="middle">
+                <source>Middle</source>
             </trans-unit>
-            <trans-unit id="column_visible_lg">
-                <source>Only visible for large devices</source>
+            <trans-unit id="outer_right">
+                <source>Outer right</source>
             </trans-unit>
-            <trans-unit id="column_hidden_lg">
-                <source>Hidden for large devices</source>
+            <trans-unit id="middle_right">
+                <source>Middle right</source>
+            </trans-unit>
+            <trans-unit id="right">
+                <source>Right</source>
             </trans-unit>
 
             <trans-unit id="row">

@@ -1,7 +1,8 @@
 tx_gridelements.setup.twoColumGrid {
-	title = Two column grid
-	description =
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/TwoColumnGrid.xml
+	icon =
+	title = 2 column grid
+	description =
 	config {
 		colCount = 2
 		rowCount = 1
@@ -9,11 +10,11 @@ tx_gridelements.setup.twoColumGrid {
 			1 {
 				columns {
 					1 {
-						name = Column 1
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:left
 						colPos = 0
 					}
 					2 {
-						name = Column 2
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:right
 						colPos = 1
 					}
 				}

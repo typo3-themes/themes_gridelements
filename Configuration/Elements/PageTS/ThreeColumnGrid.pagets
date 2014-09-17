@@ -1,9 +1,8 @@
 tx_gridelements.setup.threeColumnGrid {
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/ThreeColumnGrid.xml
 	icon =
-	title = Three column grid
+	title = 3 column grid
 	description =
-	frame = 12352345
 	config {
 		colCount = 3
 		rowCount = 1
@@ -11,15 +10,15 @@ tx_gridelements.setup.threeColumnGrid {
 			1 {
 				columns {
 					1 {
-						name = Left
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:left
 						colPos = 2
 					}
 					2 {
-						name = Middle
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:middle
 						colPos = 0
 					}
 					3 {
-						name = Right
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:right
 						colPos = 1
 					}
 				}

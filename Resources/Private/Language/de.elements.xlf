@@ -105,6 +105,22 @@
                 <source>Column width</source>
                 <target>Spaltenbreite</target>
             </trans-unit>
+            <trans-unit id="column1_width">
+                <source>Column 1 width</source>
+                <target>Breite der 1. Spalte</target>
+            </trans-unit>
+            <trans-unit id="column2_width">
+                <source>Column 2 width</source>
+                <target>Breite der 2. Spalte</target>
+            </trans-unit>
+            <trans-unit id="column3_width">
+                <source>Column 3 width</source>
+                <target>Breite der 3. Spalte</target>
+            </trans-unit>
+            <trans-unit id="column4_width">
+                <source>Column 4 width</source>
+                <target>Breite der 4. Spalte</target>
+            </trans-unit>
             <trans-unit id="column_offset">
                 <source>Column offset</source>
                 <target>Einrückung</target>
@@ -129,53 +145,57 @@
                 <source>Extended Settings</source>
                 <target>Erweiterte Einstellungen</target>
             </trans-unit>
-            <trans-unit id="column_equalheight">
-                <source>Equal height</source>
-                <target>Gleiche Höhe</target>
+            <trans-unit id="equalheight">
+                <source>Force equal column height</source>
+                <target>Gleiche Spaltenhöhe erzwingen</target>
             </trans-unit>
-            <trans-unit id="column_equalheight_activated">
-                <source>Activated</source>
-                <target>Aktiviert</target>
+            <trans-unit id="visible">
+                <source>Element is visible</source>
+                <target>Element ist sichtbar</target>
             </trans-unit>
-            <trans-unit id="column_visibility">
-                <source>Column Visibility</source>
-                <target>Sichtbarkeit der Spalte</target>
+            <trans-unit id="visible_block">
+                <source>Element is visible as block</source>
+                <target>Element ist sichtbar als Block</target>
             </trans-unit>
-            <trans-unit id="column_visible_all">
-                <source>Visible for every device (Default)</source>
-                <target>Sichtbar auf allen Geräten (Voreinstellung)</target>
+            <trans-unit id="visible_inline">
+                <source>Element is visible inline</source>
+                <target>Element ist sichtbar als Inline-Element</target>
             </trans-unit>
-            <trans-unit id="column_visible_xs">
-                <source>Only visible for very small devices</source>
-                <target>Nur sichtbar auf sehr kleinen Geräten</target>
+            <trans-unit id="visible_inline_block">
+                <source>Element is visible as inline block</source>
+                <target>Element ist sichtbar als Inline-Block</target>
             </trans-unit>
-            <trans-unit id="column_hidden_xs">
-                <source>Hidden for very small devices</source>
-                <target>Unsichtbar auf sehr kleinen Geräten</target>
+            <trans-unit id="invisible">
+                <source>Element is hidden</source>
+                <target>Element ist unsichtbar</target>
             </trans-unit>
-            <trans-unit id="column_visible_sm">
-                <source>Only visible for small devices</source>
-                <target>Nur sichtbar auf kleinen Geräten</target>
+            <trans-unit id="outer_left">
+                <source>Outer left</source>
+                <target>Links aussen</target>
             </trans-unit>
-            <trans-unit id="column_hidden_sm">
-                <source>Hidden for small devices</source>
-                <target>Unsichtbar auf kleinen Geräten</target>
+            <trans-unit id="middle_left">
+                <source>Middle left</source>
+                <target>Mitte links</target>
             </trans-unit>
-            <trans-unit id="column_visible_md">
-                <source>Only visible for medium devices</source>
-                <target>Nur sichtbar auf normalen Geräten</target>
+            <trans-unit id="left">
+                <source>Left</source>
+                <target>Links</target>
             </trans-unit>
-            <trans-unit id="column_hidden_md">
-                <source>Hidden for medium devices</source>
-                <target>Unsichtbar auf normalen Geräten</target>
+            <trans-unit id="middle">
+                <source>Middle</source>
+                <target>Mitte</target>
             </trans-unit>
-            <trans-unit id="column_visible_lg">
-                <source>Only visible for large devices</source>
-                <target>Nur sichtbar auf großen Geräten</target>
+            <trans-unit id="outer_right">
+                <source>Outer right</source>
+                <target>Rechts aussen</target>
             </trans-unit>
-            <trans-unit id="column_hidden_lg">
-                <source>Hidden for large devices</source>
-                <target>Unsichtbar auf großen Geräten</target>
+            <trans-unit id="middle_right">
+                <source>Middle right</source>
+                <target>Mitte rechts</target>
+            </trans-unit>
+            <trans-unit id="right">
+                <source>Right</source>
+                <target>Rechts</target>
             </trans-unit>
 
 

@@ -56,6 +56,37 @@
 							</config>
 						</TCEforms>
 					</width_column2_md>
+					<visibility_md type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>radio</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:visible</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
+										<numIndex index="1">hidden-md</numIndex>
+									</numIndex>
+								</items>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_md>
+					<equalheight_md type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>check</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</equalheight_md>
 				</el>
 			</ROOT>
 		</size_md>
@@ -111,6 +142,37 @@
 							</config>
 						</TCEforms>
 					</width_column2_xs>
+					<visibility_xs type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>radio</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:visible</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
+										<numIndex index="1">hidden-xs</numIndex>
+									</numIndex>
+								</items>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_xs>
+					<equalheight_xs type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>check</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</equalheight_xs>
 				</el>
 			</ROOT>
 		</size_xs>
@@ -166,6 +228,37 @@
 							</config>
 						</TCEforms>
 					</width_column2_sm>
+					<visibility_sm type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>radio</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:visible</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
+										<numIndex index="1">hidden-sm</numIndex>
+									</numIndex>
+								</items>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_sm>
+					<equalheight_sm type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>check</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</equalheight_sm>
 				</el>
 			</ROOT>
 		</size_sm>
@@ -221,6 +314,37 @@
 							</config>
 						</TCEforms>
 					</width_column2_lg>
+					<visibility_lg type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>radio</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:visible</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
+										<numIndex index="1">hidden-lg</numIndex>
+									</numIndex>
+								</items>
+								<default></default>
+							</config>
+						</TCEforms>
+					</visibility_lg>
+					<equalheight_lg type="array">
+						<TCEforms type="array">
+							<config type="array">
+								<type>check</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</equalheight_lg>
 				</el>
 			</ROOT>
 		</size_lg>
