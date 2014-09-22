@@ -43,13 +43,18 @@
 					<equalheight_md type="array">
 						<TCEforms type="array">
 							<config type="array">
-								<type>check</type>
+								<type>radio</type>
 								<items>
 									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight_off</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
-										<numIndex index="1">1</numIndex>
+										<numIndex index="1">container-md-height</numIndex>
 									</numIndex>
 								</items>
+								<default></default>
 							</config>
 						</TCEforms>
 					</equalheight_md>
@@ -95,13 +100,18 @@
 					<equalheight_xs type="array">
 						<TCEforms type="array">
 							<config type="array">
-								<type>check</type>
+								<type>radio</type>
 								<items>
 									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight_off</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
-										<numIndex index="1">1</numIndex>
+										<numIndex index="1">container-xs-height</numIndex>
 									</numIndex>
 								</items>
+								<default></default>
 							</config>
 						</TCEforms>
 					</equalheight_xs>
@@ -147,13 +157,18 @@
 					<equalheight_sm type="array">
 						<TCEforms type="array">
 							<config type="array">
-								<type>check</type>
+								<type>radio</type>
 								<items>
 									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight_off</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
-										<numIndex index="1">1</numIndex>
+										<numIndex index="1">container-sm-height</numIndex>
 									</numIndex>
 								</items>
+								<default></default>
 							</config>
 						</TCEforms>
 					</equalheight_sm>
@@ -199,13 +214,18 @@
 					<equalheight_lg type="array">
 						<TCEforms type="array">
 							<config type="array">
-								<type>check</type>
+								<type>radio</type>
 								<items>
 									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight_off</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:equalheight</numIndex>
-										<numIndex index="1">1</numIndex>
+										<numIndex index="1">container-lg-height</numIndex>
 									</numIndex>
 								</items>
+								<default></default>
 							</config>
 						</TCEforms>
 					</equalheight_lg>

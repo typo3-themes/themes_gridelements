@@ -149,6 +149,10 @@
                 <source>Force equal column height</source>
                 <target>Gleiche Spaltenhöhe erzwingen</target>
             </trans-unit>
+            <trans-unit id="equalheight_off">
+                <source>Default column height</source>
+                <target>Spaltenhöhe beibehalten</target>
+            </trans-unit>
             <trans-unit id="visible">
                 <source>Element is visible</source>
                 <target>Element ist sichtbar</target>

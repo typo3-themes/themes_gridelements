@@ -6,7 +6,43 @@ lib.gridelements {
 		columns.0 {
 			renderObj = < tt_content
 		}
-		dataWrap = <div id="c{field:uid}" class="row">|</div>
+		stdWrap {
+			dataWrap (
+<div id="c{field:uid}" class="row
+	{field:flexform_visibility_md}
+	{field:flexform_equalheight_md}
+	{field:flexform_visibility_sm}
+	{field:flexform_equalheight_sm}
+	{field:flexform_visibility_xs}
+	{field:flexform_equalheight_xs}
+	{field:flexform_visibility_lg}
+	{field:flexform_equalheight_lg}
+">
+|
+</div>
+)
+			innerWrap {
+				if.isTrue.dataWrap = {field:flexform_equalheight_md}{field:flexform_equalheight_sm}{field:flexform_equalheight_xs}{field:flexform_equalheight_lg}
+				cObject = TEXT
+				cObject {
+					value = |
+					stdWrap.dataWrap (
+<div id="c{field:uid}" class="row
+	{field:flexform_equalheight_md}
+	{field:flexform_equalheight_sm}
+	{field:flexform_equalheight_xs}
+	{field:flexform_equalheight_lg}
+">
+|
+</div>
+)
+					replacement {
+						10.search = container
+						10.replace = row
+					}
+				}
+			}
+		}
 	}
 }
 

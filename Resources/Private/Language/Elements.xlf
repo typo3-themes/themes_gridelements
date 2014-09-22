@@ -113,6 +113,9 @@
             <trans-unit id="equalheight">
                 <source>Force equal column height</source>
             </trans-unit>
+            <trans-unit id="equalheight_off">
+                <source>Default column height</source>
+            </trans-unit>
             <trans-unit id="visible">
                 <source>Element is visible</source>
             </trans-unit>
