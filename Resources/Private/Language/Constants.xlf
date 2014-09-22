@@ -4,16 +4,16 @@
         <header/>
         <body>
             <trans-unit id="site_name">
-                <source>!Name of the site</source>
+                <source>Name of the site</source>
             </trans-unit>
             <trans-unit id="baseurl">
-                <source>!Base URL of the site</source>
+                <source>Base URL of the site</source>
             </trans-unit>
             <trans-unit id="baseurl_image">
-                <source>!Image base URL of the site (http://cdn.domain.tdl/project/Images/; http://www.domain.tld/fileadmin/project/Images/)</source>
+                <source>Image base URL of the site (http://cdn.domain.tdl/project/Images/; http://www.domain.tld/fileadmin/project/Images/)</source>
             </trans-unit>
             <trans-unit id="favicon">
-                <source>!Path and file for favicon (fileadmin/project/Icons/favicon.ico)</source>
+                <source>Path and file for favicon (fileadmin/project/Icons/favicon.ico)</source>
             </trans-unit>
         </body>
     </file>
