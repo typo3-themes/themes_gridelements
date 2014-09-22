@@ -2,14 +2,14 @@
 # Basic: Basic constants
 #############################################
 
-# cat=theme; type=string; label= Name of the site
+# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:site_name
 themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
 
-# cat=theme; type=string; label= Base URL of the site
+# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl
 themes.configuration.baseurl = /
 
-# cat=theme; type=string; label= Image base URL of the site (http://cdn.domain.tdl/project/Images/; http://www.domain.tdl/fileadmin/project/Images/)
+# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_image
 themes.configuration.baseurlImage = typo3conf/ext/theme_bootstrap/Resources/Public/Images/
 
-# cat=theme; type=string; label= Path and file for favicon (fileadmin/project/Icons/favicon.ico)
+# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:favicon
 themes.configuration.favicon = typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
