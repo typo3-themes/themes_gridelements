@@ -1,0 +1,24 @@
+.. ..................................
+.. container:: table-row dl-horizontal constants theme
+
+	Property
+		``siteName``
+
+	Data type
+		string
+
+	Category
+		theme
+
+	Description
+		Name of the site
+
+	Default
+		*none*
+
+	Provided by ext
+		themes_gridelements
+
+	Definition
+		# cat=theme; type=string; label= Name of the site
+		themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
