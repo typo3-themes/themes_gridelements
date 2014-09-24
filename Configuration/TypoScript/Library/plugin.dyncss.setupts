@@ -1,0 +1,4 @@
+plugin.tx_dyncss.overrides {
+	baseurlImage = TEXT
+	baseurlImage.value = {$themes.configuration.baseurlImage}
+}
