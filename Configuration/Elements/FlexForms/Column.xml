@@ -16,20 +16,20 @@
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-md-1</numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-md-2</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-md-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-md-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-md-5</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-md-6</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-md-7</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-md-8</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-md-9</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-md-10</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-md-11</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-md-12</numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">medium-column-width-1</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">medium-column-width-2</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">medium-column-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">medium-column-width-4</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">medium-column-width-5</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">medium-column-width-6</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">medium-column-width-7</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">medium-column-width-8</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">medium-column-width-9</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">medium-column-width-10</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">medium-column-width-11</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">medium-column-width-12</numIndex></numIndex>
 								</items>
-								<default>col-md-6</default>
+								<default>medium-column-width-6</default>
 							</config>
 						</TCEforms>
 					</width_column_md>
@@ -40,18 +40,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-md-offset-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-md-offset-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-md-offset-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-md-offset-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-md-offset-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-md-offset-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-md-offset-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-md-offset-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-md-offset-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-md-offset-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-md-offset-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-md-offset-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">medium-column-offset-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">medium-column-offset-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">medium-column-offset-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">medium-column-offset-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">medium-column-offset-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">medium-column-offset-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">medium-column-offset-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">medium-column-offset-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">medium-column-offset-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">medium-column-offset-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">medium-column-offset-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">medium-column-offset-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -63,18 +63,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-md-push-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-md-push-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-md-push-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-md-push-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-md-push-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-md-push-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-md-push-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-md-push-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-md-push-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-md-push-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-md-push-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-md-push-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">medium-column-push-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">medium-column-push-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">medium-column-push-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">medium-column-push-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">medium-column-push-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">medium-column-push-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">medium-column-push-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">medium-column-push-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">medium-column-push-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">medium-column-push-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">medium-column-push-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">medium-column-push-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -86,18 +86,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-md-pull-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-md-pull-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-md-pull-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-md-pull-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-md-pull-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-md-pull-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-md-pull-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-md-pull-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-md-pull-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-md-pull-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-md-pull-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-md-pull-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">medium-column-pull-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">medium-column-pull-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">medium-column-pull-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">medium-column-pull-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">medium-column-pull-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">medium-column-pull-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">medium-column-pull-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">medium-column-pull-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">medium-column-pull-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">medium-column-pull-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">medium-column-pull-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">medium-column-pull-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -113,7 +113,7 @@
 									</numIndex>
 									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
-										<numIndex index="1">hidden-md</numIndex>
+										<numIndex index="1">medium-hidden</numIndex>
 									</numIndex>
 								</items>
 								<default></default>
@@ -136,18 +136,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-xs-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-xs-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-xs-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-xs-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-xs-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-xs-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-xs-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-xs-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-xs-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">extrasmall-column-width-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">extrasmall-column-width-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">extrasmall-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">extrasmall-column-width-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">extrasmall-column-width-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">extrasmall-column-width-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">extrasmall-column-width-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">extrasmall-column-width-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">extrasmall-column-width-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">extrasmall-column-width-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">extrasmall-column-width-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">extrasmall-column-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -159,18 +159,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-offset-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-offset-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-offset-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-xs-offset-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-xs-offset-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-xs-offset-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-xs-offset-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-xs-offset-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-xs-offset-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-xs-offset-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-xs-offset-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-xs-offset-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">extrasmall-column-offset-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">extrasmall-column-offset-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">extrasmall-column-offset-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">extrasmall-column-offset-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">extrasmall-column-offset-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">extrasmall-column-offset-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">extrasmall-column-offset-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">extrasmall-column-offset-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">extrasmall-column-offset-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">extrasmall-column-offset-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">extrasmall-column-offset-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">extrasmall-column-offset-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -182,18 +182,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-push-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-push-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-push-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-xs-push-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-xs-push-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-xs-push-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-xs-push-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-xs-push-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-xs-push-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-xs-push-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-xs-push-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-xs-push-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">extrasmall-column-push-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">extrasmall-column-push-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">extrasmall-column-push-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">extrasmall-column-push-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">extrasmall-column-push-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">extrasmall-column-push-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">extrasmall-column-push-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">extrasmall-column-push-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">extrasmall-column-push-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">extrasmall-column-push-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">extrasmall-column-push-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">extrasmall-column-push-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -205,18 +205,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-xs-pull-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-xs-pull-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-xs-pull-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-xs-pull-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-xs-pull-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-xs-pull-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-xs-pull-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-xs-pull-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-xs-pull-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-xs-pull-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-xs-pull-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-xs-pull-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">extrasmall-column-pull-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">extrasmall-column-pull-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">extrasmall-column-pull-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">extrasmall-column-pull-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">extrasmall-column-pull-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">extrasmall-column-pull-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">extrasmall-column-pull-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">extrasmall-column-pull-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">extrasmall-column-pull-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">extrasmall-column-pull-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">extrasmall-column-pull-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">extrasmall-column-pull-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -232,7 +232,7 @@
 									</numIndex>
 									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
-										<numIndex index="1">hidden-xs</numIndex>
+										<numIndex index="1">extrasmall-hidden</numIndex>
 									</numIndex>
 								</items>
 								<default></default>
@@ -255,20 +255,20 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-sm-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-sm-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-sm-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-sm-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-sm-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-sm-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-sm-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-sm-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-sm-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">small-column-width-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">small-column-width-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">small-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">small-column-width-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">small-column-width-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">small-column-width-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">small-column-width-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">small-column-width-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">small-column-width-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">small-column-width-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">small-column-width-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">small-column-width-12</numIndex></numIndex>
 								</items>
-								<default>col-sm-6</default>
+								<default>small-column-width-6</default>
 							</config>
 						</TCEforms>
 					</width_column_sm>
@@ -279,18 +279,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-offset-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-offset-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-offset-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-sm-offset-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-sm-offset-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-sm-offset-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-sm-offset-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-sm-offset-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-sm-offset-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-sm-offset-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-sm-offset-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-sm-offset-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">small-column-offset-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">small-column-offset-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">small-column-offset-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">small-column-offset-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">small-column-offset-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">small-column-offset-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">small-column-offset-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">small-column-offset-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">small-column-offset-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">small-column-offset-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">small-column-offset-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">small-column-offset-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -302,18 +302,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-push-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-push-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-push-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-sm-push-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-sm-push-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-sm-push-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-sm-push-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-sm-push-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-sm-push-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-sm-push-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-sm-push-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-sm-push-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">small-column-push-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">small-column-push-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">small-column-push-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">small-column-push-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">small-column-push-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">small-column-push-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">small-column-push-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">small-column-push-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">small-column-push-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">small-column-push-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">small-column-push-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">small-column-push-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -325,18 +325,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-sm-pull-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-sm-pull-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-sm-pull-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-sm-pull-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-sm-pull-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-sm-pull-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-sm-pull-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-sm-pull-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-sm-pull-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-sm-pull-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-sm-pull-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-sm-pull-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">small-column-pull-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">small-column-pull-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">small-column-pull-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">small-column-pull-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">small-column-pull-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">small-column-pull-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">small-column-pull-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">small-column-pull-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">small-column-pull-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">small-column-pull-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">small-column-pull-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">small-column-pull-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -352,7 +352,7 @@
 									</numIndex>
 									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
-										<numIndex index="1">hidden-sm</numIndex>
+										<numIndex index="1">small-hidden</numIndex>
 									</numIndex>
 								</items>
 								<default></default>
@@ -375,20 +375,20 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-lg-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-lg-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-lg-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-lg-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-lg-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-lg-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-lg-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-lg-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-lg-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">large-column-width-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">large-column-width-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">large-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">large-column-width-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">large-column-width-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">large-column-width-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">large-column-width-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">large-column-width-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">large-column-width-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">large-column-width-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">large-column-width-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">large-column-width-12</numIndex></numIndex>
 								</items>
-								<default>col-lg-6</default>
+								<default>large-column-width-6</default>
 							</config>
 						</TCEforms>
 					</width_column_lg>
@@ -399,18 +399,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-offset-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-offset-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-offset-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-lg-offset-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-lg-offset-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-lg-offset-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-lg-offset-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-lg-offset-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-lg-offset-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-lg-offset-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-lg-offset-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-lg-offset-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">large-column-offset-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">large-column-offset-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">large-column-offset-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">large-column-offset-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">large-column-offset-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">large-column-offset-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">large-column-offset-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">large-column-offset-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">large-column-offset-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">large-column-offset-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">large-column-offset-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">large-column-offset-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -422,18 +422,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-push-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-push-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-push-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-lg-push-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-lg-push-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-lg-push-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-lg-push-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-lg-push-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-lg-push-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-lg-push-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-lg-push-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-lg-push-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">large-column-push-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">large-column-push-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">large-column-push-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">large-column-push-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">large-column-push-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">large-column-push-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">large-column-push-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">large-column-push-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">large-column-push-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">large-column-push-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">large-column-push-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">large-column-push-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -445,18 +445,18 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_undefined</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">col-lg-pull-1</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">col-lg-pull-2</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">col-lg-pull-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">col-lg-pull-4</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">col-lg-pull-5</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">col-lg-pull-6</numIndex></numIndex>
-									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">col-lg-pull-7</numIndex></numIndex>
-									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">col-lg-pull-8</numIndex></numIndex>
-									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">col-lg-pull-9</numIndex></numIndex>
-									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">col-lg-pull-10</numIndex></numIndex>
-									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">col-lg-pull-11</numIndex></numIndex>
-									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">col-lg-pull-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">large-column-pull-1</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">large-column-pull-2</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">large-column-pull-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">large-column-pull-4</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">large-column-pull-5</numIndex></numIndex>
+									<numIndex index="6" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">large-column-pull-6</numIndex></numIndex>
+									<numIndex index="7" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">large-column-pull-7</numIndex></numIndex>
+									<numIndex index="8" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">large-column-pull-8</numIndex></numIndex>
+									<numIndex index="9" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">large-column-pull-9</numIndex></numIndex>
+									<numIndex index="10" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">large-column-pull-10</numIndex></numIndex>
+									<numIndex index="11" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">large-column-pull-11</numIndex></numIndex>
+									<numIndex index="12" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">large-column-pull-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -472,7 +472,7 @@
 									</numIndex>
 									<numIndex index="1">
 										<numIndex index="0">LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:invisible</numIndex>
-										<numIndex index="1">hidden-lg</numIndex>
+										<numIndex index="1">large-hidden</numIndex>
 									</numIndex>
 								</items>
 								<default></default>

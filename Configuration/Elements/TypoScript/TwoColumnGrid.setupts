@@ -1,52 +1,34 @@
 lib.gridelements {
 	twoColumGrid {
-		stdWrap {
-			dataWrap = <div id="c{field:uid}" class="row {field:flexform_visibility_md} {field:flexform_visibility_xs} {field:flexform_visibility_sm} {field:flexform_visibility_lg} {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
-			innerWrap {
-				if.isTrue.dataWrap = {field:flexform_equalheight_md}{field:flexform_equalheight_sm}{field:flexform_equalheight_xs}{field:flexform_equalheight_lg}
-				cObject = TEXT
-				cObject {
-					value = |
-					stdWrap.dataWrap = <div id="c{field:uid}" class="row {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
-					replacement {
-						10.search = container
-						10.replace = row
-					}
+		dataWrap = <div id="c{field:uid}" class="row {field:flexform_visibility_md} {field:flexform_visibility_xs} {field:flexform_visibility_sm} {field:flexform_visibility_lg} {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
+		innerWrap {
+			if.isTrue.dataWrap = {field:flexform_equalheight_md}{field:flexform_equalheight_sm}{field:flexform_equalheight_xs}{field:flexform_equalheight_lg}
+			cObject = TEXT
+			cObject {
+				value = |
+				stdWrap.dataWrap = <div class="row {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
+				replacement {
+					10.search = container
+					10.replace = row
 				}
 			}
 		}
 		columns.0 {
-			stdWrap {
-				innerWrap {
-					cObject = TEXT
-					cObject {
-						value = |
-						stdWrap.dataWrap = <div id="c{field:uid}" class="{field:flexform_width_column1_md} {field:flexform_width_column1_xs} {field:flexform_width_column1_sm} {field:flexform_width_column1_lg} {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
-						replacement {
-							10.search = container
-							10.replace = col
-						}
+			innerWrap {
+				cObject = TEXT
+				cObject {
+					value = |
+					stdWrap.dataWrap = <div class="{field:flexform_width_column1_md} {field:flexform_width_column1_xs} {field:flexform_width_column1_sm} {field:flexform_width_column1_lg} {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
+					replacement {
+						10.search = container
+						10.replace = col
 					}
 				}
 			}
 			renderObj =< tt_content
 		}
 		columns.1 < .columns.0
-		columns.1 {
-			stdWrap {
-				innerWrap {
-					cObject = TEXT
-					cObject {
-						value = |
-						stdWrap.dataWrap = <div id="c{field:uid}" class="{field:flexform_width_column2_md} {field:flexform_width_column2_md} {field:flexform_width_column2_md} {field:flexform_width_column2_md}">|</div>
-						replacement {
-							10.search = container
-							10.replace = col
-						}
-					}
-				}
-			}
-		}
+		columns.1.innerWrap.cObject.stdWrap.dataWrap = <div class="{field:flexform_width_column2_md} {field:flexform_width_column2_xs} {field:flexform_width_column2_sm} {field:flexform_width_column2_lg} {field:flexform_equalheight_md} {field:flexform_equalheight_sm} {field:flexform_equalheight_xs} {field:flexform_equalheight_lg}">|</div>
 	}
 }
 tt_content.gridelements_pi1.20.10.setup.twoColumGrid < lib.gridelements.twoColumGrid
