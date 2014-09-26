@@ -3,7 +3,6 @@ tx_gridelements.setup.column {
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_description
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Column.xml
  	icon =
- 	frame = 12352345
 	config {
 		colCount = 1
 		rowCount = 1

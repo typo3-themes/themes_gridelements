@@ -4,7 +4,6 @@ tx_gridelements.setup.tabs {
  	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Tabs.xml
  	icon =
  	horizontal = 1
- 	frame = 12352345
  	config {
  		colCount = 1
  		rowCount = 1

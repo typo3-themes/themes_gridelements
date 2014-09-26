@@ -153,6 +153,16 @@
                 <source>Right</source>
             </trans-unit>
 
+            <trans-unit id="container">
+                <source>Container</source>
+            </trans-unit>
+            <trans-unit id="container_description">
+                <source>Containers can be used to breakup default structures and have elements use the whole viewport width instead of the limited grid.</source>
+            </trans-unit>
+            <trans-unit id="container_content">
+                <source>Container content</source>
+            </trans-unit>
+
             <trans-unit id="row">
                 <source>Row</source>
             </trans-unit>

@@ -3,7 +3,6 @@ tx_gridelements.setup.carousel {
 	icon =
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_description
-	frame = 12352345
 	config {
 		colCount = 1
 		rowCount = 1

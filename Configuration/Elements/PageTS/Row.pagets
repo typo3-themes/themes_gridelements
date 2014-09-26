@@ -4,7 +4,6 @@ tx_gridelements.setup.row {
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Row.xml
  	icon =
 	horizontal = 1
- 	frame = 12352345
 	config {
 		colCount = 1
 		rowCount = 1

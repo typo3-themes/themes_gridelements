@@ -203,6 +203,20 @@
             </trans-unit>
 
 
+            <trans-unit id="container">
+                <source>Container</source>
+                <target>Container</target>
+            </trans-unit>
+            <trans-unit id="container_description">
+                <source>Containers can be used to breakup default structures and have elements use the whole viewport width instead of the limited grid.</source>
+                <target>Containers werden verwendet, um die Standard-Strukturen aufzubrechen und z.B. Elemente über die Gesamte Bildschirmbreite anzuzeigen und nicht begrenzt auf das bestehende Raster.</target>
+            </trans-unit>
+            <trans-unit id="container_content">
+                <source>Container content</source>
+                <target>Container-Inhalt</target>
+            </trans-unit>
+
+
             <trans-unit id="row">
                 <source>Row</source>
                 <target>Zeile</target>

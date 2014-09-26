@@ -3,7 +3,6 @@ tx_gridelements.setup.accordion {
  	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_description
  	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Accordion.xml
  	icon =
- 	frame = 12352345
  	config {
  		colCount = 1
  		rowCount = 1

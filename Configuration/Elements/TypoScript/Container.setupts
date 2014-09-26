@@ -1,0 +1,34 @@
+lib.gridelements {
+	container < .defaultGridSetup
+	container {
+		# Render the children the default way
+		columns.0 {
+			renderObj = < tt_content
+		}
+		stdWrap {
+			innerWrap {
+				cObject = TEXT
+				cObject {
+					value = |
+					stdWrap.dataWrap (
+<div id="c{field:uid}" class="
+	{field:flexform_width_column_md} {field:flexform_offset_column_md} {field:flexform_push_column_md} {field:flexform_pull_column_md} {field:flexform_visibility_md}
+	{field:flexform_width_column_xs} {field:flexform_offset_column_xs} {field:flexform_push_column_xs} {field:flexform_pull_column_xs} {field:flexform_visibility_xs}
+	{field:flexform_width_column_sm} {field:flexform_offset_column_sm} {field:flexform_push_column_sm} {field:flexform_pull_column_sm} {field:flexform_visibility_sm}
+	{field:flexform_width_column_lg} {field:flexform_offset_column_lg} {field:flexform_push_column_lg} {field:flexform_pull_column_lg} {field:flexform_visibility_lg}
+	{field:parentgrid_flexform_equalheight_md} {field:parentgrid_flexform_equalheight_sm} {field:parentgrid_flexform_equalheight_xs} {field:parentgrid_flexform_equalheight_lg}
+">
+|
+</div>
+)
+					replacement {
+						10.search = container
+						10.replace = col
+					}
+				}
+			}
+		}
+	}
+}
+
+tt_content.gridelements_pi1.20.10.setup.column < lib.gridelements.column
