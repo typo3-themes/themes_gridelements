@@ -46,8 +46,8 @@ lib.gridelements {
 	}
 }
 
-tt_content.gridelements_pi1.20.10.setup.row < lib.gridelements.row
+#tt_content.gridelements_pi1.20.10.setup.row < lib.gridelements.row
 
-lib.gridelements.row.columns.0.renderObj
+#lib.gridelements.row.columns.0.renderObj
 
 
