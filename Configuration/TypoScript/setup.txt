@@ -1,4 +1,22 @@
 page = PAGE
+
+lib.gridelements {
+	defaultGridSetup {
+		# Get the theme specific classes
+		outerWrap = |
+		outerWrap.stdWrap.noTrimWrap = |<div id="c{field:uid}" class="||
+		outerWrap.insertData = 1
+		wrap {
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants}
+			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			postUserFunc {
+				classMapping < lib.cssClassMap
+			}
+		}
+		innerWrap = ">|</div>
+	}
+}
+
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="setupts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="setupts">
 
