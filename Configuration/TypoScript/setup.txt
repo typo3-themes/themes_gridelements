@@ -2,36 +2,36 @@ page = PAGE
 
 lib.gridelements {
 	defaultGridSetup {
-		# Get the theme specific classes
 		noTrimWrap = |<div id="c{field:uid}" class="||
 		noTrimWrap.insertData = 1
 		wrap {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
-			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-			postUserFunc {
+			stdWrap.dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+			stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			stdWrap.postUserFunc {
 				allClassMapping =< lib.cssAllMap
 				behaviourClassMapping =< lib.cssBehaviourMap
 				rowClassMapping =< lib.cssRowMap
 				columnClassMapping =< lib.cssColumnMap
 			}
+			append = TEXT
+			append.value = ">|</div>
 		}
-		innerWrap2 = ">|</div>
 	}
 }
 
 lib.defaultColumnStdWrap {
 	noTrimWrap = |<div class="||
 	wrap {
-		dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
-		postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-		postUserFunc {
+		stdWrap.dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+		stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+		stdWrap.postUserFunc {
 			allClassMapping =< lib.cssAllMap
 			behaviourClassMapping =< lib.cssBehaviourMap
-			rowClassMapping =< lib.cssRowMap
 			columnClassMapping =< lib.cssColumnMap
 		}
+		append = TEXT
+		append.value = ">|</div>
 	}
-	innerWrap2 = ">|</div>
 }
 
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="setupts">
@@ -43,4 +43,23 @@ tt_content.stdWrap.innerWrap.cObject.if {
   value = gridelements_pi1
   equals.field = CType
   negate = 1
+}
+
+tt_content.stdWrap {
+	noTrimWrap < lib.defaultColumnStdWrap.noTrimWrap
+	noTrimWrap.if {
+		value = gridelements_pi1
+		equals.field = CType
+		negate = 1
+	}
+	wrap < lib.defaultColumnStdWrap.wrap
+	wrap.stdWrap.postUserFunc {
+		rowClassMapping >
+		columnClassMapping >
+	}
+	wrap.if {
+		value = gridelements_pi1
+		equals.field = CType
+		negate = 1
+	}
 }

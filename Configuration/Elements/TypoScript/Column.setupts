@@ -1,11 +1,15 @@
 lib.gridelements {
 	column < .defaultGridSetup
 	column {
-		# Render the children the default way
+		wrap.stdWrap {
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings}
+			postUserFunc {
+				rowClassMapping >
+			}
+		}
 		columns.0 {
 			renderObj = < tt_content
 		}
 	}
 }
-
 tt_content.gridelements_pi1.20.10.setup.column < lib.gridelements.column

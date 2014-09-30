@@ -1,4 +1,4 @@
-tx_gridelements.setup.twoColumGrid {
+tx_gridelements.setup.twoColumnGrid {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:2column
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:2column_description
 	icon =

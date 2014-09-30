@@ -1,18 +1,27 @@
 lib.gridelements {
 	fourColumnGrid < .defaultGridSetup
 	fourColumnGrid {
-		outerWrap.stdWrap.noTrimWrap = |<div id="c{field:uid}" class="row ||
+		noTrimWrap = |<div id="c{field:uid}" class="row ||
 		columns.0 {
 			stdWrap < lib.defaultColumnStdWrap
-			stdWrap.outerWrap.stdWrap.noTrimWrap = |<div class="column-1 ||
+			stdWrap {
+				noTrimWrap = |<div class="column-1 ||
+				wrap {
+					stdWrap.postUserFunc {
+						allClassMapping >
+						behaviourClassMapping >
+					}
+					append.wrap < lib.cssColumnMap.responsive-medium-width-3
+				}
+			}
 			renderObj =< tt_content
 		}
 		columns.1 < .columns.0
-		columns.1.stdWrap.outerWrap.stdWrap.noTrimWrap = |<div class="column-2 ||
+		columns.1.stdWrap.noTrimWrap = |<div class="column-2 ||
 		columns.2 < .columns.0
-		columns.2.stdWrap.outerWrap.stdWrap.noTrimWrap = |<div class="column-3 ||
+		columns.2.stdWrap.noTrimWrap = |<div class="column-3 ||
 		columns.3 < .columns.0
-		columns.3.stdWrap.outerWrap.stdWrap.noTrimWrap = |<div class="column-4 ||
+		columns.3.stdWrap.noTrimWrap = |<div class="column-4 ||
 	}
 }
 tt_content.gridelements_pi1.20.10.setup.fourColumnGrid < lib.gridelements.fourColumnGrid

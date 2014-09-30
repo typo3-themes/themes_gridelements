@@ -1,13 +1,16 @@
-# First define the pane cObject, we want this within containers
 lib.gridelements {
 	row < .defaultGridSetup
 	row {
 		noTrimWrap = |<div id="c{field:uid}" class="row ||
-		# Render the children the default way
+		wrap.stdWrap {
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_enforceequalcolumnheight}
+			postUserFunc {
+				columnClassMapping >
+			}
+		}
 		columns.0 {
 			renderObj = < tt_content
 		}
 	}
 }
-
 tt_content.gridelements_pi1.20.10.setup.row < lib.gridelements.row
