@@ -6,11 +6,11 @@ lib.gridelements {
 		noTrimWrap = |<div id="c{field:uid}" class="||
 		noTrimWrap.insertData = 1
 		wrap {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
 				allClassMapping =< lib.cssAllMap
-				behaviorClassMapping =< lib.cssBehaviorMap
+				behaviourClassMapping =< lib.cssBehaviourMap
 				rowClassMapping =< lib.cssRowMap
 				columnClassMapping =< lib.cssColumnMap
 			}
@@ -22,11 +22,11 @@ lib.gridelements {
 lib.defaultColumnStdWrap {
 	noTrimWrap = |<div class="||
 	wrap {
-		dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+		dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 		postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 		postUserFunc {
 			allClassMapping =< lib.cssAllMap
-			behaviorClassMapping =< lib.cssBehaviorMap
+			behaviourClassMapping =< lib.cssBehaviourMap
 			rowClassMapping =< lib.cssRowMap
 			columnClassMapping =< lib.cssColumnMap
 		}
