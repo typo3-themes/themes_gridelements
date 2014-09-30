@@ -3,24 +3,42 @@ page = PAGE
 lib.gridelements {
 	defaultGridSetup {
 		# Get the theme specific classes
-		outerWrap = |
-		outerWrap.stdWrap.noTrimWrap = |<div id="c{field:uid}" class="||
-		outerWrap.insertData = 1
+		noTrimWrap = |<div id="c{field:uid}" class="||
+		noTrimWrap.insertData = 1
 		wrap {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants}
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
-				classMapping < lib.cssClassMap
+				allClassMapping =< lib.cssAllMap
+				behaviorClassMapping =< lib.cssBehaviorMap
+				rowClassMapping =< lib.cssRowMap
+				columnClassMapping =< lib.cssColumnMap
 			}
 		}
-		innerWrap = ">|</div>
+		innerWrap2 = ">|</div>
 	}
+}
+
+lib.defaultColumnStdWrap {
+	noTrimWrap = |<div class="||
+	wrap {
+		dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+		postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+		postUserFunc {
+			allClassMapping =< lib.cssAllMap
+			behaviorClassMapping =< lib.cssBehaviorMap
+			rowClassMapping =< lib.cssRowMap
+			columnClassMapping =< lib.cssColumnMap
+		}
+	}
+	innerWrap2 = ">|</div>
 }
 
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="setupts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="setupts">
 
 includeLibs.t3jquery = EXT:t3jquery/class.tx_t3jquery.php
+
 tt_content.stdWrap.innerWrap.cObject.if {
   value = gridelements_pi1
   equals.field = CType

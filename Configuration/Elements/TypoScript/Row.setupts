@@ -2,10 +2,12 @@
 lib.gridelements {
 	row < .defaultGridSetup
 	row {
-		outerWrap.stdWrap.noTrimWrap = |<div id="c{field:uid}" class="row ||
+		noTrimWrap = |<div id="c{field:uid}" class="row ||
 		# Render the children the default way
 		columns.0 {
 			renderObj = < tt_content
 		}
 	}
 }
+
+tt_content.gridelements_pi1.20.10.setup.row < lib.gridelements.row

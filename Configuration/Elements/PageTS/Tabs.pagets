@@ -1,7 +1,6 @@
 tx_gridelements.setup.tabs {
  	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs
  	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_description
- 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Tabs.xml
  	icon =
  	horizontal = 1
  	config {

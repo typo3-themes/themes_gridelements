@@ -1,8 +1,7 @@
-tx_gridelements.setup.twoColumGridExtended {
-	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/FourColumnGrid.xml
+tx_gridelements.setup.fourColumnGrid {
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:4column
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:4column_description
 	icon =
-	title = 4 column grid
-	description =
 	config {
 		colCount = 4
 		rowCount = 1

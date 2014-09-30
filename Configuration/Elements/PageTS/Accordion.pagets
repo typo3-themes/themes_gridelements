@@ -1,7 +1,6 @@
 tx_gridelements.setup.accordion {
  	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion
  	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_description
- 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Accordion.xml
  	icon =
  	config {
  		colCount = 1

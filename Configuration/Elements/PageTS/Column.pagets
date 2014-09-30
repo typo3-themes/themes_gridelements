@@ -1,7 +1,6 @@
 tx_gridelements.setup.column {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_description
-	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Column.xml
  	icon =
 	config {
 		colCount = 1

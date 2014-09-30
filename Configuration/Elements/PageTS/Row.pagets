@@ -1,7 +1,6 @@
 tx_gridelements.setup.row {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:row
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:row_description
-	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/Row.xml
  	icon =
 	horizontal = 1
 	config {
