@@ -2,7 +2,7 @@
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
 	Property
-		``siteName``
+		``spamProtectEmailAddresses.lastDotSubst``
 
 	Data type
 		string
@@ -11,14 +11,14 @@
 		theme
 
 	Description
-		Name of the site
+		E-Mail spam protection: Last dot replacement
 
 	Default
-		TYPO3-Theme based on themes_gridelements
+		(dot)
 
 	Provided by ext
 		themes_gridelements
 
 	Definition
-		# cat=theme; type=string; label= Name of the site
-		themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
+		# cat=theme; type=string; label= E-Mail spam protection: Last dot replacement
+		themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)

@@ -1,0 +1,11 @@
+page {
+	# set favicon
+	shortcutIcon = {$themes.configuration.favicon}
+
+	# set body tag
+	bodyTagCObject = TEXT
+	bodyTagCObject.field = uid
+	bodyTagCObject.wrap = <body id="pid-|" class="language-{$themes.languages.current.isoCodeShort}">
+	
+}
+

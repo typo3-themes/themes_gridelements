@@ -2,6 +2,11 @@
 # Basic: Basic constants
 #############################################
 
+
+
+# General
+#############################################
+
 # cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:site_name
 themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
 
@@ -13,3 +18,17 @@ themes.configuration.baseurlImage = typo3conf/ext/theme_bootstrap/Resources/Publ
 
 # cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:favicon
 themes.configuration.favicon = typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
+
+# cat=theme; type=string; label=Site slogan
+themes.configuration.siteSlogan = Inspire people to share
+
+
+
+# Spam protect email addresses constants
+#############################################
+
+# cat=theme; type=string; label= E-Mail spam protection: @ replacement
+themes.configuration.spamProtectEmailAddresses.atSubst = (at)
+
+# cat=theme; type=string; label= E-Mail spam protection: Last dot replacement
+themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)

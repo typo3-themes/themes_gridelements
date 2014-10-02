@@ -4,6 +4,11 @@ removeDefaultJS = 1
 
 config {
 
-    # Set the baseurl
-    baseURL = {$themes.configuration.baseurl}
+	# Set the baseurl
+	baseURL = {$themes.configuration.baseurl}
+
+	# Enable spam protection
+	spamProtectEmailAddresses = 2
+	spamProtectEmailAddresses_atSubst = {$themes.configuration.spamProtectEmailAddresses.atSubst}
+	spamProtectEmailAddresses_lastDotSubst = {$themes.configuration.spamProtectEmailAddresses.lastDotSubst}
 }

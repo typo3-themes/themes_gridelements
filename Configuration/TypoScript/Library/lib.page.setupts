@@ -1,0 +1,25 @@
+# set some page-data markers
+lib.page.title = TEXT
+lib.page.title {
+	data = page:title
+}
+lib.page.subTitle = TEXT
+lib.page.subTitle {
+	data = page:subtitle
+}
+lib.page.navTitle = TEXT
+lib.page.navTitle {
+	data = page:nav_title
+}
+lib.page.author = TEXT
+lib.page.author {
+	data = page:author
+}
+lib.page.authorEmail = TEXT
+lib.page.authorEmail {
+	data = page:author_email
+}
+lib.page.lastUpdated = TEXT
+lib.page.lastUpdated {
+	data = page:lastUpdated
+}
