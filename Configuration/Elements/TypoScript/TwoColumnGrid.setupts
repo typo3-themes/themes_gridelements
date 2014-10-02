@@ -1,23 +1,23 @@
 lib.gridelements {
 	twoColumnGrid < .defaultGridSetup
 	twoColumnGrid {
-		noTrimWrap = |<div id="c{field:uid}" class="row ||
-		columns.0 {
-			stdWrap < lib.defaultColumnStdWrap
-			stdWrap {
-				noTrimWrap = |<div class="column-1 ||
-				wrap {
-					stdWrap.postUserFunc {
-						allClassMapping >
-						behaviourClassMapping >
-					}
-					append.wrap < lib.cssColumnMap.responsive-medium-width-6
-				}
+		innerWrap.cObject.default.20 {
+			40.postUserFunc {
+				columnClassMapping >
 			}
+			50 = TEXT
+			50.value = {$lib.cssRowMap.repsonsive-default-row}
+			50.noTrimWrap = | ||
+		}
+		columns.0 {
+			wrap = |</div>
+			prepend = TEXT
+			prepend.value = {$lib.cssColumnMap.responsive-medium-width-6}
+			prepend.noTrimWrap = |<div class="column-1 |">|
 			renderObj =< tt_content
 		}
 		columns.1 < .columns.0
-		columns.1.stdWrap.noTrimWrap = |<div class="column-2 ||
+		columns.1.prepend.noTrimWrap = |<div class="column-2 |">|
 	}
 }
 tt_content.gridelements_pi1.20.10.setup.twoColumnGrid < lib.gridelements.twoColumnGrid

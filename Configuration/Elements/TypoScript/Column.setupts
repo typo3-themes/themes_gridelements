@@ -1,10 +1,10 @@
 lib.gridelements {
 	column < .defaultGridSetup
 	column {
-		wrap.stdWrap {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_columnsettings}
+		innerWrap.cObject.default.20.40 {
+			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
 			postUserFunc {
-				rowClassMapping >
+				rowClassMapping =< lib.cssColumnEqualHeightMap
 			}
 		}
 		columns.0 {

@@ -1,11 +1,26 @@
 lib.gridelements {
 	row < .defaultGridSetup
 	row {
-		noTrimWrap = |<div id="c{field:uid}" class="row ||
-		wrap.stdWrap {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behavior},{field:tx_themes_variants},{field:tx_themes_enforceequalcolumnheight}
-			postUserFunc {
+		innerWrap.cObject.default.20 {
+			40.postUserFunc {
 				columnClassMapping >
+			}
+			50 = TEXT
+			50.value = {$lib.cssRowMap.repsonsive-default-row}
+			50.noTrimWrap = | ||
+			50.if.isFalse.field = tx_themes_enforceequalcolumnheight
+		}
+		stdWrap.innerWrap = |</div>
+		stdWrap.innerWrap {
+			fieldRequired = tx_themes_enforceequalcolumnheight
+			prepend = TEXT
+			prepend {
+				field = tx_themes_enforceequalcolumnheight
+				stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+				stdWrap.postUserFunc {
+					rowClassMapping =< lib.cssRowEqualHeightMap
+				}
+				wrap = <div class="|">
 			}
 		}
 		columns.0 {
