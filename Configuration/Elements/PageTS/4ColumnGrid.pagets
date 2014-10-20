@@ -1,6 +1,6 @@
-tx_gridelements.setup.fourColumnGrid {
-	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:4column
-	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:4column_description
+tx_gridelements.setup.4ColumnGrid {
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:four_column_grid
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:four_column_grid_description
 	icon =
 	config {
 		colCount = 4

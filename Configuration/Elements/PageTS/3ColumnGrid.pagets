@@ -1,6 +1,6 @@
-tx_gridelements.setup.threeColumnGrid {
-	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:3column
-	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:3column_description
+tx_gridelements.setup.3ColumnGrid {
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:three_column_grid
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:three_column_grid_description
 	icon =
 	config {
 		colCount = 3

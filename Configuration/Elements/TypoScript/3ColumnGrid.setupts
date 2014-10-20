@@ -1,6 +1,6 @@
 lib.gridelements {
-	threeColumnGrid < .defaultGridSetup
-	threeColumnGrid {
+	3ColumnGrid < .defaultGridSetup
+	3ColumnGrid {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
 				columnClassMapping >
@@ -22,4 +22,4 @@ lib.gridelements {
 		columns.2.prepend.noTrimWrap = |<div class="column-3 |">|
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.threeColumnGrid < lib.gridelements.threeColumnGrid
+tt_content.gridelements_pi1.20.10.setup.threeColumnGrid < lib.gridelements.3ColumnGrid

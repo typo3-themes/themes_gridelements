@@ -1,6 +1,6 @@
 lib.gridelements {
-	fourColumnGrid < .defaultGridSetup
-	fourColumnGrid {
+	4ColumnGrid < .defaultGridSetup
+	4ColumnGrid {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
 				columnClassMapping >
@@ -24,4 +24,4 @@ lib.gridelements {
 		columns.3.prepend.noTrimWrap = |<div class="column-4 |">|
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.fourColumnGrid < lib.gridelements.fourColumnGrid
+tt_content.gridelements_pi1.20.10.setup.4ColumnGrid < lib.gridelements.4ColumnGrid

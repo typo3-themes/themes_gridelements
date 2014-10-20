@@ -1,6 +1,6 @@
 lib.gridelements {
-	column < .defaultGridSetup
-	column {
+	singleColumn < .defaultGridSetup
+	singleColumn {
 		innerWrap.cObject.default.20.40 {
 			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
 			postUserFunc {
@@ -12,4 +12,4 @@ lib.gridelements {
 		}
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.column < lib.gridelements.column
+tt_content.gridelements_pi1.20.10.setup.singleColumn < lib.gridelements.singleColumn
