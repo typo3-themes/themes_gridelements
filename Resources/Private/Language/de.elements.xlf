@@ -137,41 +137,29 @@
                 <source>Column content</source>
                 <target>Spalten-Inhalt</target>
             </trans-unit>
-            <trans-unit id="column_size_medium">
-                <source>Medium sized devices</source>
-                <target>Mittlere Anzeige</target>
+            <trans-unit id="column_widths_medium">
+                <source>Desktops</source>
+                <target>Desktops</target>
             </trans-unit>
-            <trans-unit id="column_size_very_small">
-                <source>Very small devices</source>
-                <target>Sehr kleine Anzeige</target>
+            <trans-unit id="column_widths_small">
+                <source>Tablets</source>
+                <target>Tablets</target>
             </trans-unit>
-            <trans-unit id="column_size_small">
-                <source>Small devices</source>
-                <target>Kleine Anzeige</target>
+            <trans-unit id="column_widths_extrasmall">
+                <source>Mobile devices</source>
+                <target>Mobile Geräte</target>
             </trans-unit>
-            <trans-unit id="column_size_large">
+            <trans-unit id="column_widths_large">
                 <source>Large devices</source>
-                <target>Große Anzeige</target>
+                <target>Große Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_distribution">
+                <source>Column width distribution</source>
+                <target>Verteilung der Spaltenbreiten</target>
             </trans-unit>
             <trans-unit id="column_width">
                 <source>Column width</source>
                 <target>Spaltenbreite</target>
-            </trans-unit>
-            <trans-unit id="column1_width">
-                <source>Column 1 width</source>
-                <target>Breite der 1. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column2_width">
-                <source>Column 2 width</source>
-                <target>Breite der 2. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column3_width">
-                <source>Column 3 width</source>
-                <target>Breite der 3. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column4_width">
-                <source>Column 4 width</source>
-                <target>Breite der 4. Spalte</target>
             </trans-unit>
             <trans-unit id="column_offset">
                 <source>Column offset</source>

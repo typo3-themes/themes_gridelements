@@ -105,32 +105,23 @@
             <trans-unit id="column_content">
                 <source>Column content</source>
             </trans-unit>
-            <trans-unit id="column_size_medium">
-                <source>Medium sized devices</source>
+            <trans-unit id="column_widths_medium">
+                <source>Desktops</source>
             </trans-unit>
-            <trans-unit id="column_size_very_small">
-                <source>Very small devices</source>
+            <trans-unit id="column_widths_small">
+                <source>Tablets</source>
             </trans-unit>
-            <trans-unit id="column_size_small">
-                <source>Small devices</source>
+            <trans-unit id="column_widths_extrasmall">
+                <source>Mobile devices</source>
             </trans-unit>
-            <trans-unit id="column_size_large">
+            <trans-unit id="column_widths_large">
                 <source>Large devices</source>
+            </trans-unit>
+            <trans-unit id="column_width_distribution">
+                <source>Column width distribution</source>
             </trans-unit>
             <trans-unit id="column_width">
                 <source>Column width</source>
-            </trans-unit>
-            <trans-unit id="column1_width">
-                <source>Column 1 width</source>
-            </trans-unit>
-            <trans-unit id="column2_width">
-                <source>Column 2 width</source>
-            </trans-unit>
-            <trans-unit id="column3_width">
-                <source>Column 3 width</source>
-            </trans-unit>
-            <trans-unit id="column4_width">
-                <source>Column 4 width</source>
             </trans-unit>
             <trans-unit id="column_offset">
                 <source>Column offset</source>

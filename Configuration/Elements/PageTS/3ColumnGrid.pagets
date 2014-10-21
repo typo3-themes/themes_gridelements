@@ -1,6 +1,7 @@
 tx_gridelements.setup.3ColumnGrid {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:three_column_grid
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:three_column_grid_description
+	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/3ColumnGrid.xml
 	icon =
 	config {
 		colCount = 3
