@@ -1,6 +1,6 @@
 lib.gridelements {
-	twoColumnGrid < .defaultGridSetup
-	twoColumnGrid {
+	2ColumnGrid < .defaultGridSetup
+	2ColumnGrid {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
 				columnClassMapping >
@@ -20,4 +20,4 @@ lib.gridelements {
 		columns.1.prepend.noTrimWrap = |<div class="column-2 |">|
 	}
 }
-tt_content.gridelements_pi1.20.10.setup.twoColumnGrid < lib.gridelements.twoColumnGrid
+tt_content.gridelements_pi1.20.10.setup.2ColumnGrid < lib.gridelements.2ColumnGrid

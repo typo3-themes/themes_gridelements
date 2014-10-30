@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<column_widths>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_distribution</sheetTitle>
+				</TCEforms>
+				<el type="array">
+					<column_widths_md type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">medium-column-width-4,medium-column-width-4,medium-column-width-4</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">medium-column-width-6,medium-column-width-3,medium-column-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">medium-column-width-3,medium-column-width-6,medium-column-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">medium-column-width-6,medium-column-width-3,medium-column-width-3</numIndex></numIndex>
+								</items>
+								<default>medium-column-width-4,medium-column-width-4,medium-column-width-4</default>
+							</config>
+						</TCEforms>
+					</column_widths_md>
+					<column_widths_sm type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">small-column-width-4,small-column-width-4,small-column-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">small-column-width-6,small-column-width-3,small-column-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">small-column-width-3,small-column-width-6,small-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">small-column-width-6,small-column-width-3,small-column-width-3</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_sm>
+					<column_widths_xs type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">extrasmall-column-width-4,extrasmall-column-width-4,extrasmall-column-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">extrasmall-column-width-6,extrasmall-column-width-3,extrasmall-column-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">extrasmall-column-width-3,extrasmall-column-width-6,extrasmall-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">extrasmall-column-width-6,extrasmall-column-width-3,extrasmall-column-width-3</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_xs>
+					<column_widths_lg type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">large-column-width-4,large-column-width-4,large-column-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">large-column-width-6,large-column-width-3,large-column-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">large-column-width-3,large-column-width-6,large-column-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">large-column-width-6,large-column-width-3,large-column-width-3</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_lg>
+				</el>
+			</ROOT>
+		</column_widths>
+	</sheets>
+</T3DataStructure>

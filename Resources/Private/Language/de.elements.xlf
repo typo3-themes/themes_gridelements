@@ -3,29 +3,60 @@
     <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2013-09-19T09:11:39Z" product-name="themes_gridelements">
         <header/>
         <body>
-            <trans-unit id="carousel">
-                <source>Carousel</source>
-                <target>Karussell</target>
+            <trans-unit id="two_column_grid">
+                <source>2 column grid</source>
+                <target>2 spaltiges Raster</target>
             </trans-unit>
-            <trans-unit id="carousel_description">
-                <source>Carousel/Slider</source>
-                <target>Karussell/Bildwechsler</target>
+            <trans-unit id="two_column_grid_description">
+                <source>Preset row with two columns. Column width can be adjusted. Columns will always have an overall width of 12 grid columns.</source>
+                <target>Vorbelegte Zeile mit zwei Spalten. Die Spaltenbreiten sind einstellbar. Beide Spalten haben zusammen immer eine Breite von 12 Rasterspalten</target>
             </trans-unit>
-            <trans-unit id="carousel_images">
-                <source>Images</source>
-                <target>Bilder</target>
+
+            <trans-unit id="three_column_grid">
+                <source>3 column grid</source>
+                <target>3 spaltiges Raster</target>
             </trans-unit>
-            <trans-unit id="carousel_element_handling">
-                <source>Handling of image elements</source>
-                <target>Verhalten der Bildelemente</target>
+            <trans-unit id="three_column_grid_description">
+                <source>Preset row with three columns. Column width can be adjusted. Columns will always have an overall width of 12 grid columns.</source>
+                <target>Vorbelegte Zeile mit drei Spalten. Die Spaltenbreiten sind einstellbar. Alle Spalten haben zusammen immer eine Breite von 12 Rasterspalten</target>
             </trans-unit>
-            <trans-unit id="carousel_grouped_slider">
-                <source>Image elements grouped into a single slider</source>
-                <target>Alle Bildelemente in einem Karussell gruppiert</target>
+
+            <trans-unit id="four_column_grid">
+                <source>4 column grid</source>
+                <target>4 spaltiges Raster</target>
             </trans-unit>
-            <trans-unit id="carousel_separate_sliders">
-                <source>1 slider per image element</source>
-                <target>1 Bildwechsler pro Bildelement</target>
+            <trans-unit id="four_column_grid_description">
+                <source>Preset row with four columns. Column width can be adjusted. Columns will always have an overall width of 12 grid columns.</source>
+                <target>Vorbelegte Zeile mit vier Spalten. Die Spaltenbreiten sind einstellbar. Alle Spalten haben zusammen immer eine Breite von 12 Rasterspalten</target>
+            </trans-unit>
+
+            <trans-unit id="outer_left">
+                <source>Outer left</source>
+                <target>Links aussen</target>
+            </trans-unit>
+            <trans-unit id="middle_left">
+                <source>Middle left</source>
+                <target>Mitte links</target>
+            </trans-unit>
+            <trans-unit id="left">
+                <source>Left</source>
+                <target>Links</target>
+            </trans-unit>
+            <trans-unit id="middle">
+                <source>Middle</source>
+                <target>Mitte</target>
+            </trans-unit>
+            <trans-unit id="outer_right">
+                <source>Outer right</source>
+                <target>Rechts aussen</target>
+            </trans-unit>
+            <trans-unit id="middle_right">
+                <source>Middle right</source>
+                <target>Mitte rechts</target>
+            </trans-unit>
+            <trans-unit id="right">
+                <source>Right</source>
+                <target>Rechts</target>
             </trans-unit>
 
             <trans-unit id="accordion">
@@ -73,53 +104,62 @@
                 <target>Schalter verbergen</target>
             </trans-unit>
 
+            <trans-unit id="carousel">
+                <source>Carousel</source>
+                <target>Karussell</target>
+            </trans-unit>
+            <trans-unit id="carousel_description">
+                <source>Carousel/Slider</source>
+                <target>Karussell/Bildwechsler</target>
+            </trans-unit>
+            <trans-unit id="carousel_images">
+                <source>Images</source>
+                <target>Bilder</target>
+            </trans-unit>
+            <trans-unit id="carousel_element_handling">
+                <source>Handling of image elements</source>
+                <target>Verhalten der Bildelemente</target>
+            </trans-unit>
+            <trans-unit id="carousel_grouped_slider">
+                <source>Image elements grouped into a single slider</source>
+                <target>Alle Bildelemente in einem Karussell gruppiert</target>
+            </trans-unit>
+            <trans-unit id="carousel_separate_sliders">
+                <source>1 slider per image element</source>
+                <target>1 Bildwechsler pro Bildelement</target>
+            </trans-unit>
+
             <trans-unit id="column">
                 <source>Column</source>
                 <target>Spalte</target>
-            </trans-unit>
-            <trans-unit id="column_description">
-                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
-                <target>Spalten können innerhalb von Zeilen, Akkordeons oder Reitern (Tabs) eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</target>
             </trans-unit>
             <trans-unit id="column_content">
                 <source>Column content</source>
                 <target>Spalten-Inhalt</target>
             </trans-unit>
-            <trans-unit id="column_size_medium">
-                <source>Medium sized devices</source>
-                <target>Mittlere Anzeige</target>
+            <trans-unit id="column_widths_medium">
+                <source>Desktops</source>
+                <target>Desktops</target>
             </trans-unit>
-            <trans-unit id="column_size_very_small">
-                <source>Very small devices</source>
-                <target>Sehr kleine Anzeige</target>
+            <trans-unit id="column_widths_small">
+                <source>Tablets</source>
+                <target>Tablets</target>
             </trans-unit>
-            <trans-unit id="column_size_small">
-                <source>Small devices</source>
-                <target>Kleine Anzeige</target>
+            <trans-unit id="column_widths_extrasmall">
+                <source>Mobile devices</source>
+                <target>Mobile Geräte</target>
             </trans-unit>
-            <trans-unit id="column_size_large">
+            <trans-unit id="column_widths_large">
                 <source>Large devices</source>
-                <target>Große Anzeige</target>
+                <target>Große Geräte</target>
+            </trans-unit>
+            <trans-unit id="column_width_distribution">
+                <source>Column width distribution</source>
+                <target>Verteilung der Spaltenbreiten</target>
             </trans-unit>
             <trans-unit id="column_width">
                 <source>Column width</source>
                 <target>Spaltenbreite</target>
-            </trans-unit>
-            <trans-unit id="column1_width">
-                <source>Column 1 width</source>
-                <target>Breite der 1. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column2_width">
-                <source>Column 2 width</source>
-                <target>Breite der 2. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column3_width">
-                <source>Column 3 width</source>
-                <target>Breite der 3. Spalte</target>
-            </trans-unit>
-            <trans-unit id="column4_width">
-                <source>Column 4 width</source>
-                <target>Breite der 4. Spalte</target>
             </trans-unit>
             <trans-unit id="column_offset">
                 <source>Column offset</source>
@@ -173,35 +213,6 @@
                 <source>Element is hidden</source>
                 <target>Element ist unsichtbar</target>
             </trans-unit>
-            <trans-unit id="outer_left">
-                <source>Outer left</source>
-                <target>Links aussen</target>
-            </trans-unit>
-            <trans-unit id="middle_left">
-                <source>Middle left</source>
-                <target>Mitte links</target>
-            </trans-unit>
-            <trans-unit id="left">
-                <source>Left</source>
-                <target>Links</target>
-            </trans-unit>
-            <trans-unit id="middle">
-                <source>Middle</source>
-                <target>Mitte</target>
-            </trans-unit>
-            <trans-unit id="outer_right">
-                <source>Outer right</source>
-                <target>Rechts aussen</target>
-            </trans-unit>
-            <trans-unit id="middle_right">
-                <source>Middle right</source>
-                <target>Mitte rechts</target>
-            </trans-unit>
-            <trans-unit id="right">
-                <source>Right</source>
-                <target>Rechts</target>
-            </trans-unit>
-
 
             <trans-unit id="container">
                 <source>Container</source>
@@ -209,7 +220,7 @@
             </trans-unit>
             <trans-unit id="container_description">
                 <source>Containers can be used to breakup default structures and have elements use the whole viewport width instead of the limited grid.</source>
-                <target>Containers werden verwendet, um die Standard-Strukturen aufzubrechen und z.B. Elemente über die Gesamte Bildschirmbreite anzuzeigen und nicht begrenzt auf das bestehende Raster.</target>
+                <target>Container werden verwendet, um die Standard-Strukturen aufzubrechen und z.B. Elemente über die Gesamte Bildschirmbreite anzuzeigen und nicht begrenzt auf das bestehende Raster.</target>
             </trans-unit>
             <trans-unit id="container_content">
                 <source>Container content</source>
@@ -228,6 +239,15 @@
             <trans-unit id="row_content">
                 <source>Row content</source>
                 <target>Zeilen-Inhalt</target>
+            </trans-unit>
+
+            <trans-unit id="single_column">
+                <source>Single Column</source>
+                <target>Einzelne Spalte</target>
+            </trans-unit>
+            <trans-unit id="single_column_description">
+                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
+                <target>Spalten können innerhalb von Zeilen, Akkordeons oder Reitern (Tabs) eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</target>
             </trans-unit>
 
             <trans-unit id="tabs">

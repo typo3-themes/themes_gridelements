@@ -1,0 +1,19 @@
+tx_gridelements.setup.singleColumn {
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_description
+ 	icon =
+	config {
+		colCount = 1
+		rowCount = 1
+		rows {
+			1 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_content
+						colPos = 0
+					}
+				}
+			}
+		}
+	}
+}
