@@ -1,4 +1,12 @@
 # set some page-data markers
+lib.page.uid = TEXT
+lib.page.uid {
+	data = page:uid
+}
+lib.page.pid = TEXT
+lib.page.pid {
+	data = page:pid
+}
 lib.page.title = TEXT
 lib.page.title {
 	data = page:title
