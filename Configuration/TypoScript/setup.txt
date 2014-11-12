@@ -8,10 +8,10 @@ lib.gridelements {
 			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
-				allClassMapping =< lib.cssAllMap
-				behaviourClassMapping =< lib.cssBehaviourMap
-				rowClassMapping =< lib.cssRowMap
-				columnClassMapping =< lib.cssColumnMap
+				responsiveMapping =< lib.content.cssMap.responsive
+				behaviourMapping =< lib.content.cssMap.behaviour
+				responsiveRowMapping =< lib.content.cssMap.responsive.row
+				responsiveColumnMapping =< lib.content.cssMap.responsive.column
 			}
 		}
 	}
@@ -24,9 +24,9 @@ lib.defaultColumnStdWrap {
 		dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 		postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 		postUserFunc {
-			allClassMapping =< lib.cssAllMap
-			behaviourClassMapping =< lib.cssBehaviourMap
-			columnClassMapping =< lib.cssColumnMap
+			responsiveMapping =< lib.content.cssMap.responsive
+			behaviourMapping =< lib.content.cssMap.behaviour
+			responsiveColumnMapping =< lib.content.cssMap.responsive.column
 		}
 	}
 }
@@ -48,8 +48,8 @@ tt_content.stdWrap.innerWrap {
 			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
-				allClassMapping =< lib.cssAllMap
-				behaviourClassMapping =< lib.cssBehaviourMap
+				responsiveMapping =< lib.content.cssMap.responsive
+				behaviourMapping =< lib.content.cssMap.behaviour
 			}
 		}
 	}

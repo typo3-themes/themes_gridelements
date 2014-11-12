@@ -3,7 +3,7 @@ lib.gridelements {
 	row {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
-				columnClassMapping >
+				responsiveColumnMapping >
 			}
 			50 = TEXT
 			50.value = {$lib.cssRowMap.repsonsive-default-row}
@@ -18,7 +18,7 @@ lib.gridelements {
 				field = tx_themes_enforceequalcolumnheight
 				stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 				stdWrap.postUserFunc {
-					rowClassMapping =< lib.cssRowEqualHeightMap
+					responsiveRowEqualHeightMapping =< lib.content.cssMap.responsive.row.equalHeight
 				}
 				wrap = <div class="|">
 			}

@@ -3,21 +3,46 @@ lib.gridelements {
 	2ColumnGrid {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
-				columnClassMapping >
+				responsiveColumnMapping >
 			}
 			50 = TEXT
 			50.value = {$lib.cssRowMap.repsonsive-default-row}
 			50.noTrimWrap = | ||
 		}
 		columns.0 {
-			wrap = |</div>
-			prepend = TEXT
-			prepend.value = {$lib.cssColumnMap.responsive-medium-width-6}
-			prepend.noTrimWrap = |<div class="column-1 |">|
+			prepend = COA
+			prepend {
+				10 = TEXT
+				10 {
+					field = flexform_column_widths_md
+					required = 1
+					listNum = 0
+					listNum.splitChar = #
+					wrap = ,|
+				}
+				20 < .10
+				20.field = flexform_column_widths_sm
+				30 < .10
+				30.field = flexform_column_widths_xs
+				40 < .10
+				40.field = flexform_column_widths_lg
+				stdWrap.stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+				stdWrap.stdWrap.postUserFunc {
+					responsiveColumnMapping =< lib.content.cssMap.responsive.column
+				}
+				stdWrap.noTrimWrap = |<div class="column-1 |">|
+			}
 			renderObj =< tt_content
+			wrap = |</div>
 		}
 		columns.1 < .columns.0
-		columns.1.prepend.noTrimWrap = |<div class="column-2 |">|
+		columns.1.prepend {
+			10.listNum = 1
+			20.listNum = 1
+			30.listNum = 1
+			40.listNum = 1
+			stdWrap.noTrimWrap = |<div class="column-2 |">|
+		}
 	}
 }
 tt_content.gridelements_pi1.20.10.setup.2ColumnGrid < lib.gridelements.2ColumnGrid

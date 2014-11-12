@@ -4,7 +4,7 @@ lib.gridelements {
 		innerWrap.cObject.default.20.40 {
 			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
 			postUserFunc {
-				rowClassMapping =< lib.cssColumnEqualHeightMap
+				responsiveRowEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
 			}
 		}
 		columns.0 {
