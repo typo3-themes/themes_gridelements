@@ -6,7 +6,7 @@ lib.gridelements {
 				responsiveColumnMapping >
 			}
 			50 = TEXT
-			50.value = {$lib.cssRowMap.repsonsive-default-row}
+			50.value = {$lib.cssRowMap.responsive-default-row}
 			50.noTrimWrap = | ||
 			50.if.isFalse.field = tx_themes_enforceequalcolumnheight
 		}

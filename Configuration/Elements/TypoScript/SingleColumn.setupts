@@ -2,9 +2,11 @@ lib.gridelements {
 	singleColumn < .defaultGridSetup
 	singleColumn {
 		innerWrap.cObject.default.20.40 {
-			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
+			dataWrap = {$lib.cssColumnMap.responsive-default-column},{field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:parentgrid_tx_themes_enforceequalcolumnheight}
+			dataWrap.override.dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
+			dataWrap.override.if.isTrue.field = tx_themes_columnsettings
 			postUserFunc {
-				responsiveRowEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
+				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
 			}
 		}
 		columns.0 {
