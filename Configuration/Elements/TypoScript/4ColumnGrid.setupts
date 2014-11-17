@@ -12,7 +12,7 @@ lib.gridelements {
 		columns.0 {
 			wrap = |</div>
 			prepend = TEXT
-			prepend.value = {$lib.cssColumnMap.responsive-medium-width-3}
+			prepend.value = {$lib.cssColumnMap.responsive-default-column}
 			prepend.noTrimWrap = |<div class="column-1 |">|
 			renderObj =< tt_content
 		}

@@ -4,9 +4,7 @@ lib.gridelements {
 	# Render navigation using fluid
 		cObject = FLUIDTEMPLATE
 		cObject {
-			# @todo: wieso geht das hier nicht?! Antwort an tdeuling ;)
-			#file = FILE:EXT:themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
-			file = typo3conf/ext/themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
+			file = EXT:themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
 		}
 		columns.0 {
 			renderObj =< tt_content
