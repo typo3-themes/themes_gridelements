@@ -50,6 +50,7 @@ tt_content.stdWrap.innerWrap {
 			postUserFunc {
 				responsiveMapping =< lib.content.cssMap.responsive
 				behaviourMapping =< lib.content.cssMap.behaviour
+				variantMapping =< lib.content.cssMap.variants
 			}
 		}
 	}
