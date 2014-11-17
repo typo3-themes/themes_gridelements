@@ -1,7 +1,5 @@
-# Define the Tab Container
 lib.gridelements {
 	tabs {
-	# Render navigation using fluid
 		setCurrent.dataWrap = behaviour-navigation,{field:tx_themes_behaviour}
 		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 		setCurrent.postUserFunc {
@@ -14,32 +12,20 @@ lib.gridelements {
 		columns.0 {
 			renderObj =< tt_content
 			renderObj.stdWrap {
-				# Add the ID and the Class to the tab container
 				preCObject = LOAD_REGISTER
 				preCObject {
-					containerId.cObject = COA
-					containerId.cObject {
-						10 = TEXT
-						10.wrap = tab-content-|
-						10.field = uid
-					}
-					containerClasses.cObject = COA
-					containerClasses.cObject {
-						# fade or empty
-						10 = TEXT
-						10.dataWrap = behaviour-tab-pane,{field:parentgrid_tx_themes_behaviour}
-						10.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-						10.postUserFunc {
+					containerId.dataWrap = tab-content-{field:uid}
+					containerClasses {
+						dataWrap = behaviour-tab-pane,{field:parentgrid_tx_themes_behaviour}
+						outerWrap = |,behaviour-active
+						outerWrap.if {
+                            value = 1
+                            equals.data = cObj:parentRecordNumber
+                            equals.prioriCalc = 1
+                        }
+						postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+						postUserFunc {
 							behaviourMapping =< lib.content.cssMap.behaviour.tabs.panes
-						}
-						# We want the active flag on the first child
-						20 = TEXT
-						20.value = active
-						20.noTrimWrap = | ||
-						20.if {
-							value = 1
-							equals.data = cObj:parentRecordNumber
-							equals.prioriCalc = 1
 						}
 					}
 				}
