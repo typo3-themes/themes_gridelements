@@ -2,6 +2,11 @@
 lib.gridelements {
 	tabs {
 	# Render navigation using fluid
+		setCurrent.dataWrap = behaviour-navigation,{field:tx_themes_behaviour}
+		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+		setCurrent.postUserFunc {
+			behaviourMapping =< lib.content.cssMap.behaviour.tabs.navigation
+		}
 		cObject = FLUIDTEMPLATE
 		cObject {
 			file = EXT:themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
@@ -14,24 +19,23 @@ lib.gridelements {
 				preCObject {
 					containerId.cObject = COA
 					containerId.cObject {
-						wrap = id="|"
 						10 = TEXT
 						10.wrap = tab-content-|
 						10.field = uid
 					}
 					containerClasses.cObject = COA
 					containerClasses.cObject {
-						wrap = class="tab-pane |"
-
 						# fade or empty
 						10 = TEXT
-						10.field = parentgrid_flexform_transition
-						10.noTrimWrap = | | |
-
+						10.dataWrap = behaviour-tab-pane,{field:parentgrid_tx_themes_behaviour}
+						10.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+						10.postUserFunc {
+							behaviourMapping =< lib.content.cssMap.behaviour.tabs.panes
+						}
 						# We want the active flag on the first child
 						20 = TEXT
-						20.value = active in
-						20.noTrimWrap = | | |
+						20.value = active
+						20.noTrimWrap = | ||
 						20.if {
 							value = 1
 							equals.data = cObj:parentRecordNumber
@@ -39,7 +43,7 @@ lib.gridelements {
 						}
 					}
 				}
-				outerWrap = <div {register:containerId} {register:containerClasses}>|</div>
+				outerWrap = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
 				outerWrap.insertData = 1
 			}
 		}
