@@ -1,0 +1,19 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<div class="panel-group" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
+	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panel_iteration">
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading{panel.uid}">
+				<h4 class="panel-title">
+					<a data-toggle="collapse" data-parent="#accordion-{panel.tx_gridelements_container}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+						{panel.header}
+					</a>
+				</h4>
+			</div>
+			<div id="collapse{panel.uid}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{panel.uid}">
+				<div class="panel-body">
+					<f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
+				</div>
+			</div>
+		</div>
+	</f:for>
+</div>
