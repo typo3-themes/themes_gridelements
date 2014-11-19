@@ -13,8 +13,11 @@ themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
 # cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl
 themes.configuration.baseurl = /
 
+# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_icon
+themes.configuration.baseurlIcon = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Icons/
+
 # cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_image
-themes.configuration.baseurlImage = typo3conf/ext/theme_bootstrap/Resources/Public/Images/
+themes.configuration.baseurlImage = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Images/
 
 # cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:favicon
 themes.configuration.favicon = typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
