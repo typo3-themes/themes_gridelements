@@ -86,17 +86,8 @@
             <trans-unit id="carousel_description">
                 <source>Carousel/Slider</source>
             </trans-unit>
-            <trans-unit id="carousel_images">
-                <source>Images</source>
-            </trans-unit>
-            <trans-unit id="carousel_element_handling">
-                <source>Element Handling</source>
-            </trans-unit>
-            <trans-unit id="carousel_grouped_slider">
-                <source>Content elements grouped into a single slider</source>
-            </trans-unit>
-            <trans-unit id="carousel_separate_sliders">
-                <source>1 slider per content element</source>
+            <trans-unit id="carousel_content">
+                <source>Content</source>
             </trans-unit>
 
             <trans-unit id="column">

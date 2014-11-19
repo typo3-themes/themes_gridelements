@@ -9,8 +9,9 @@ tx_gridelements.setup.carousel {
 			1 {
 				columns {
 					1 {
-						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_images
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_content
 						colPos = 0
+						allowed = textpic
 					}
 				}
 			}

@@ -1,0 +1,26 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<div id="carousel-{data.uid}" class="carousel slide" data-ride="carousel">
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<f:for each="{data.tx_gridelements_view_children}" as="slide-content" iteration="slide">
+			<div class="item {f:if(condition:'{slide.isFirst}',then:' active')}">
+				<f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{slide-content.uid}')}</f:format.raw>
+			</div>
+		</f:for>
+	</div>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<f:for each="{data.tx_gridelements_view_children}" as="carousel-indicator" iteration="indicator">
+			<li data-target="#carousel-{data.uid}" data-slide-to="{indicator.index}"{f:if(condition:'{indicator.isFirst}',then:' class="active"')}></li>
+		</f:for>
+	</ol>
+	<!-- Controls -->
+	<a class="left carousel-control" href="#carousel-{data.uid}" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-{data.uid}" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+</div>
