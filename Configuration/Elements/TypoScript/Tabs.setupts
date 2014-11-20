@@ -1,9 +1,13 @@
 lib.gridelements {
 	tabs {
-		setCurrent.dataWrap = behaviour-navigation,{field:tx_themes_behaviour}
-		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-		setCurrent.postUserFunc {
-			behaviourMapping =< lib.content.cssMap.behaviour.tabs.navigation
+		setCurrent = behaviour-navigation,behaviour-navigation-tabs
+		setCurrent {
+			override.dataWrap = behaviour-navigation,{field:tx_themes_behaviour}
+			override.fieldRequired = tx_themes_behaviour
+			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			postUserFunc {
+				behaviourMapping =< lib.content.cssMap.behaviour.tabs.navigation
+			}
 		}
 		cObject = FLUIDTEMPLATE
 		cObject {

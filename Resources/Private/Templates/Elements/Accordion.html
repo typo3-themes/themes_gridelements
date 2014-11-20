@@ -1,19 +1,45 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
 <div class="panel-group" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
-	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panel_iteration">
+	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="heading{panel.uid}">
 				<h4 class="panel-title">
-					<a data-toggle="collapse" data-parent="#accordion-{panel.tx_gridelements_container}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
-						{panel.header}
-					</a>
+					<f:if condition="{panelnumber.isFirst}">
+						<f:then>
+							<a class="{f:if(condition:'{panelnumber.isFirst}',then:'', else:'collapsed')}" data-toggle="collapse" data-parent="#accordion-{panel.tx_gridelements_container}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+								<f:if condition="{panel.header}">
+									<f:then>{panel.header}</f:then>
+									<f:else>Accordion {panelnumber.index}</f:else>
+								</f:if>
+							</a>
+						</f:then>
+						<f:else>
+							<a class="collapsed" data-toggle="collapse" data-parent="#accordion-{panel.tx_gridelements_container}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+							<f:if condition="{panel.header}">
+								<f:then>{panel.header}</f:then>
+								<f:else>Accordion {panelnumber.index}</f:else>
+							</f:if>
+							</a>
+						</f:else>
+					</f:if>
 				</h4>
 			</div>
-			<div id="collapse{panel.uid}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{panel.uid}">
-				<div class="panel-body">
-					<f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
-				</div>
-			</div>
+			<f:if condition="{current}">
+				<f:then>
+					<div id="collapse{panel.uid}" class="panel-collapse collapse{f:if(condition:'{panelnumber.isFirst}',then:' in')}" role="tabpanel" aria-labelledby="heading{panel.uid}">
+						<div class="panel-body">
+							<f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
+						</div>
+					</div>
+				</f:then>
+				<f:else>
+					<div id="collapse{panel.uid}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{panel.uid}">
+						<div class="panel-body">
+							<f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
+						</div>
+					</div>
+				</f:else>
+			</f:if>
 		</div>
 	</f:for>
 </div>

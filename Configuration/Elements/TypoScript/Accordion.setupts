@@ -1,6 +1,6 @@
 lib.gridelements {
 	accordion {
-		setCurrent = behaviour-accordion-first-open
+		setCurrent.field = tx_themes_behaviour
 		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 		setCurrent.postUserFunc {
 			behaviourMapping =< lib.content.cssMap.behaviour.accordion
