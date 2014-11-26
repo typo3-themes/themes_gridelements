@@ -16,10 +16,11 @@
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">responsive-medium-width-4#responsive-medium-width-4#responsive-medium-width-4</numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">responsive-medium-width-6#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">responsive-medium-width-3#responsive-medium-width-6#responsive-medium-width-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">responsive-medium-width-6#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">responsive-medium-width-4#responsive-medium-width-4#responsive-medium-width-4</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">6:3:3</numIndex><numIndex index="1">responsive-medium-width-6#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">3:6:3</numIndex><numIndex index="1">responsive-medium-width-3#responsive-medium-width-6#responsive-medium-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3:3:7</numIndex><numIndex index="1">responsive-medium-width-6#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">12:12:12</numIndex><numIndex index="1">responsive-medium-width-12#responsive-medium-width-12#responsive-medium-width-12</numIndex></numIndex>
 								</items>
 								<default>responsive-medium-width-4#responsive-medium-width-4#responsive-medium-width-4</default>
 							</config>
@@ -32,10 +33,11 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">responsive-small-width-4#responsive-small-width-4#responsive-small-width-4</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">responsive-small-width-6#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">responsive-small-width-3#responsive-small-width-6#responsive-small-width-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">responsive-small-width-6#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">responsive-small-width-4#responsive-small-width-4#responsive-small-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">6:3:3</numIndex><numIndex index="1">responsive-small-width-6#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3:6:3</numIndex><numIndex index="1">responsive-small-width-3#responsive-small-width-6#responsive-small-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">3:3:6</numIndex><numIndex index="1">responsive-small-width-6#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">12:12:12</numIndex><numIndex index="1">responsive-small-width-12#responsive-small-width-12#responsive-small-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -47,10 +49,11 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">responsive-extrasmall-width-4#responsive-extrasmall-width-4#responsive-extrasmall-width-4</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">responsive-extrasmall-width-6#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">responsive-extrasmall-width-3#responsive-extrasmall-width-6#responsive-extrasmall-width-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">responsive-extrasmall-width-6#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">responsive-extrasmall-width-4#responsive-extrasmall-width-4#responsive-extrasmall-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">6:3:3</numIndex><numIndex index="1">responsive-extrasmall-width-6#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3:6:3</numIndex><numIndex index="1">responsive-extrasmall-width-3#responsive-extrasmall-width-6#responsive-extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">3:3:6</numIndex><numIndex index="1">responsive-extrasmall-width-6#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">12:12:12</numIndex><numIndex index="1">responsive-extrasmall-width-12#responsive-extrasmall-width-12#responsive-extrasmall-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -62,10 +65,11 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">1:1:1</numIndex><numIndex index="1">responsive-large-width-4#responsive-large-width-4#responsive-large-width-4</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">2:1:1</numIndex><numIndex index="1">responsive-large-width-6#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">1:2:1</numIndex><numIndex index="1">responsive-large-width-3#responsive-large-width-6#responsive-large-width-3</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">1:1:2</numIndex><numIndex index="1">responsive-large-width-6#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">responsive-large-width-4#responsive-large-width-4#responsive-large-width-4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">6:3:3</numIndex><numIndex index="1">responsive-large-width-6#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">3:6:3</numIndex><numIndex index="1">responsive-large-width-3#responsive-large-width-6#responsive-large-width-3</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">3:3:6</numIndex><numIndex index="1">responsive-large-width-6#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">12:12:12</numIndex><numIndex index="1">responsive-large-width-12#responsive-large-width-12#responsive-large-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
