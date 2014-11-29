@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+	<meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<column_widths>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_distribution</sheetTitle>
+				</TCEforms>
+				<el type="array">
+					<column_widths_md type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-medium-width-12#responsive-medium-width-12#responsive-medium-width-12#responsive-medium-width-12</numIndex></numIndex>
+								</items>
+								<default>responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3</default>
+							</config>
+						</TCEforms>
+					</column_widths_md>
+					<column_widths_sm type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-small-width-3#responsive-small-width-3#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-small-width-12#responsive-small-width-12#responsive-small-width-12#responsive-small-width-12</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_sm>
+					<column_widths_xs type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-extrasmall-width-3#responsive-extrasmall-width-3#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-extrasmall-width-12#responsive-extrasmall-width-12#responsive-extrasmall-width-12#responsive-extrasmall-width-12</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_xs>
+					<column_widths_lg type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-large-width-3#responsive-large-width-3#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-large-width-12#responsive-large-width-12#responsive-large-width-12#responsive-large-width-12</numIndex></numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</column_widths_lg>
+				</el>
+			</ROOT>
+		</column_widths>
+	</sheets>
+</T3DataStructure>
