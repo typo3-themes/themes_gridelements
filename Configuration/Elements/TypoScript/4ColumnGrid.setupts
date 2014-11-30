@@ -9,7 +9,7 @@ lib.gridelements {
 			50.value = {$lib.content.cssMap.responsive.row.default-row}
 			50.noTrimWrap = | ||
 		}
-		columns.2 {
+		columns.0 {
 			prepend = COA
 			prepend {
 				10 = TEXT
@@ -35,29 +35,29 @@ lib.gridelements {
 			renderObj =< tt_content
 			wrap = |</div>
 		}
-		columns.0 < .columns.2
-		columns.0.prepend {
+		columns.1 < .columns.0
+		columns.1.prepend {
 			10.listNum = 1
 			20.listNum = 1
 			30.listNum = 1
 			40.listNum = 1
 			stdWrap.noTrimWrap = |<div class="column-2 |">|
 		}
-		columns.1 < .columns.2
-		columns.1.prepend {
+		columns.2 < .columns.0
+		columns.2.prepend {
 			10.listNum = 2
 			20.listNum = 2
 			30.listNum = 2
 			40.listNum = 2
 			stdWrap.noTrimWrap = |<div class="column-3 |">|
 		}
-		columns.3 < .columns.2
+		columns.3 < .columns.0
 		columns.3.prepend {
 			10.listNum = 3
 			20.listNum = 3
 			30.listNum = 3
 			40.listNum = 3
-			stdWrap.noTrimWrap = |<div class="column-3 |">|
+			stdWrap.noTrimWrap = |<div class="column-4 |">|
 		}
 	}
 }
