@@ -12,6 +12,7 @@ lib.gridelements {
 				behaviourMapping =< lib.content.cssMap.behaviour
 				responsiveRowMapping =< lib.content.cssMap.responsive.row
 				responsiveColumnMapping =< lib.content.cssMap.responsive.column
+				variantMapping =< lib.content.cssMap.variants
 			}
 		}
 	}
@@ -40,7 +41,7 @@ tt_content.stdWrap.innerWrap {
 	cObject {
 		if {
 			value = gridelements_pi1
-            equals.field = CType
+			equals.field = CType
 			negate = 1
 		}
 		default.20.40 = TEXT
