@@ -6,7 +6,7 @@ lib.gridelements {
 				responsiveColumnMapping >
 			}
 			50 = TEXT
-			50.value = {$lib.cssRowMap.responsive-default-row}
+			50.value = {$lib.content.cssMap.responsive.row.default-row}
 			50.noTrimWrap = | ||
 		}
 		columns.2 {

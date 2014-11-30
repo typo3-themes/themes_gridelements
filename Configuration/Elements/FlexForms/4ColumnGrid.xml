@@ -16,10 +16,10 @@
 							<config type="array">
 								<type>select</type>
 								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3</numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-medium-width-12#responsive-medium-width-12#responsive-medium-width-12#responsive-medium-width-12</numIndex></numIndex>
+									<numIndex index="0" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">medium-width-3#medium-width-3#medium-width-3#medium-width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">medium-width-12#medium-width-12#medium-width-12#medium-width-12</numIndex></numIndex>
 								</items>
-								<default>responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3#responsive-medium-width-3</default>
+								<default>medium-width-3#medium-width-3#medium-width-3#medium-width-3</default>
 							</config>
 						</TCEforms>
 					</column_widths_md>
@@ -30,8 +30,8 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-small-width-3#responsive-small-width-3#responsive-small-width-3#responsive-small-width-3</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-small-width-12#responsive-small-width-12#responsive-small-width-12#responsive-small-width-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">small-width-3#small-width-3#small-width-3#small-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">small-width-12#small-width-12#small-width-12#small-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -43,8 +43,8 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-extrasmall-width-3#responsive-extrasmall-width-3#responsive-extrasmall-width-3#responsive-extrasmall-width-3</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-extrasmall-width-12#responsive-extrasmall-width-12#responsive-extrasmall-width-12#responsive-extrasmall-width-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">extrasmall-width-3#extrasmall-width-3#extrasmall-width-3#extrasmall-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">extrasmall-width-12#extrasmall-width-12#extrasmall-width-12#extrasmall-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -56,8 +56,8 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">responsive-large-width-3#responsive-large-width-3#responsive-large-width-3#responsive-large-width-3</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">responsive-large-width-12#responsive-large-width-12#responsive-large-width-12#responsive-large-width-12</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">large-width-3#large-width-3#large-width-3#large-width-3</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">large-width-12#large-width-12#large-width-12#large-width-12</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
