@@ -1,5 +1,5 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div id="carousel-{data.uid}" class="carousel slide" data-ride="carousel">
+<div id="carousel-{data.uid}" class="{current} carousel slide" data-ride="carousel">
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<f:for each="{data.tx_gridelements_view_children}" as="slide-content" iteration="slide">
