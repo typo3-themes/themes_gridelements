@@ -1,5 +1,5 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div class="panel-group" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
+<div class="panel-group accordion" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
 	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="heading{panel.uid}">
