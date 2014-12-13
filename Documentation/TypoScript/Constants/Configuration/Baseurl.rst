@@ -1,8 +1,11 @@
+themes.configuration.baseurl
+----------------------------
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
 	Property
-		``siteName``
+		``baseurl``
 
 	Data type
 		string
@@ -11,14 +14,14 @@
 		theme
 
 	Description
-		Name of the site
+		Base URL of the site
 
 	Default
-		TYPO3-Theme based on themes_gridelements
+		/
 
 	Provided by ext
 		themes_gridelements
 
 	Definition
-		# cat=theme; type=string; label= Name of the site
-		themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
+		# cat=theme; type=string; label= Base URL of the site
+		themes.configuration.baseurl = /

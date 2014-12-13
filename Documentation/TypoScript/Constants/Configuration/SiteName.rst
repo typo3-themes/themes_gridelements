@@ -1,8 +1,11 @@
+themes.configuration.siteName
+-----------------------------
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
 	Property
-		``siteSlogan``
+		``siteName``
 
 	Data type
 		string
@@ -11,14 +14,14 @@
 		theme
 
 	Description
-		Site slogan
+		Name of the site
 
 	Default
-		Inspire people to share
+		TYPO3-Theme based on themes_gridelements
 
 	Provided by ext
 		themes_gridelements
 
 	Definition
-		# cat=theme; type=string; label=Site slogan
-		themes.configuration.siteSlogan = Inspire people to share
+		# cat=theme; type=string; label= Name of the site
+		themes.configuration.siteName = TYPO3-Theme based on themes_gridelements

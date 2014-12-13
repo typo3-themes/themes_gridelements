@@ -1,3 +1,6 @@
+themes.configuration.baseurlIcon
+--------------------------------
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
@@ -21,4 +24,4 @@
 
 	Definition
 		# cat=theme; type=string; label= Icon base URL of the site (http://cdn.domain.tdl/project/Icons/; http://www.domain.tld/fileadmin/project/Icons/)
-		themes.configuration.baseurlImage = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Icons/
+		themes.configuration.baseurlIcon = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Icons/

@@ -1,8 +1,11 @@
+themes.configuration.siteSlogan
+-------------------------------
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
 	Property
-		``baseurl``
+		``siteSlogan``
 
 	Data type
 		string
@@ -11,14 +14,14 @@
 		theme
 
 	Description
-		Base URL of the site
+		Site slogan
 
 	Default
-		/
+		Inspire people to share
 
 	Provided by ext
 		themes_gridelements
 
 	Definition
-		# cat=theme; type=string; label= Base URL of the site
-		themes.configuration.baseurl = /
+		# cat=theme; type=string; label=Site slogan
+		themes.configuration.siteSlogan = Inspire people to share

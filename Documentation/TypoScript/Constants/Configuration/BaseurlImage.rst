@@ -1,3 +1,6 @@
+themes.configuration.baseurlImage
+---------------------------------
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
