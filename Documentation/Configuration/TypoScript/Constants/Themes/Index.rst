@@ -1,8 +1,8 @@
 .. include:: ../../_IncludedDirectives.rst
 
-====================
-TypoScript-Constants
-====================
+======
+themes
+======
 
 **Table of content**
 
@@ -10,5 +10,7 @@ TypoScript-Constants
 	:maxdepth: 5
 	:glob:
 
+	*
+	Languages/Index
 	Configuration/*
 	Configuration/SpamProtectEmailAddresses/*

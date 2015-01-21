@@ -1,8 +1,8 @@
 .. include:: ../../_IncludedDirectives.rst
 
-================
-TypoScript-Setup
-================
+====================
+TypoScript-Constants
+====================
 
 **Table of content**
 
@@ -10,5 +10,5 @@ TypoScript-Setup
 	:maxdepth: 5
 	:glob:
 
-	Lib/Content/*
-	Lib/Page/*
+	*
+	Themes/Index

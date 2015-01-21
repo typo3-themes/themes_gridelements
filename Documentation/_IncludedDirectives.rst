@@ -2,7 +2,7 @@
     ...................................................
     Hint: following expression |my_substition_value| will be replaced when rendering doc.
 
-.. |author| replace:: Jo Hasenau <info@cybercraft.de>, Kay Strobach <typo3themes@kay-strobach.de>, Thomas Deuling <typo3@coding.ms>
+.. |author| replace:: Thomas Deuling <typo3@coding.ms>, Jo Hasenau <info@cybercraft.de>, Kay Strobach <typo3themes@kay-strobach.de>
 .. |extension_key| replace:: themes_gridelements
 .. |extension_name| replace:: Themes-GridElements
 .. |version| replace:: 0.1.0
