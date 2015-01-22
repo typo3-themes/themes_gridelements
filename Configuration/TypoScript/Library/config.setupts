@@ -3,6 +3,9 @@
 removeDefaultJS = 1
 
 config {
+	
+	# Preparing modernizr usage
+	htmlTag_setParams = class="no-js"
 
 	# Set the baseurl
 	baseURL = {$themes.configuration.baseurl}
