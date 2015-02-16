@@ -18,6 +18,7 @@
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">medium-width-3#medium-width-3#medium-width-3#medium-width-3</numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">medium-width-12#medium-width-12#medium-width-12#medium-width-12</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">6:6:6:6</numIndex><numIndex index="1">medium-width-6#medium-width-6#medium-width-6#medium-width-6</numIndex></numIndex>
 								</items>
 								<default>medium-width-3#medium-width-3#medium-width-3#medium-width-3</default>
 							</config>
@@ -32,6 +33,7 @@
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">small-width-3#small-width-3#small-width-3#small-width-3</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">small-width-12#small-width-12#small-width-12#small-width-12</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">6:6:6:6</numIndex><numIndex index="1">small-width-6#small-width-6#small-width-6#small-width-6</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -45,6 +47,7 @@
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">extrasmall-width-3#extrasmall-width-3#extrasmall-width-3#extrasmall-width-3</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">extrasmall-width-12#extrasmall-width-12#extrasmall-width-12#extrasmall-width-12</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">6:6:6:6</numIndex><numIndex index="1">extrasmall-width-6#extrasmall-width-6#extrasmall-width-6#extrasmall-width-6</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
@@ -58,6 +61,7 @@
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">large-width-3#large-width-3#large-width-3#large-width-3</numIndex></numIndex>
 									<numIndex index="2" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">large-width-12#large-width-12#large-width-12#large-width-12</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">6:6:6:6</numIndex><numIndex index="1">large-width-6#large-width-6#large-width-6#large-width-6</numIndex></numIndex>
 								</items>
 							</config>
 						</TCEforms>
