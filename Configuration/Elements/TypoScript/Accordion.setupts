@@ -1,9 +1,12 @@
 lib.gridelements {
 	accordion {
-		setCurrent.field = tx_themes_behaviour
-		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-		setCurrent.postUserFunc {
-			behaviourMapping =< lib.content.cssMap.behaviour.accordion
+		setCurrent {
+			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants}
+			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			postUserFunc {
+				behaviourMapping =< lib.content.cssMap.behaviour.accordion
+				variantMapping =< lib.content.cssMap.variants
+			}
 		}
 		cObject = FLUIDTEMPLATE
 		cObject {
