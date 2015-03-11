@@ -1,9 +1,20 @@
 lib.gridelements {
 	carousel {
-		setCurrent.field = tx_themes_behaviour
-		setCurrent.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-		setCurrent.postUserFunc {
-			behaviourMapping =< lib.content.cssMap.behaviour.carousel
+		setCurrent {
+			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants}
+			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			postUserFunc {
+				behaviourMapping =< lib.content.cssMap.behaviour
+				variantMapping =< lib.content.cssMap.variants
+			}
+		}
+		setCurrent {
+			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants}
+			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+			postUserFunc {
+				behaviourMapping =< lib.content.cssMap.behaviour
+				variantMapping =< lib.content.cssMap.variants
+			}
 		}
 		cObject = FLUIDTEMPLATE
 		cObject {
@@ -32,16 +43,16 @@ lib.gridelements {
 				20 = COA
 				20 {
 					wrap =  <div class="carousel-caption">|</div>
-		            10 = TEXT
-		            10.cObject = TEXT
-		            10.cObject.dataWrap = <h3>{file:current:title}</h3>
-		            10.override.cObject =< lib.stdheader
-		            20 = TEXT
-		            20.cObject = TEXT
-		            20.cObject.dataWrap = <p>{file:current:description}</p>
-		            20.override.cObject =< tt_content.text.20
-		            20.override.if.isTrue.field = bodytext
-		        }
+					10 = TEXT
+					10.cObject = TEXT
+					10.cObject.dataWrap = <h3>{file:current:title}</h3>
+					10.override.cObject =< lib.stdheader
+					20 = TEXT
+					20.cObject = TEXT
+					20.cObject.dataWrap = <p>{file:current:description}</p>
+					20.override.cObject =< tt_content.text.20
+					20.override.if.isTrue.field = bodytext
+				}
 			}
 		}
 	}
