@@ -15,3 +15,18 @@ config {
 	spamProtectEmailAddresses_atSubst = {$themes.configuration.spamProtectEmailAddresses.atSubst}
 	spamProtectEmailAddresses_lastDotSubst = {$themes.configuration.spamProtectEmailAddresses.lastDotSubst}
 }
+
+
+# Set values from settings
+config.compressCss = {$themes.configuration.css.compress}
+config.compressJs = {$themes.configuration.javascript.compress}
+config.concatenateCss = {$themes.configuration.css.concatenate}
+config.concatenateJs = {$themes.configuration.javascript.concatenate}
+
+# In case of using development mode, disable compression and concatenation
+[globalVar = LIT:1 = {$themes.developmentMode}]
+	config.compressCss = 0
+	config.compressJs = 0
+	config.concatenateCss = 0
+	config.concatenateJs = 0
+[global]

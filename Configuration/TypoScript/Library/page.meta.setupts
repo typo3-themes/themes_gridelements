@@ -41,3 +41,9 @@ page.meta {
 	revisit-after = {$themes.configuration.meta.revisitAfter}
 	application-name = {$themes.configuration.meta.applicationName}
 }
+
+
+# In case of using development mode, set noindex, nofollow
+[globalVar = LIT:1 = {$themes.developmentMode}]
+	page.meta.robots = noindex,nofollow
+[global]

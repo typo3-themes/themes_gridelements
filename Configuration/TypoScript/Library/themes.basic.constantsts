@@ -35,3 +35,23 @@ themes.configuration.spamProtectEmailAddresses.atSubst = (at)
 
 # cat=theme; type=string; label= E-Mail spam protection: Last dot replacement
 themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)
+
+
+
+# customsubcategory=javascript= JavaScript
+# customsubcategory=css= Stylesheets
+
+# Spam protect email addresses constants
+#############################################
+
+# cat=theme/javascript/; type=options[0,1]; label= Compress JavaScript files
+themes.configuration.javascript.compress = 1
+
+# cat=theme/javascript/; type=options[0,1]; label= Concatenate JavaScript files
+themes.configuration.javascript.concatenate = 1
+
+# cat=theme/css/; type=options[0,1]; label= Compress CSS files
+themes.configuration.css.compress = 1
+
+# cat=theme/css/; type=options[0,1]; label= Concatenate CSS files
+themes.configuration.css.concatenate = 1

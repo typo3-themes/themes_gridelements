@@ -13,4 +13,6 @@ themes
 	*
 	Languages/Index
 	Configuration/*
+	Configuration/Css/*
+	Configuration/JavaScript/*
 	Configuration/SpamProtectEmailAddresses/*
