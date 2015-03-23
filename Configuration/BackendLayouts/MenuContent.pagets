@@ -1,6 +1,6 @@
 backendlayouts {
     MenuContent {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContent.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContent.png
         name = MenuContent
         backend_layout (
 		    colCount = 4

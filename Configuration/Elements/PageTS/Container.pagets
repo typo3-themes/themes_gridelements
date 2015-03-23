@@ -1,7 +1,7 @@
 tx_gridelements.setup.container {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:container
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:container_description
- 	icon =
+	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_Container.gif
 	config {
 		colCount = 1
 		rowCount = 1

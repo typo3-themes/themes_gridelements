@@ -1,7 +1,7 @@
 tx_gridelements.setup.singleColumn {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_description
- 	icon =
+	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_SingleColumn.gif
 	config {
 		colCount = 1
 		rowCount = 1

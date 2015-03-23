@@ -1,6 +1,6 @@
 backendlayouts {
     ContentEmpty {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentEmpty.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentEmpty.png
         name = ContentEmpty
         backend_layout (
             colCount = 1

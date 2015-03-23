@@ -1,6 +1,6 @@
 backendlayouts {
     ContentStartsite {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentStartsite.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentStartsite.png
         name = ContentStartsite
         backend_layout (
             colCount = 1

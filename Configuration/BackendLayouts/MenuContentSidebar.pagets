@@ -1,6 +1,6 @@
 backendlayouts {
     MenuContentSidebar {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContentSidebar.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContentSidebar.png
         name = MenuContentSidebar
         backend_layout (
 		    colCount = 5

@@ -1,6 +1,6 @@
 backendlayouts {
     ContentSpecial {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentSpecial.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentSpecial.png
         name = ContentSpecial
         backend_layout (
             colCount = 1

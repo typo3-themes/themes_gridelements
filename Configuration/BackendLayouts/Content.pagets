@@ -1,6 +1,6 @@
 backendlayouts {
     Content {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/Content.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/Content.png
         name = Content
         backend_layout (
 			colCount = 1

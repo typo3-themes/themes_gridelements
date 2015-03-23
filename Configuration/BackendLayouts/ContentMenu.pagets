@@ -1,6 +1,6 @@
 backendlayouts {
     ContentMenu {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentMenu.jpg
+        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentMenu.png
         name = ContentMenu
         backend_layout (
 		    colCount = 4

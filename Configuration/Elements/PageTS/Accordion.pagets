@@ -1,7 +1,7 @@
 tx_gridelements.setup.accordion {
  	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion
  	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:accordion_description
- 	icon =
+	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_Accordion.gif
  	config {
  		colCount = 1
  		rowCount = 1
