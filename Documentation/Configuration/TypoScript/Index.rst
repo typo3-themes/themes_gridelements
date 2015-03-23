@@ -1,5 +1,7 @@
 .. include:: ../../_IncludedDirectives.rst
 
+.. _themesgridelements_typoscript:
+
 ==========
 TypoScript
 ==========
