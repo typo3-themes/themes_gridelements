@@ -230,12 +230,16 @@
             </trans-unit>
 
             <trans-unit id="single_column">
-                <source>Single Column</source>
-                <target>Einzelne Spalte</target>
+                <source>Column / Panel (Vertical)</source>
+                <target>Spalte / Paneel (Vertikal)</target>
+            </trans-unit>
+            <trans-unit id="single_column_horizontal">
+                <source>Column / Panel (Horizontal)</source>
+                <target>Spalte / Paneel (Horizontal)</target>
             </trans-unit>
             <trans-unit id="single_column_description">
-                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
-                <target>Spalten können innerhalb von Zeilen, Akkordeons oder Reitern (Tabs) eingesetzt werden, um Elemente ohne zusätzliche Funktionalität zu gruppieren</target>
+                <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality</source>
+                <target>Paneele können innerhalb von Zeilen, Akkordeons, Reitern (Tabs) oder Karussels eingesetzt werden, um Elemente ohne zusätzliche Funktionalität vertikal oder horizontal zu gruppieren</target>
             </trans-unit>
 
             <trans-unit id="tabs">
