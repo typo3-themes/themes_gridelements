@@ -30,6 +30,7 @@ lib.gridelements {
 				stdWrap.stdWrap.postUserFunc {
 					responsiveColumnMapping =< lib.content.cssMap.responsive.column
 				}
+				stdWrap.ifEmpty = {$lib.content.cssMap.responsive.column.default-3-column}
 				stdWrap.noTrimWrap = |<div class="column-1 |">|
 			}
 			renderObj =< tt_content
