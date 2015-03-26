@@ -1,0 +1,34 @@
+lib.gridelements {
+	singleColumnHorizontal < .defaultGridSetup
+	singleColumnHorizontal {
+		innerWrap.cObject.default.20.40 {
+			dataWrap = {$lib.content.cssMap.responsive.column.default-column},{field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:parentgrid_tx_themes_enforceequalcolumnheight}
+			postUserFunc {
+				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
+			}
+		}
+		columns.0 {
+			renderObj >
+			renderObj = COA
+			renderObj {
+				stdWrap.wrap.cObject = COA
+				stdWrap.wrap.cObject {
+					10 = TEXT
+					10.stdWrap.field = parentgrid_tx_themes_columnsettings
+					10.stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+                    10.stdWrap.postUserFunc {
+						responsiveColumnMapping =< lib.content.cssMap.responsive.column
+                    }
+                    10.wrap = <div class="|">
+                    10.append = TEXT
+					10.append.value = |</div>
+					10.if.isTrue.field = parentgrid_tx_themes_columnsettings
+					stdWrap.ifEmpty = <div class="{$lib.content.cssMap.responsive.column.default-column}">|</div>
+				}
+				10 = < tt_content
+			}
+			wrap = <div class="{$lib.content.cssMap.responsive.row.default-row}">|</div>
+		}
+	}
+}
+tt_content.gridelements_pi1.20.10.setup.singleColumnHorizontal < lib.gridelements.singleColumnHorizontal

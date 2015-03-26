@@ -175,10 +175,13 @@
             </trans-unit>
 
             <trans-unit id="single_column">
-                <source>Single Column</source>
+                <source>Column / Panel (Vertical)</source>
+            </trans-unit>
+            <trans-unit id="single_column_horizontal">
+                <source>Column / Panel (Horizontal)</source>
             </trans-unit>
             <trans-unit id="single_column_description">
-                <source>Columns can be used as subcontainers within rows, accordions or tabs to group elements vertically without additional functionality</source>
+                <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality</source>
             </trans-unit>
 
             <trans-unit id="tabs">
