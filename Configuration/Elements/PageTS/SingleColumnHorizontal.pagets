@@ -1,7 +1,7 @@
 tx_gridelements.setup.singleColumnHorizontal {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_horizontal
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_description
-	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_SingleColumn.gif
+	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_SingleColumnHorizontal.gif
 	horizontal = 1
 	config {
 		colCount = 1
