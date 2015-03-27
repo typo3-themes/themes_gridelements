@@ -20,8 +20,8 @@ lib.gridelements {
 				preCObject {
 					containerId.dataWrap = tab-content-{field:uid}
 					containerClasses {
-						dataWrap = behaviour-tab-pane,{field:parentgrid_tx_themes_behaviour}
-						outerWrap = |,behaviour-active
+						dataWrap = tab-pane,{field:parentgrid_tx_themes_behaviour}
+						outerWrap = |,active
 						outerWrap.if {
                             value = 1
                             equals.data = cObj:parentRecordNumber
