@@ -1,8 +1,8 @@
 lib.gridelements {
 	tabs {
-		setCurrent = behaviour-navigation,behaviour-navigation-tabs
+		setCurrent = navigation,navigation-tabs
 		setCurrent {
-			override.dataWrap = behaviour-navigation,{field:tx_themes_behaviour}
+			override.dataWrap = navigation,{field:tx_themes_behaviour}
 			override.fieldRequired = tx_themes_behaviour
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
