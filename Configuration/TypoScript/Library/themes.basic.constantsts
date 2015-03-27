@@ -7,33 +7,34 @@
 # General
 #############################################
 
-# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:site_name
+# cat=theme,basic//; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:site_name
 themes.configuration.siteName = TYPO3-Theme based on themes_gridelements
 
-# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl
+# cat=theme,basic//; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl
 themes.configuration.baseurl = /
 
-# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_icon
+# cat=theme,basic//; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_icon
 themes.configuration.baseurlIcon = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Icons/
 
-# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_image
+# cat=theme,basic//; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:baseurl_image
 themes.configuration.baseurlImage = http://demo.typo3-themes.org/typo3conf/ext/theme_bootstrap/Resources/Public/Images/
 
-# cat=theme; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:favicon
+# cat=theme,basic//; type=string; label=LLL:EXT:themes_gridelements/Resources/Private/Language/Constants.xlf:favicon
 themes.configuration.favicon = typo3conf/ext/theme_bootstrap/Resources/Public/Icons/favicon.ico
 
-# cat=theme; type=string; label=Site slogan
+# cat=theme,basic//; type=string; label=Site slogan
 themes.configuration.siteSlogan = Inspire people to share
 
 
+# customsubcategory=spamProtect= SpamProtect
 
 # Spam protect email addresses constants
 #############################################
 
-# cat=theme; type=string; label= E-Mail spam protection: @ replacement
+# cat=theme,advanced/spamProtect/a; type=string; label= E-Mail spam protection: @ replacement
 themes.configuration.spamProtectEmailAddresses.atSubst = (at)
 
-# cat=theme; type=string; label= E-Mail spam protection: Last dot replacement
+# cat=theme,advanced/spamProtect/advanced/b; type=string; label= E-Mail spam protection: Last dot replacement
 themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)
 
 
@@ -44,14 +45,14 @@ themes.configuration.spamProtectEmailAddresses.lastDotSubst = (dot)
 # Spam protect email addresses constants
 #############################################
 
-# cat=theme/javascript/; type=options[0,1]; label= Compress JavaScript files
+# cat=theme,advanced/javascript/; type=options[0,1]; label= Compress JavaScript files
 themes.configuration.javascript.compress = 1
 
-# cat=theme/javascript/; type=options[0,1]; label= Concatenate JavaScript files
+# cat=theme,advanced/javascript/; type=options[0,1]; label= Concatenate JavaScript files
 themes.configuration.javascript.concatenate = 1
 
-# cat=theme/css/; type=options[0,1]; label= Compress CSS files
+# cat=theme,advanced/css/; type=options[0,1]; label= Compress CSS files
 themes.configuration.css.compress = 1
 
-# cat=theme/css/; type=options[0,1]; label= Concatenate CSS files
+# cat=theme,advanced/css/; type=options[0,1]; label= Concatenate CSS files
 themes.configuration.css.concatenate = 1
