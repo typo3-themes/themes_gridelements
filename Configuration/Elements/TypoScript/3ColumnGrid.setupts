@@ -3,6 +3,7 @@ lib.gridelements {
 	3ColumnGrid {
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
+				specialBehaviourMapping =< lib.content.cssMap.behaviour.3ColumnGrid
 				responsiveColumnMapping >
 			}
 			50 = TEXT
