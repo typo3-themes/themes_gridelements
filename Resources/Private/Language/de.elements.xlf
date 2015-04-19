@@ -125,6 +125,10 @@
                 <source>Column content</source>
                 <target>Spalten-Inhalt</target>
             </trans-unit>
+            <trans-unit id="column_footer">
+                <source>Footer content</source>
+                <target>Fußzeilen-Inhalt</target>
+            </trans-unit>
             <trans-unit id="column_widths_medium">
                 <source>Desktops</source>
                 <target>Desktops</target>
@@ -233,6 +237,10 @@
                 <source>Column / Panel (Vertical)</source>
                 <target>Spalte / Paneel (Vertikal)</target>
             </trans-unit>
+            <trans-unit id="single_column_header_footer">
+                <source>Panel with header and footer</source>
+                <target>Paneel mit Kopf- und Fußzeile</target>
+            </trans-unit>
             <trans-unit id="single_column_horizontal">
                 <source>Column / Panel (Horizontal)</source>
                 <target>Spalte / Paneel (Horizontal)</target>
@@ -240,6 +248,10 @@
             <trans-unit id="single_column_description">
                 <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality</source>
                 <target>Paneele können innerhalb von Zeilen, Akkordeons, Reitern (Tabs) oder Karussels eingesetzt werden, um Elemente ohne zusätzliche Funktionalität vertikal oder horizontal zu gruppieren</target>
+            </trans-unit>
+            <trans-unit id="single_column_header_footer_description">
+                <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality. This panel uses the headline as header and has an optional footer section for content.</source>
+                <target>Paneele können innerhalb von Zeilen, Akkordeons, Reitern (Tabs) oder Karussels eingesetzt werden, um Elemente ohne zusätzliche Funktionalität vertikal oder horizontal zu gruppieren. Dieses Paneel nutzt die Überschrift als Kopfzeile und liefert eine optionale Fußzeile für Inhalte.</target>
             </trans-unit>
 
             <trans-unit id="tabs">
