@@ -2,10 +2,12 @@ lib.gridelements {
 	tabs {
 		setCurrent = navigation,navigation-tabs
 		setCurrent {
-			override.dataWrap = navigation,{field:tx_themes_behaviour}
-			override.fieldRequired = tx_themes_behaviour
+			override.dataWrap = navigation,{field:tx_themes_behaviour},{field:tx_themes_responsive},{field:tx_themes_variants}
+			override.if.isTrue.dataWrap = {field:tx_themes_behaviour},{field:tx_themes_responsive},{field:tx_themes_variants}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
+				variantsMapping =< lib.content.cssMap.variants
+				responsiveMapping =< lib.content.cssMap.responsive
 				behaviourMapping =< lib.content.cssMap.behaviour.tabs.navigation
 			}
 		}
