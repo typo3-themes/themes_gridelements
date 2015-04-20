@@ -38,6 +38,7 @@ lib.gridelements {
 				outerWrap = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
 				outerWrap.insertData = 1
 			}
+			renderObj.postCObject = RESTORE_REGISTER
 		}
 	}
 }
