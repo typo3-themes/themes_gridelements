@@ -35,10 +35,10 @@ lib.gridelements {
 						}
 					}
 				}
-				outerWrap = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
-				outerWrap.insertData = 1
+				wrap2 = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
+				wrap2.insertData = 1
+				append = RESTORE_REGISTER
 			}
-			renderObj.postCObject = RESTORE_REGISTER
 		}
 	}
 }
