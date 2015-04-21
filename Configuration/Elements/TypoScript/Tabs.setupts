@@ -16,10 +16,10 @@ lib.gridelements {
 			file = EXT:themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
 		}
 		columns.0 {
-			renderObj =< tt_content
-			renderObj.stdWrap {
-				preCObject = LOAD_REGISTER
-				preCObject {
+		        renderObj = COA
+			renderObj{
+				10 = LOAD_REGISTER
+				10 { 
 					containerId.dataWrap = tab-content-{field:uid}
 					containerClasses {
 						dataWrap = tab-pane,{field:parentgrid_tx_themes_behaviour}
@@ -35,10 +35,12 @@ lib.gridelements {
 						}
 					}
 				}
-				outerWrap = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
-				outerWrap.insertData = 1
+				20 =< tt_content
+				20.stdWrap.outerWrap = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
+				20.stdWrap.outerWrap.insertData = 1
+				30 = RESTORE_REGISTER
 			}
-			renderObj.postCObject = RESTORE_REGISTER
+			
 		}
 	}
 }
