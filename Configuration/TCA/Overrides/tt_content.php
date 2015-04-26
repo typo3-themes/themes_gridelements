@@ -5,7 +5,7 @@
 $tempColumns = array(
     'tx_themesgridelements_buttoncontent' => array(
         'exclude' => 1,
-        'label'   => 'LLL:EXT:themes_gridelements/Resources/Private/Language/locallang_db.xlf:tt_content.tx_themesgridelements_buttoncontent',
+        'label'   => 'LLL:EXT:themes_gridelements/Resources/Private/Language/ButtonContent.xlf:tx_themesgridelements_buttoncontent',
         'config'  => array(
             'type'           => 'inline',
             'appearance'     => array(
@@ -43,7 +43,7 @@ $tempColumns = array(
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $tempColumns);
 
-$GLOBALS['TCA']['tt_content']['types']['themes_gridelements_buttoncontent_pi1']['showitem'] = 'header,header_link,tx_themesgridelements_buttoncontent';
+$GLOBALS['TCA']['tt_content']['types']['themes_gridelements_buttoncontent_pi1']['showitem'] = '--palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.general;general, header, header_link, tx_themesgridelements_buttoncontent, --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.appearance, --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.frames;frames, --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.access, --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.visibility;visibility, --palette--;LLL:EXT:cms/locallang_ttc.xlf:palette.access;access, --div--;LLL:EXT:cms/locallang_ttc.xlf:tabs.extended, --div--;LLL:EXT:lang/locallang_tca.xlf:sys_category.tabs.category, categories';
 
 $GLOBALS['TCA']['tt_content']['columns']['media']['displayCond'] = array(
 	'OR' => array(

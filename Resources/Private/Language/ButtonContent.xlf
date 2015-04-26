@@ -5,11 +5,11 @@
         <body>
 
             <trans-unit id="tx_themesgridelements_buttoncontent">
-                <source>Button Content</source>
+                <source>Create links for a dropdown button (overrides above link value)</source>
             </trans-unit>
 
             <trans-unit id="tt_content.CType_pi1">
-                <source>Button Content</source>
+                <source>Button Group</source>
             </trans-unit>
 
 
@@ -18,7 +18,7 @@
             </trans-unit>
 
             <trans-unit id="linktarget">
-                <source>Link target</source>
+                <source>Link target (page or URL)</source>
             </trans-unit>
 
             <trans-unit id="linktitle">
