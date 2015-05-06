@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => '',
 	'category' => 'fe',
 	'shy' => 0,
-	'version' => '0.3.0',
+	'version' => '0.4.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -36,7 +36,7 @@ $EM_CONF[$_EXTKEY] = array(
 		'depends' => array(
 			'php' => '5.2.0-0.0.0',
 			'typo3' => '6.1.99-6.2.99',
-			'themes' => '2.1.0-2.3.99',
+			'themes' => '2.4.0-2.4.99',
 			'gridelements' => '3.2.0-3.2.99',
 		),
 		'conflicts' => array(

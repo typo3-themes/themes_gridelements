@@ -45,7 +45,7 @@ lib.containerBackgroundImage {
 		maxItems = 1
 		renderObj = TEXT
 		renderObj {
-			stdWrap.dataWrap = style="background:url({file:current:publicUrl}) no-repeat top left; background-size:cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{file:current:publicUrl}',sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{file:current:publicUrl}', sizingMethod='scale')";"
+			stdWrap.dataWrap = style="background:url({file:current:publicUrl}) no-repeat top left; background-size:cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{file:current:publicUrl}',sizingMethod='scale'); -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="{file:current:publicUrl}", sizingMethod="scale")';"
 			noTrimWrap = | ||
 		}
 	}
