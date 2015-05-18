@@ -1,6 +1,7 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div id="carousel-{data.uid}" class="{current} carousel slide" data-ride="carousel">
+<div id="c{data.uid}" class="{current} carousel slide" data-ride="carousel">
 	<!-- Wrapper for slides -->
+	<f:cObject typoscriptObjectPath="lib.containerBackgroundImage" data="{data}" />
 	<div class="carousel-inner" role="listbox">
 		<f:for each="{data.tx_gridelements_view_children}" as="slide-content" iteration="slide">
 			<div class="item {f:if(condition:'{slide.isFirst}',then:' active')}">
@@ -15,11 +16,11 @@
 		</f:for>
 	</ol>
 	<!-- Controls -->
-	<a class="left carousel-control" href="#carousel-{data.uid}" role="button" data-slide="prev">
+	<a class="left carousel-control" href="#c{data.uid}" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
 	</a>
-	<a class="right carousel-control" href="#carousel-{data.uid}" role="button" data-slide="next">
+	<a class="right carousel-control" href="#c{data.uid}" role="button" data-slide="next">
 		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 		<span class="sr-only">Next</span>
 	</a>

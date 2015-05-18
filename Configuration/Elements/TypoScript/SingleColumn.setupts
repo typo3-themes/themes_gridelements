@@ -10,7 +10,7 @@ lib.gridelements {
 				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
 			}
 		}
-		innerWrap.cObject.default.25 =< lib.containerBackgroundImage
+		stdWrap.prepend =< lib.containerBackgroundImage
 		columns.0 {
 			renderObj >
 			renderObj = < tt_content

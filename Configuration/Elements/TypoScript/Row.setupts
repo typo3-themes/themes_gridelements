@@ -10,7 +10,7 @@ lib.gridelements {
 			50.noTrimWrap = | ||
 			50.if.isFalse.field = tx_themes_enforceequalcolumnheight
 		}
-		innerWrap.cObject.default.25 =< lib.containerBackgroundImage
+		stdWrap.prepend =< lib.containerBackgroundImage
 		stdWrap.innerWrap = |</div>
 		stdWrap.innerWrap {
 			fieldRequired = tx_themes_enforceequalcolumnheight

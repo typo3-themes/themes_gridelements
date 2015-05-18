@@ -1,7 +1,7 @@
 lib.gridelements {
 	container < .defaultGridSetup
 	container {
-		innerWrap.cObject.default.25 =< lib.containerBackgroundImage
+		stdWrap.prepend =< lib.containerBackgroundImage
 		columns.0 {
 			renderObj >
 			renderObj = < tt_content
