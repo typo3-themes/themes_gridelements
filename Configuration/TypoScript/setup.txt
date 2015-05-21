@@ -52,7 +52,7 @@ lib.containerBackgroundImage {
 				10 {
 					file.import.data = file:current:publicUrl
 					file.width = 768m
-					stdWrap.stdWrap.dataWrap = background:url({TSFE:lastImgResourceInfo|3}) no-repeat top left; background-size:cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{TSFE:lastImgResourceInfo|3}',sizingMethod='scale'); -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="{TSFE:lastImgResourceInfo|3}", sizingMethod="scale")';
+					stdWrap.stdWrap.dataWrap = background:url({TSFE:lastImgResourceInfo|3}) no-repeat center center; background-size:cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{TSFE:lastImgResourceInfo|3}',sizingMethod='scale'); -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="{TSFE:lastImgResourceInfo|3}", sizingMethod="scale")';
 					stdWrap.wrap = { | }
 					stdWrap.wrap.dataWrap = #c{field:uid} |
 				}
