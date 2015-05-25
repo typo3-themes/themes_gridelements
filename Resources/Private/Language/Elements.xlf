@@ -96,6 +96,9 @@
             <trans-unit id="column_content">
                 <source>Column content</source>
             </trans-unit>
+            <trans-unit id="column_footer">
+                <source>Footer content</source>
+            </trans-unit>
             <trans-unit id="column_widths_medium">
                 <source>Desktops</source>
             </trans-unit>
@@ -177,12 +180,19 @@
             <trans-unit id="single_column">
                 <source>Column / Panel (Vertical)</source>
             </trans-unit>
+            <trans-unit id="single_column_header_footer">
+                <source>Panel with header and footer</source>
+            </trans-unit>
             <trans-unit id="single_column_horizontal">
                 <source>Column / Panel (Horizontal)</source>
             </trans-unit>
             <trans-unit id="single_column_description">
                 <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality</source>
             </trans-unit>
+            <trans-unit id="single_column_header_footer_description">
+                <source>Panels can be used as subcontainers within rows, accordions, tabs or carousels to group elements vertically or horizontally without additional functionality. This panel uses the headline as header and has an optional footer section for content.</source>
+            </trans-unit>
+
 
             <trans-unit id="tabs">
                 <source>Tabs</source>

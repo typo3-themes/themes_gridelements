@@ -1,0 +1,27 @@
+tx_gridelements.setup.singleColumnHeaderFooter {
+	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_header_footer
+	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:single_column_header_footer_description
+	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_SingleColumnHeaderFooter.gif
+	config {
+		colCount = 1
+		rowCount = 2
+		rows {
+			1 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_content
+						colPos = 0
+					}
+				}
+			}
+			2 {
+				columns {
+					1 {
+						name = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_footer
+						colPos = 1
+					}
+				}
+			}
+		}
+	}
+}

@@ -4,9 +4,11 @@ lib.gridelements {
 		innerWrap.cObject.default.20.40 {
 			dataWrap = {$lib.content.cssMap.responsive.column.default-column},{field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:parentgrid_tx_themes_enforceequalcolumnheight}
 			postUserFunc {
+				specialBehaviourMapping =< lib.content.cssMap.behaviour.singleColumnHorizontal
 				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
 			}
 		}
+		stdWrap.prepend =< lib.containerBackgroundImage
 		columns.0 {
 			renderObj >
 			renderObj = COA

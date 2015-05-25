@@ -1,0 +1,31 @@
+lib.gridelements {
+	singleColumnHeaderFooter < .defaultGridSetup
+	singleColumnHeaderFooter {
+		stdWrap.prepend = COA
+		stdWrap.prepend {
+			wrap = <div class="{$lib.content.cssMap.content.panel.panel-heading}">|</div>
+			10 =< lib.stdheader
+			10.3.headerClass.cObject.stdWrap.noTrimWrap = | class="{$lib.content.cssMap.content.panel.panel-title} |"|
+			10.10.default.dataWrap = <h2 class="{$lib.content.cssMap.content.panel.panel-title}">|</h2>
+		}
+		innerWrap.cObject.default.20.40 {
+			dataWrap = {$lib.content.cssMap.content.panel.default-panel},{field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants}
+			postUserFunc {
+				specialvariantMapping =< lib.content.cssMap.variants.singleColumnHeaderFooter
+				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
+			}
+		}
+		columns.0 {
+			wrap = <div class="{$lib.content.cssMap.content.panel.panel-body}">|</div>
+			renderObj >
+			renderObj = < tt_content
+		}
+		columns.1 {
+			wrap = <div class="{$lib.content.cssMap.content.panel.panel-footer}">|</div>
+			required = 1
+			renderObj >
+			renderObj = < tt_content
+		}
+	}
+}
+tt_content.gridelements_pi1.20.10.setup.singleColumnHeaderFooter < lib.gridelements.singleColumnHeaderFooter

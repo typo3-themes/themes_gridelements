@@ -6,9 +6,11 @@ lib.gridelements {
 			dataWrap.override.dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:parentgrid_tx_themes_enforceequalcolumnheight}
 			dataWrap.override.if.isTrue.field = tx_themes_columnsettings
 			postUserFunc {
+				specialBehaviourMapping =< lib.content.cssMap.behaviour.singleColumn
 				responsiveColumnEqualHeightMapping =< lib.content.cssMap.responsive.column.equalHeight
 			}
 		}
+		stdWrap.prepend =< lib.containerBackgroundImage
 		columns.0 {
 			renderObj >
 			renderObj = < tt_content

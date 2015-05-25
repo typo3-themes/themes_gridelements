@@ -32,6 +32,51 @@ lib.defaultColumnStdWrap {
 	}
 }
 
+lib.containerBackgroundImage = COA
+lib.containerBackgroundImage {
+	wrap = <style>|</style>
+	if.isTrue.field = media
+	10 = COA
+	10 {
+		10 = FILES
+		10 {
+			references {
+				table = tt_content
+				fieldName = media
+				uid.field = uid
+			}
+			maxItems = 1
+			renderObj = COA
+			renderObj {
+				10 = IMG_RESOURCE
+				10 {
+					file.import.data = file:current:publicUrl
+					file.width = 768m
+					stdWrap.stdWrap.dataWrap = background:url({TSFE:lastImgResourceInfo|3}) no-repeat center center; background-size:cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='{TSFE:lastImgResourceInfo|3}',sizingMethod='scale'); -ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="{TSFE:lastImgResourceInfo|3}", sizingMethod="scale")';
+					stdWrap.wrap = { | }
+					stdWrap.wrap.dataWrap = #c{field:uid} |
+				}
+				20 < .10
+				20 {
+					file.width = 992m
+					stdWrap.noTrimWrap = | @media (min-width: 768px) {|}|
+				}
+				30 < .10
+				30 {
+					file.width = 1200m
+					stdWrap.noTrimWrap = | @media (min-width: 992px) {|}|
+				}
+				40 < .10
+				40 {
+					file.width = 1920m
+					stdWrap.noTrimWrap = | @media (min-width: 1200px) {|}|
+				}
+			}
+		}
+	}
+}
+
+
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="setupts">
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="setupts">
 
