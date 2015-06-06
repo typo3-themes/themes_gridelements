@@ -24,6 +24,12 @@ Technical Details
 
 **Table of content**
 
+Helping tools
+-------------
+GuideGuide an extension for Adobe Photoshop that makes it easy to place guides and create grids in your document or selection.
+http://guideguide.me/
+`GuideGuide <http://guideguide.me/>`_.
+
 .. toctree::
 	:maxdepth: 4
 	:glob:
