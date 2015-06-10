@@ -1,7 +1,7 @@
 <?php
 
 // Add Rootline fields for default meta-tags
-$TYPO3_CONF_VARS['FE']['addRootLineFields'] = 'abstract,keywords,description,author,author_email,' . $TYPO3_CONF_VARS['FE']['addRootLineFields'];
+$TYPO3_CONF_VARS['FE']['addRootLineFields'] = 'layout,abstract,keywords,description,author,author_email,' . $TYPO3_CONF_VARS['FE']['addRootLineFields'];
 $TYPO3_CONF_VARS['FE']['addRootLineFields'] = implode(',', array_unique(explode(',', $TYPO3_CONF_VARS['FE']['addRootLineFields'])));
 
 // TYPO3 skin css overrides
