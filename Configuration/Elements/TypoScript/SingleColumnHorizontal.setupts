@@ -17,6 +17,7 @@ lib.gridelements {
 				stdWrap.wrap.cObject {
 					10 = TEXT
 					10.stdWrap.field = parentgrid_tx_themes_columnsettings
+					10.stdWrap.ifEmpty = {$lib.content.cssMap.responsive.column.default-column}
 					10.stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
                     10.stdWrap.postUserFunc {
 						responsiveColumnMapping =< lib.content.cssMap.responsive.column
@@ -24,8 +25,6 @@ lib.gridelements {
                     10.wrap = <div class="|">
                     10.append = TEXT
 					10.append.value = |</div>
-					10.if.isTrue.field = parentgrid_tx_themes_columnsettings
-					stdWrap.ifEmpty = <div class="{$lib.content.cssMap.responsive.column.default-column}">|</div>
 				}
 				10 = < tt_content
 			}
