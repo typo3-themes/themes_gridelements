@@ -3,13 +3,7 @@ themes.configuration.baseurl
 
 .. _themesgridelements_typoscript_constants_themes_configuration_baseurl:
 
-.. index:: TypoScript : Constants : baseurl
-
-.. index:: one; two; three
-
-.. index:: statement syntax: expression statements
-
-
+.. index:: pair: TypoScript-Constants; baseurl
 
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme

@@ -4,7 +4,7 @@ backendlayouts {
         name = MenuContent
         backend_layout (
 		    colCount = 4
-            rowCount = 3
+            rowCount = 2
             rows {
                 1 {
                     columns {

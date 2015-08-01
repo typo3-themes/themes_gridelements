@@ -1,6 +1,10 @@
 themes.configuration.favicon
 ----------------------------
 
+.. _themesgridelements_typoscript_constants_themes_configuration_favicon:
+
+.. index:: pair: TypoScript-Constants; favicon
+
 .. ..................................
 .. container:: table-row dl-horizontal panel panel-default constants themes_gridelements cat_theme
 
