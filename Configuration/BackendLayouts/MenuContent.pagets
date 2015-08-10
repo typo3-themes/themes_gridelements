@@ -1,4 +1,4 @@
-backendlayouts {
+mod.web_layout.BackendLayouts {
     MenuContent {
         icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContent.png
         name = MenuContent
