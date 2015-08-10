@@ -12,7 +12,7 @@
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
 		<f:for each="{data.tx_gridelements_view_children}" as="carousel-indicator" iteration="indicator">
-			<li data-target="#carousel-{data.uid}" data-slide-to="{indicator.index}"{f:if(condition:'{indicator.isFirst}',then:' class="active"')}></li>
+			<li data-target="#c{data.uid}" data-slide-to="{indicator.index}"{f:if(condition:'{indicator.isFirst}',then:' class="active"')}></li>
 		</f:for>
 	</ol>
 	<!-- Controls -->
