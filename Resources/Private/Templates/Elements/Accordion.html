@@ -6,7 +6,7 @@
 				<h4 class="panel-title">
 					<f:if condition="{panelnumber.isFirst}">
 						<f:then>
-							<a class="{f:if(condition:'{panelnumber.isFirst}',then:'', else:'collapsed')}" data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+							<a class="{f:if(condition:'{current}',then:'', else:'collapsed')}" data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
 								<f:if condition="{panel.header}">
 									<f:then>{panel.header}</f:then>
 									<f:else>Accordion {panelnumber.index}</f:else>
