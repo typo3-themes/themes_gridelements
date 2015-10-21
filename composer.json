@@ -18,5 +18,8 @@
   "replace": {
     "themes_gridelements": "self.version",
     "typo3-ter/themes-gridelements": "self.version"
-  }
+  },
+  "require": {
+		"typo3-themes/themes": "dev-master"
+	}
 }
