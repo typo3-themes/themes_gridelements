@@ -5,5 +5,5 @@ $TYPO3_CONF_VARS['FE']['addRootLineFields'] = 'layout,abstract,keywords,descript
 $TYPO3_CONF_VARS['FE']['addRootLineFields'] = implode(',', array_unique(explode(',', $TYPO3_CONF_VARS['FE']['addRootLineFields'])));
 
 // TYPO3 skin css overrides
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/template.php']['preHeaderRenderHook'][] = 'Tx_ThemesGridelements_Hooks_PreHeaderRenderHook->main';
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/template.php']['preHeaderRenderHook'][] = 'KayStrobach\ThemesGridelements\Hooks\PreHeaderRenderHook->main';
 

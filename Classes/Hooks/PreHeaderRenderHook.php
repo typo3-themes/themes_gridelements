@@ -1,12 +1,14 @@
 <?php
 
+namespace KayStrobach\ThemesGridelements\Hooks;
+
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
  * @todo missing docblock
  */
-class Tx_ThemesGridelements_Hooks_PreHeaderRenderHook {
+class PreHeaderRenderHook {
 
 	/**
 	 * @todo missing docblock
