@@ -5,7 +5,7 @@ removeDefaultJS = 1
 config {
 	
 	# Preparing modernizr usage
-	htmlTag_setParams = class="no-js no-skrollr"
+	htmlTag_setParams = class="no-js no-skrollr" lang="{$themes.languages.current.isoCodeHtml}"
 
 	# Set the baseurl
 	baseURL = {$themes.configuration.baseurl}
