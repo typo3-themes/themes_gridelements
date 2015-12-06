@@ -25,10 +25,10 @@ lib.gridelements {
 						dataWrap = tab-pane,{field:parentgrid_tx_themes_behaviour}
 						outerWrap = |,active
 						outerWrap.if {
-                            value = 1
-                            equals.data = cObj:parentRecordNumber
-                            equals.prioriCalc = 1
-                        }
+							value = 1
+							equals.data = cObj:parentRecordNumber
+							equals.prioriCalc = 1
+						}
 						postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 						postUserFunc {
 							behaviourMapping =< lib.content.cssMap.behaviour.tabs.panes

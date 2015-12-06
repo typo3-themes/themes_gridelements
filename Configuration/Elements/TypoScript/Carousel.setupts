@@ -1,7 +1,7 @@
 lib.gridelements {
 	carousel {
 		setCurrent {
-			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants}
+			dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_responsive}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
 			postUserFunc {
 				responsiveMapping =< lib.content.cssMap.responsive

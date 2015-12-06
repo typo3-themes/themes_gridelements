@@ -1,17 +1,31 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div class="panel-group accordion" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
+<div class="panel-group accordion {current}" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true">
 	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
 		<div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="heading{panel.uid}">
 				<h4 class="panel-title">
 					<f:if condition="{panelnumber.isFirst}">
 						<f:then>
-							<a class="{f:if(condition:'{current}',then:'', else:'collapsed')}" data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
-								<f:if condition="{panel.header}">
-									<f:then>{panel.header}</f:then>
-									<f:else>Accordion {panelnumber.index}</f:else>
-								</f:if>
-							</a>
+
+							<f:if condition="{theme:inList(string: current, value: 'accordion-first-open')}">
+								<f:then>
+									<a data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+										<f:if condition="{panel.header}">
+											<f:then>{panel.header}</f:then>
+											<f:else>Accordion {panelnumber.index}</f:else>
+										</f:if>
+									</a>
+								</f:then>
+								<f:else>
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
+										<f:if condition="{panel.header}">
+											<f:then>{panel.header}</f:then>
+											<f:else>Accordion {panelnumber.index}</f:else>
+										</f:if>
+									</a>
+								</f:else>
+							</f:if>
+							
 						</f:then>
 						<f:else>
 							<a class="collapsed" data-toggle="collapse" data-parent="#accordion-{data.uid}" href="#collapse{panel.uid}" aria-expanded="true" aria-controls="collapse{panel.uid}">
@@ -24,7 +38,7 @@
 					</f:if>
 				</h4>
 			</div>
-			<f:if condition="{current}">
+			<f:if condition="{theme:inList(string: current, value: 'accordion-first-open')}">
 				<f:then>
 					<div id="collapse{panel.uid}" class="panel-collapse collapse{f:if(condition:'{panelnumber.isFirst}',then:' in')}" role="tabpanel" aria-labelledby="heading{panel.uid}">
 						<div class="panel-body">

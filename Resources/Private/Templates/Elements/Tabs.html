@@ -1,8 +1,8 @@
-<div role="tabpanel">
+<div role="tabpanel" id="c{data.uid}">
 	<ul class="{current}" role="tablist">
 		<f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabnumber">
 			<li{f:if(condition:'{tabnumber.isFirst}',then:' class="active"')} role="presentation">
-			<a href="#tab-content-{tab.uid}" data-toggle="tab" role="tab">{tab.header}</a>
+				<a href="#tab-content-{tab.uid}" data-toggle="tab" role="tab">{tab.header}</a>
 			</li>
 		</f:for>
 	</ul>
