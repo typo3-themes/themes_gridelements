@@ -51,11 +51,11 @@
 								<type>select</type>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">extrasmall--width-6#extrasmall--width-6</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">extrasmall--width-4#extrasmall--width-8</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">extrasmall--width-8#extrasmall--width-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">extrasmall--width-3#extrasmall--width-9</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">extrasmall--width-9#extrasmall--width-3</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">extrasmall-width-6#extrasmall-width-6</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">extrasmall-width-4#extrasmall-width-8</numIndex></numIndex>
+									<numIndex index="3" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">extrasmall-width-8#extrasmall-width-4</numIndex></numIndex>
+									<numIndex index="4" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">extrasmall-width-3#extrasmall-width-9</numIndex></numIndex>
+									<numIndex index="5" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">extrasmall-width-9#extrasmall-width-3</numIndex></numIndex>
 									<numIndex index="6" type="array"><numIndex index="0">12:12</numIndex><numIndex index="1">extrasmall-width-12#extrasmall-width-12</numIndex></numIndex>
 								</items>
 							</config>
