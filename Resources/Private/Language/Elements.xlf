@@ -53,7 +53,7 @@
                 <source>Container with collapsible child elements, which can either be single elements or containers as well</source>
             </trans-unit>
             <trans-unit id="accordion_content">
-                <source>Content</source>
+                <source>Accordion content</source>
             </trans-unit>
             <trans-unit id="accordion_active">
                 <source>Accordion active</source>
@@ -87,7 +87,7 @@
                 <source>Carousel/Slider</source>
             </trans-unit>
             <trans-unit id="carousel_content">
-                <source>Content</source>
+                <source>Carousel content</source>
             </trans-unit>
 
             <trans-unit id="column">
