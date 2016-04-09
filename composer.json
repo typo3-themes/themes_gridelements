@@ -20,6 +20,7 @@
     "typo3-ter/themes-gridelements": "self.version"
   },
   "require": {
-		"typo3-themes/themes": "dev-master"
-	}
+    "typo3-themes/themes": "dev-master",
+    "GridElementsTeam/Gridelements": "7.0.x"
+  }
 }
