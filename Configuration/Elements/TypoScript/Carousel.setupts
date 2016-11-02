@@ -47,6 +47,8 @@ lib.gridelements {
 					20.override.if.isTrue.field = bodytext
 				}
 			}
+			textmedia < .textpic
+			textmedia.10.references.fieldName = assets
 		}
 	}
 }
