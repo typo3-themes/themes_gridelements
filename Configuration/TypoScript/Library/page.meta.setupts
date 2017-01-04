@@ -20,12 +20,14 @@ page.meta {
 	# author
 	author.data = levelfield :-1, author, slide
 	author.override.data = page:author
+	author.attribute = property
 	author.ifEmpty = {$themes.configuration.meta.defaults.author}
 	author.author = 1
 
 	# publisher
 	publisher.data = levelfield :-1, author, slide
 	publisher.override.data = page:author
+	publisher.attribute = property
 	publisher.ifEmpty = {$themes.configuration.meta.defaults.author}
 	publisher.publisher = 1
 
