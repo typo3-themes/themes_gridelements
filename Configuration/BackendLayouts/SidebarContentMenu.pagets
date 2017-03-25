@@ -1,6 +1,6 @@
 mod.web_layout.BackendLayouts {
     SidebarContentMenu {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/SidebarContentMenu.png
+        icon = themes-backendlayout-sidebarcontentmenu
         name = SidebarContentMenu
         title = SidebarContentMenu
         config {

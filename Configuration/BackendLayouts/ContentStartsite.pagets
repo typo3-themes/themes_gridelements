@@ -1,6 +1,6 @@
 mod.web_layout.BackendLayouts {
     ContentStartsite {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/ContentStartsite.png
+        icon = themes-backendlayout-contentstartsite
         name = ContentStartsite
         title = ContentStartsite
         config {

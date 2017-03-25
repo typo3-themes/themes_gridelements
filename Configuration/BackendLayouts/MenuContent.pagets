@@ -1,6 +1,6 @@
 mod.web_layout.BackendLayouts {
     MenuContent {
-        icon = EXT:themes_gridelements/Resources/Public/Icons/BackendLayouts/MenuContent.png
+        icon = themes-backendlayout-menucontent
         name = MenuContent
         title = MenuContent
         config {
