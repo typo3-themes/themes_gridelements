@@ -2,7 +2,7 @@ tx_gridelements.setup.4ColumnGrid {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:four_column_grid
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:four_column_grid_description
 	flexformDS = FILE:EXT:themes_gridelements/Configuration/Elements/FlexForms/4ColumnGrid.xml
-	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_4_Column.gif
+	icon = EXT:themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_4_Column.gif
 	config {
 		colCount = 4
 		rowCount = 1
