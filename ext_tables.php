@@ -15,7 +15,8 @@ call_user_func(
             $TYPO3_CONF_VARS['FE']['addRootLineFields'] = implode(',', array_unique(explode(',', $TYPO3_CONF_VARS['FE']['addRootLineFields'])));
 
             // TYPO3 skin css overrides
-            $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/template.php']['preHeaderRenderHook'][] = 'KayStrobach\ThemesGridelements\Hooks\PreHeaderRenderHook->main';
+            $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_pagerenderer.php']['render-preProcess'][]
+                = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($extKey) . 'Classes/Hooks/PageRenderer.php:KayStrobach\\ThemesGridelements\\Hooks\\PageRenderer->addJSCSS';
 
             // register svg icons: identifier and filename
             $iconsSvg = [
