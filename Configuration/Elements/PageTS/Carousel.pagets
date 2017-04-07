@@ -1,7 +1,7 @@
 tx_gridelements.setup.carousel {
 	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel
 	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:carousel_description
-	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_Carousel.gif
+	iconIdentifier = new-content-el-carousel
 	config {
 		colCount = 1
 		rowCount = 1

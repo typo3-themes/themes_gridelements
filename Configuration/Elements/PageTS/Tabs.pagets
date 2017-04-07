@@ -1,7 +1,7 @@
 tx_gridelements.setup.tabs {
  	title = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs
  	description = LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:tabs_description
-	icon = ../typo3conf/ext/themes_gridelements/Resources/Public/Icons/GridElements/new_content_el_Tab.gif
+	iconIdentifier = new-content-el-tab
  	horizontal = 1
  	config {
  		colCount = 1

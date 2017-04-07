@@ -7,17 +7,13 @@ call_user_func(
 
         // Add/register icons
         if (TYPO3_MODE === 'BE') {
-
-
             // Add Rootline fields for default meta-tags
             $TYPO3_CONF_VARS['FE']['addRootLineFields'] = 'layout,abstract,keywords,description,author,author_email,';
             $TYPO3_CONF_VARS['FE']['addRootLineFields'] .= $TYPO3_CONF_VARS['FE']['addRootLineFields'];
             $TYPO3_CONF_VARS['FE']['addRootLineFields'] = implode(',', array_unique(explode(',', $TYPO3_CONF_VARS['FE']['addRootLineFields'])));
-
             // TYPO3 skin css overrides
             $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_pagerenderer.php']['render-preProcess'][]
                 = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($extKey) . 'Classes/Hooks/PageRenderer.php:KayStrobach\\ThemesGridelements\\Hooks\\PageRenderer->addJSCSS';
-
             // register svg icons: identifier and filename
             $iconsSvg = [
                 'themes-backendlayout-content' => 'BackendLayouts/Content.svg',
@@ -35,6 +31,17 @@ call_user_func(
                 'themes-backendlayout-sidebarcontent' => 'BackendLayouts/SidebarContent.svg',
                 'themes-backendlayout-sidebarcontentmenu' => 'BackendLayouts/SidebarContentMenu.svg',
                 'themes-backendlayout-sidebarmenucontent' => 'BackendLayouts/SidebarMenuContent.svg',
+                'new-content-el-2-column' => 'GridElements/new_content_el_2_Column.svg',
+                'new-content-el-3-column' => 'GridElements/new_content_el_3_Column.svg',
+                'new-content-el-4-column' => 'GridElements/new_content_el_4_Column.svg',
+                'new-content-el-accordion' => 'GridElements/new_content_el_Accordion.svg',
+                'new-content-el-carousel' => 'GridElements/new_content_el_Carousel.svg',
+                'new-content-el-container' => 'GridElements/new_content_el_Container.svg',
+                'new-content-el-row' => 'GridElements/new_content_el_Row.svg',
+                'new-content-el-singlecolumnheaderfooter' => 'GridElements/new_content_el_SingleColumnHeaderFooter.svg',
+                'new-content-el-singlecolumnhorizontal' => 'GridElements/new_content_el_SingleColumnHorizontal.svg',
+                'new-content-el-singlecolumnvertical' => 'GridElements/new_content_el_SingleColumnVertical.svg',
+                'new-content-el-tab' => 'GridElements/new_content_el_Tab.svg',
             ];
             $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Imaging\IconRegistry::class);
             foreach ($iconsSvg as $identifier => $path) {
