@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => '',
 	'category' => 'fe',
 	'shy' => 0,
-	'version' => '7.0.1',
+	'version' => '8.7.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -34,9 +34,9 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '7.6.0-7.6.99',
-			'themes' => '7.0.0-7.99.99',
-			'gridelements' => '7.0.0-7.99.99',
+			'typo3' => '7.6.0-8.7.99',
+			'themes' => '7.0.0-8.7.99',
+			'gridelements' => '7.0.0-8.7.99',
 		),
 		'conflicts' => array(
 		),
