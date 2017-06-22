@@ -1,5 +1,3 @@
-page = PAGE
-
 lib.gridelements {
 	defaultGridSetup {
 		innerWrap < tt_content.stdWrap.innerWrap
