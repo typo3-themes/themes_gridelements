@@ -16,36 +16,38 @@ lib.gridelements {
 		columns.0.renderObj = CASE
 		columns.0.renderObj {
 			key.field = CType
-			textpic = COA
+			textpic = FILES
 			textpic {
-				10 = FILES
-				10 {
-					references.table = tt_content
-					references.uid.field = uid
-					references.fieldName = image
-					begin = 0
-					maxItems = 1
-					renderObj = IMAGE
-					renderObj {
+				references.table = tt_content
+				references.uid.field = uid
+				references.fieldName = image
+				begin = 0
+				maxItems = 1
+				renderObj = COA
+				renderObj {
+					10 = IMAGE
+					10 {
 						file.import.data = file:current:uid
 						file.treatIdAsReference = 1
 						file.width = 1920m
 						altText.data = file:current:title
 					}
+					20 = COA
+					20 {
+						wrap =  <div class="carousel-caption">|</div>
+						10 = TEXT
+						10.cObject = TEXT
+						10.cObject.dataWrap = <h3>{file:current:title}</h3>
+						10.override.cObject =< lib.stdheader
+						20 = TEXT
+						20.cObject = TEXT
+						20.cObject.dataWrap = <p>{file:current:description}</p>
+						20.override.cObject =< tt_content.text.20
+						20.override.if.isTrue.field = bodytext
+					}
+				
 				}
-				20 = COA
-				20 {
-					wrap =  <div class="carousel-caption">|</div>
-					10 = TEXT
-					10.cObject = TEXT
-					10.cObject.dataWrap = <h3>{file:current:title}</h3>
-					10.override.cObject =< lib.stdheader
-					20 = TEXT
-					20.cObject = TEXT
-					20.cObject.dataWrap = <p>{file:current:description}</p>
-					20.override.cObject =< tt_content.text.20
-					20.override.if.isTrue.field = bodytext
-				}
+				
 			}
 			textmedia < .textpic
 			textmedia.10.references.fieldName = assets
