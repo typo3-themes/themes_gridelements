@@ -75,8 +75,8 @@ lib.containerBackgroundImage {
 }
 
 
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="setupts">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="setupts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/TypoScript" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/TypoScript/Library" extensions="typoscript">
 
 tt_content.stdWrap.innerWrap {
 	cObject {
