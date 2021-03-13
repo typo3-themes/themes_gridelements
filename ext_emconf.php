@@ -5,7 +5,7 @@ $EM_CONF['themes_gridelements'] = [
     'description' => '',
     'category' => 'fe',
     'shy' => 0,
-    'version' => '9.0.0',
+    'version' => '10.0.0',
     'dependencies' => '',
     'conflicts' => '',
     'priority' => '',
@@ -24,9 +24,9 @@ $EM_CONF['themes_gridelements'] = [
     'CGLcompliance_note' => '',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-9.5.99',
-            'themes' => '7.0.0-9.99.99',
-            'gridelements' => '7.0.0-9.99.99',
+            'typo3' => '10.4.0-10.4.99',
+            'themes' => '10.0.0-10.99.99',
+            'gridelements' => '10.0.0-10.99.99',
         ],
         'conflicts' => [
         ],
