@@ -21,6 +21,6 @@
   },
   "require": {
     "typo3-themes/themes": "~9.0.0",
-    "GridElementsTeam/Gridelements": "~9.0"
+    "gridelementsteam/gridelements": "~9.0"
   }
 }
