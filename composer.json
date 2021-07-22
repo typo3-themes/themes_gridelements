@@ -16,11 +16,15 @@
     "psr-4": { "KayStrobach\\Themes\\ThemesGridelements\\": "tests/"}
   },
   "replace": {
-    "themes_gridelements": "self.version",
     "typo3-ter/themes-gridelements": "self.version"
   },
   "require": {
     "typo3-themes/themes": "~9.0.0",
     "gridelementsteam/gridelements": "~9.0"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "themes_gridelements"
+    }
   }
 }
