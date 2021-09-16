@@ -19,7 +19,6 @@
     "typo3-ter/themes-gridelements": "self.version"
   },
   "require": {
-    "typo3-themes/themes": "~8.7.0",
     "GridElementsTeam/Gridelements": "~8.0"
   }
 }
