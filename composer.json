@@ -21,5 +21,10 @@
   "require": {
     "typo3-themes/themes": "~9.0.0",
     "gridelementsteam/gridelements": "~9.0"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "themes_gridelements"
+    }
   }
 }
