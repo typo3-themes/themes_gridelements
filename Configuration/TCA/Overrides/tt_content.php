@@ -25,8 +25,8 @@ $tempColumn = array(
 		'exclude' => 1,
 		'label' => 'LLL:EXT:themes/Resources/Private/Language/locallang.xlf:enforce_equal_column_height',
 		'config' => array(
-			'type' => 'user',
-			'userFunc' => 'KayStrobach\\Themes\\Tca\\ContentEnforceEqualColumnHeight->renderField',
+            'type' => 'input',
+            'renderType' => 'ThemesContentEnforceEqualColumnHeight'
 		)
 	),
 	'tx_themes_columnsettings' => array(
@@ -42,8 +42,8 @@ $tempColumn = array(
 		'exclude' => 1,
 		'label' => 'LLL:EXT:themes/Resources/Private/Language/locallang.xlf:column_settings',
 		'config' => array(
-			'type' => 'user',
-			'userFunc' => 'KayStrobach\\Themes\\Tca\\ContentColumnSettings->renderField',
+			'type' => 'input',
+            'renderType' => 'ThemesContentColumnSettings'
 		)
 	),
 );
