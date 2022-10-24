@@ -3,12 +3,15 @@
 removeDefaultJS = 1
 
 config {
-	
+
 	# Preparing modernizr usage
 	htmlTag_setParams = class="no-js no-skrollr" lang="{$themes.languages.current.isoCodeHtml}"
 
 	# Set the baseurl
-	baseURL = {$themes.configuration.baseurl}
+	# as baseURL is deprecated, we do not set this anymore!
+  #
+  # baseURL = {$themes.configuration.baseurl}
+  baseURL >
 
 	# Enable spam protection
 	spamProtectEmailAddresses = 2
