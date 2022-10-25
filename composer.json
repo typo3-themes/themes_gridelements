@@ -19,8 +19,8 @@
     "typo3-ter/themes-gridelements": "self.version"
   },
   "require": {
-    "typo3-themes/themes": "^9",
-    "gridelementsteam/gridelements": "^9"
+    "typo3-themes/themes": "^9 || dev-master",
+    "gridelementsteam/gridelements": "^9 || ^10"
   },
   "extra": {
     "typo3/cms": {
