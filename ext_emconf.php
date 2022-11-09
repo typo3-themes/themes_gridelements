@@ -24,7 +24,7 @@ $EM_CONF['themes_gridelements'] = [
     'CGLcompliance_note' => '',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-9.5.99',
+            'typo3' => '7.6.0-10.5.99',
             'themes' => '7.0.0-9.99.99',
             'gridelements' => '7.0.0-9.99.99',
         ],
