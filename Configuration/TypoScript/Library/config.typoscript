@@ -9,9 +9,9 @@ config {
 
 	# Set the baseurl
 	# as baseURL is deprecated, we do not set this anymore!
-  #
-  # baseURL = {$themes.configuration.baseurl}
-  baseURL >
+	#
+	# baseURL = {$themes.configuration.baseurl}
+	baseURL >
 
 	# Enable spam protection
 	spamProtectEmailAddresses = 2
@@ -27,9 +27,10 @@ config.concatenateCss = {$themes.configuration.css.concatenate}
 config.concatenateJs = {$themes.configuration.javascript.concatenate}
 
 # In case of using development mode, disable compression and concatenation
-[globalVar = LIT:1 = {$themes.mode.isDevelopment}]
-	config.compressCss = 0
-	config.compressJs = 0
-	config.concatenateCss = 0
-	config.concatenateJs = 0
+
+["{$themes.mode.isDevelopment}" == "1"]
+config.compressCss = 0
+config.compressJs = 0
+config.concatenateCss = 0
+config.concatenateJs = 0
 [global]
