@@ -15,6 +15,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">medium-width-4#medium-width-4#medium-width-4</numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">6:3:3</numIndex><numIndex index="1">medium-width-6#medium-width-3#medium-width-3</numIndex></numIndex>
@@ -32,6 +33,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">small-width-4#small-width-4#small-width-4</numIndex></numIndex>
@@ -49,6 +51,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">extrasmall-width-4#extrasmall-width-4#extrasmall-width-4</numIndex></numIndex>
@@ -66,6 +69,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">4:4:4</numIndex><numIndex index="1">large-width-4#large-width-4#large-width-4</numIndex></numIndex>
