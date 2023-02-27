@@ -15,6 +15,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">medium-width-3#medium-width-3#medium-width-3#medium-width-3</numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">12:12:12:12</numIndex><numIndex index="1">medium-width-12#medium-width-12#medium-width-12#medium-width-12</numIndex></numIndex>
@@ -29,6 +30,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">small-width-3#small-width-3#small-width-3#small-width-3</numIndex></numIndex>
@@ -43,6 +45,7 @@
 							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label>
 							<config type="array">
 								<type>select</type>
+                                <renderType>selectCheckBox</renderType>
 								<items type="array">
 									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
 									<numIndex index="1" type="array"><numIndex index="0">3:3:3:3</numIndex><numIndex index="1">extrasmall-width-3#extrasmall-width-3#extrasmall-width-3#extrasmall-width-3</numIndex></numIndex>
