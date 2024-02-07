@@ -2,7 +2,7 @@
   "name": "typo3-themes/themes-gridelements",
   "type": "typo3-cms-extension",
   "description": "TYPO3 THEMES Gridelements datastructures",
-  "version": "9.0.0",
+  "version": "11.0.0",
   "homepage": "http://typo3-themes.org",
   "license": ["GPL-2.0+"],
   "keywords": ["TYPO3 CMS", "TYPO3 THEMES", "THEMES", "THEMES", "FLUID", "CUSTOMIZE"],
@@ -19,8 +19,8 @@
     "typo3-ter/themes-gridelements": "self.version"
   },
   "require": {
-    "typo3-themes/themes": "^9 || dev-master",
-    "gridelementsteam/gridelements": "^9 || ^10"
+    "typo3-themes/themes": ">=10.0.0 || dev-typo3-12-compatibility",
+    "gridelementsteam/gridelements": ">=12.0.0 || dev-master || dev-ea_12-0"
   },
   "extra": {
     "typo3/cms": {

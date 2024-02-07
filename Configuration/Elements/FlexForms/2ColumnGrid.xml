@@ -1,89 +1,158 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <T3DataStructure>
     <meta type="array">
         <langDisable>1</langDisable>
     </meta>
-	<sheets>
-		<column_widths>
-			<ROOT type="array">
-				<TCEforms>
-					<sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_distribution</sheetTitle>
-				</TCEforms>
-				<el type="array">
-					<column_widths_md type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label>
-							<config type="array">
-								<type>select</type>
-								<renderType>selectCheckBox</renderType>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">medium-width-6#medium-width-6</numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">medium-width-4#medium-width-8</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">medium-width-8#medium-width-4</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">medium-width-3#medium-width-9</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">medium-width-9#medium-width-3</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">12:12</numIndex><numIndex index="1">medium-width-12#medium-width-12</numIndex></numIndex>
-								</items>
-								<default>medium-width-6#medium-width-6</default>
-							</config>
-						</TCEforms>
-					</column_widths_md>
-					<column_widths_sm type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label>
-							<config type="array">
-								<type>select</type>
-								<renderType>selectCheckBox</renderType>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">small-width-6#small-width-6</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">small-width-4#small-width-8</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">small-width-8#small-width-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">small-width-3#small-width-9</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">small-width-9#small-width-3</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">12:12</numIndex><numIndex index="1">small-width-12#small-width-12</numIndex></numIndex>
-								</items>
-							</config>
-						</TCEforms>
-					</column_widths_sm>
-					<column_widths_xs type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label>
-							<config type="array">
-								<type>select</type>
-								<renderType>selectCheckBox</renderType>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">extrasmall-width-6#extrasmall-width-6</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">extrasmall-width-4#extrasmall-width-8</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">extrasmall-width-8#extrasmall-width-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">extrasmall-width-3#extrasmall-width-9</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">extrasmall-width-9#extrasmall-width-3</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">12:12</numIndex><numIndex index="1">extrasmall-width-12#extrasmall-width-12</numIndex></numIndex>
-								</items>
-							</config>
-						</TCEforms>
-					</column_widths_xs>
-					<column_widths_lg type="array">
-						<TCEforms type="array">
-							<label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large</label>
-							<config type="array">
-								<type>select</type>
-								<renderType>selectCheckBox</renderType>
-								<items type="array">
-									<numIndex index="0" type="array"><numIndex index="0">-</numIndex><numIndex index="1"></numIndex></numIndex>
-									<numIndex index="1" type="array"><numIndex index="0">6:6</numIndex><numIndex index="1">large-width-6#large-width-6</numIndex></numIndex>
-									<numIndex index="2" type="array"><numIndex index="0">4:8</numIndex><numIndex index="1">large-width-4#large-width-8</numIndex></numIndex>
-									<numIndex index="3" type="array"><numIndex index="0">8:4</numIndex><numIndex index="1">large-width-8#large-width-4</numIndex></numIndex>
-									<numIndex index="4" type="array"><numIndex index="0">3:9</numIndex><numIndex index="1">large-width-3#large-width-9</numIndex></numIndex>
-									<numIndex index="5" type="array"><numIndex index="0">9:3</numIndex><numIndex index="1">large-width-9#large-width-3</numIndex></numIndex>
-									<numIndex index="6" type="array"><numIndex index="0">12:12</numIndex><numIndex index="1">large-width-12#large-width-12</numIndex></numIndex>
-								</items>
-							</config>
-						</TCEforms>
-					</column_widths_lg>
-				</el>
-			</ROOT>
-		</column_widths>
-	</sheets>
+    <sheets>
+        <column_widths>
+            <ROOT type="array">
+                <sheetTitle>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_distribution</sheetTitle>
+                <el type="array">
+                    <column_widths_md type="array">
+                        <label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium</label><config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <label>6:6</label>
+                                        <value>medium-width-6#medium-width-6</value>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <label>4:8</label>
+                                        <value>medium-width-4#medium-width-8</value>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <label>8:4</label>
+                                        <value>medium-width-8#medium-width-4</value>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <label>3:9</label>
+                                        <value>medium-width-3#medium-width-9</value>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <label>9:3</label>
+                                        <value>medium-width-9#medium-width-3</value>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <label>12:12</label>
+                                        <value>medium-width-12#medium-width-12</value>
+                                    </numIndex>
+                                </items>
+                                <default>medium-width-6#medium-width-6</default>
+                            </config>
+                    </column_widths_md>
+                    <column_widths_sm type="array">
+                        <label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small</label><config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <label>-</label>
+                                        <value>
+                                        </value>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <label>6:6</label>
+                                        <value>small-width-6#small-width-6</value>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <label>4:8</label>
+                                        <value>small-width-4#small-width-8</value>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <label>8:4</label>
+                                        <value>small-width-8#small-width-4</value>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <label>3:9</label>
+                                        <value>small-width-3#small-width-9</value>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <label>9:3</label>
+                                        <value>small-width-9#small-width-3</value>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <label>12:12</label>
+                                        <value>small-width-12#small-width-12</value>
+                                    </numIndex>
+                                </items>
+                            </config>
+                    </column_widths_sm>
+                    <column_widths_xs type="array">
+                        <label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall</label><config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <label>-</label>
+                                        <value>
+                                        </value>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <label>6:6</label>
+                                        <value>extrasmall-width-6#extrasmall-width-6</value>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <label>4:8</label>
+                                        <value>extrasmall-width-4#extrasmall-width-8</value>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <label>8:4</label>
+                                        <value>extrasmall-width-8#extrasmall-width-4</value>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <label>3:9</label>
+                                        <value>extrasmall-width-3#extrasmall-width-9</value>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <label>9:3</label>
+                                        <value>extrasmall-width-9#extrasmall-width-3</value>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <label>12:12</label>
+                                        <value>extrasmall-width-12#extrasmall-width-12</value>
+                                    </numIndex>
+                                </items>
+                            </config>
+                    </column_widths_xs>
+                    <column_widths_lg type="array">
+                        <label>LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large</label><config type="array">
+                                <type>select</type>
+                                <renderType>selectSingle</renderType>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <label>-</label>
+                                        <value>
+                                        </value>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <label>6:6</label>
+                                        <value>large-width-6#large-width-6</value>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <label>4:8</label>
+                                        <value>large-width-4#large-width-8</value>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <label>8:4</label>
+                                        <value>large-width-8#large-width-4</value>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <label>3:9</label>
+                                        <value>large-width-3#large-width-9</value>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <label>9:3</label>
+                                        <value>large-width-9#large-width-3</value>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <label>12:12</label>
+                                        <value>large-width-12#large-width-12</value>
+                                    </numIndex>
+                                </items>
+                            </config>
+                    </column_widths_lg>
+                </el>
+            </ROOT>
+        </column_widths>
+    </sheets>
 </T3DataStructure>

@@ -6,6 +6,5 @@ page {
 	bodyTagCObject = TEXT
 	bodyTagCObject.field = uid
 	bodyTagCObject.wrap = <body id="pid-|" class="language-{$themes.languages.current.isoCodeShort}">
-	
-}
 
+}
