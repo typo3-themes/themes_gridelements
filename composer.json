@@ -20,7 +20,7 @@
   },
   "require": {
     "typo3-themes/themes": ">=10.0.0 || dev-typo3-12-compatibility",
-    "gridelementsteam/gridelements": ">=12.0.0 || dev-master || dev-ea_12-0"
+    "gridelementsteam/gridelements": ">=12.0.0 || dev-master || dev-ea_12-0 || dev-bugfix-fix-gridelements-plugin"
   },
   "extra": {
     "typo3/cms": {
