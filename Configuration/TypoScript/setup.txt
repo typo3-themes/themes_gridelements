@@ -1,3 +1,7 @@
+# compat layer to ensure, that all the grids also deliver their border cleanly!
+# inspired by css_styled_content
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/Compat/css_styled_content/setup.typoscript">
+
 lib.gridelements {
 	defaultGridSetup {
 		innerWrap < tt_content.stdWrap.innerWrap

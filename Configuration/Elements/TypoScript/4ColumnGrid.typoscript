@@ -1,7 +1,6 @@
 lib.gridelements {
-	4ColumnGrid < .defaultGridSetup
+	4ColumnGrid < lib.gridelements.defaultGridSetup
 	4ColumnGrid {
-    stdWrap.wrap = <div class="row columns-4">|</div>
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
 				specialBehaviourMapping =< lib.content.cssMap.behaviour.4ColumnGrid
