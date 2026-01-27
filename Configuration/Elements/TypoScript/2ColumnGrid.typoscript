@@ -1,6 +1,7 @@
 lib.gridelements {
 	2ColumnGrid < .defaultGridSetup
 	2ColumnGrid {
+    stdWrap.wrap = <div class="row columns-2">|</div>
 		innerWrap.cObject.default.20 {
 			40.postUserFunc {
 				specialBehaviourMapping =< lib.content.cssMap.behaviour.2ColumnGrid
@@ -15,6 +16,8 @@ lib.gridelements {
 			prepend {
 				10 = TEXT
 				10 {
+          preUserFunc = KayStrobach\ThemesGridelements\Frontend\Utility->firstValue
+
 					field = flexform_column_widths_md
 					required = 1
 					listNum = 0
