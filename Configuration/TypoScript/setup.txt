@@ -4,8 +4,42 @@
 
 lib.gridelements {
 	defaultGridSetup {
+
+        # --- build row classes once, cache-safe ---
+        prepend = COA
+        prepend {
+
+            10 = LOAD_REGISTER
+            10 {
+                geRowClasses = TEXT
+                geRowClasses {
+
+                    # your DB fields -> mapper input
+                    dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
+
+                    postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+                    postUserFunc {
+                        responsiveMapping =< lib.content.cssMap.responsive
+                        behaviourMapping =< lib.content.cssMap.behaviour
+                        responsiveRowMapping =< lib.content.cssMap.responsive.row
+                        responsiveColumnMapping =< lib.content.cssMap.responsive.column
+                        variantMapping =< lib.content.cssMap.variants
+                    }
+
+                    # never empty -> always at least the default row class
+                    stdWrap.ifEmpty = {$lib.content.cssMap.responsive.row.default-row}
+                }
+            }
+        }
+
+        # --- THIS is the actual row wrapper around the whole grid output ---
+        wrap = <div class="row {register:geRowClasses}">|</div>
+        wrap.insertData = 1
+
+        append = RESTORE_REGISTER
+
 		innerWrap < tt_content.stdWrap.innerWrap
-		innerWrap.cObject.default.20.40 = TEXT
+        innerWrap.cObject.default.20.40 = TEXT
 		innerWrap.cObject.default.20.40 {
 			dataWrap = {field:tx_themes_responsive},{field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_columnsettings},{field:tx_themes_enforceequalcolumnheight}
 			postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
