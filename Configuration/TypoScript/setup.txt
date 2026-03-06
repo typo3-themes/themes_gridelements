@@ -33,8 +33,9 @@ lib.gridelements {
         }
 
         # --- THIS is the actual row wrapper around the whole grid output ---
-        wrap = <div class="row {register:geRowClasses}">|</div>
-        wrap.insertData = 1
+        #wrap = <div class="row {register:geRowClasses} row-gridelements">|</div>
+        #wrap.insertData = 1
+        wrap >
 
         append = RESTORE_REGISTER
 
