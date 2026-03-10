@@ -13,10 +13,17 @@ lib.gridelements {
 		cObject = FLUIDTEMPLATE
 		cObject {
 			file = EXT:themes_gridelements/Resources/Private/Templates/Elements/Accordion.html
+      dataProcessing {
+        30 = KayStrobach\Themes\DataProcessing\ThemesVariantsDataProcessor
+        40 = KayStrobach\Themes\DataProcessing\ThemesBehaviourDataProcessor
+        50 = KayStrobach\Themes\DataProcessing\ThemesResponsiveDataProcessor
+        60 = KayStrobach\Themes\DataProcessing\ThemesIconDataProcessor
+      }
 		}
 		columns.0 {
 			renderObj =< tt_content
 		}
+
 	}
 }
 

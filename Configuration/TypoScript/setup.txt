@@ -1,7 +1,3 @@
-# compat layer to ensure, that all the grids also deliver their border cleanly!
-# inspired by css_styled_content
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/Compat/css_styled_content/setup.typoscript">
-
 lib.gridelements {
 	defaultGridSetup {
 
@@ -33,8 +29,8 @@ lib.gridelements {
         }
 
         # --- THIS is the actual row wrapper around the whole grid output ---
-        #wrap = <div class="row {register:geRowClasses} row-gridelements">|</div>
-        #wrap.insertData = 1
+        wrap = <div class="row {register:geRowClasses} row-gridelements" data-typo3-source-hint="EXT:themes_gridelements/Configuration/TypoScript/setup.txt">|</div>
+        wrap.insertData = 1
         wrap >
 
         append = RESTORE_REGISTER

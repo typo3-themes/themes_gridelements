@@ -1,60 +1,37 @@
 lib.gridelements {
-	3ColumnGrid < lib.gridelements.defaultGridSetup
-	3ColumnGrid {
-		innerWrap.cObject.default.20 {
-			40.postUserFunc {
-				specialBehaviourMapping =< lib.content.cssMap.behaviour.3ColumnGrid
-				# responsiveColumnMapping >
-			}
-			50 = TEXT
-			50.value = {$lib.content.cssMap.responsive.row.default-row}
-			50.noTrimWrap = | ||
-		}
-		columns.2 {
-			prepend = COA
-			prepend {
-				10 = TEXT
-				10 {
-          preUserFunc = KayStrobach\ThemesGridelements\Frontend\Utility->firstValue
+  3ColumnGrid {
+    setCurrent {
+      dataWrap = {field:tx_themes_behaviour},{field:tx_themes_variants},{field:tx_themes_responsive}
+      postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
+      postUserFunc {
+        responsiveMapping =< lib.content.cssMap.responsive
+        behaviourMapping =< lib.content.cssMap.behaviour
+        behaviourAccordionMapping =< lib.content.cssMap.behaviour.accordion
+        variantMapping =< lib.content.cssMap.variants
+      }
+    }
+    cObject = FLUIDTEMPLATE
+    cObject {
+      file = EXT:themes_gridelements/Resources/Private/Templates/Elements/3ColumnGrid.html
+      dataProcessing {
+        30 = KayStrobach\Themes\DataProcessing\ThemesVariantsDataProcessor
+        40 = KayStrobach\Themes\DataProcessing\ThemesBehaviourDataProcessor
+        50 = KayStrobach\Themes\DataProcessing\ThemesResponsiveDataProcessor
+        60 = KayStrobach\Themes\DataProcessing\ThemesIconDataProcessor
+        70 = KayStrobach\Themes\DataProcessing\ThemesResponsiveColumnDataProcessor
+      }
+    }
+    columns.0 {
+      renderObj =< tt_content
+    }
+    columns.1 {
+      renderObj =< tt_content
+    }
+    columns.2 {
+      renderObj =< tt_content
+    }
 
-					field = flexform_column_widths_md
-					required = 1
-					listNum = 0
-					listNum.splitChar = #
-					wrap = ,|
-				}
-				20 < .10
-				20.field = flexform_column_widths_sm
-				30 < .10
-				30.field = flexform_column_widths_xs
-				40 < .10
-				40.field = flexform_column_widths_lg
-				stdWrap.stdWrap.postUserFunc = KayStrobach\Themes\Frontend\CssClassMapper->mapGenericToFramework
-				stdWrap.stdWrap.postUserFunc {
-					responsiveColumnMapping =< lib.content.cssMap.responsive.column
-				}
-				stdWrap.ifEmpty = {$lib.content.cssMap.responsive.column.default-3-column}
-				stdWrap.noTrimWrap = |<div class="column-1 |">|
-			}
-			renderObj =< tt_content
-			wrap = |</div>
-		}
-		columns.0 < .columns.2
-		columns.0.prepend {
-			10.listNum = 1
-			20.listNum = 1
-			30.listNum = 1
-			40.listNum = 1
-			stdWrap.noTrimWrap = |<div class="column-2 |">|
-		}
-		columns.1 < .columns.2
-		columns.1.prepend {
-			10.listNum = 2
-			20.listNum = 2
-			30.listNum = 2
-			40.listNum = 2
-			stdWrap.noTrimWrap = |<div class="column-3 |">|
-		}
-	}
+  }
 }
+
 tt_content.gridelements_pi1.20.10.setup.3ColumnGrid < lib.gridelements.3ColumnGrid
