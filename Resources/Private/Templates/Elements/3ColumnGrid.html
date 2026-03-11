@@ -1,9 +1,10 @@
 <f:comment>Ensure that you don't touch the indexes! They are 2 0 1 for the content</f:comment>
 <f:variable name="sourceHint">EXT:themes_gridelements/Resources/Private/Templates/Elements/3ColumnGrid.html</f:variable>
 <f:variable name="rowClasses">row {current}</f:variable>
+<f:variable name="fallbackClasses">col-md-4 span-4</f:variable>
 
 <f:render partial="Columns/ColumnWrapper" arguments="{_all}" contentAs="columnContent">
-    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, content: data.tx_gridelements_view_columns.2}" />
-    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, content: data.tx_gridelements_view_columns.0}" />
-    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.2.cssClasses, content: data.tx_gridelements_view_columns.1}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, fallbackClasses:fallbackClasses, content: data.tx_gridelements_view_columns.2}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, fallbackClasses:fallbackClasses, content: data.tx_gridelements_view_columns.0}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.2.cssClasses, fallbackClasses:fallbackClasses, content: data.tx_gridelements_view_columns.1}" />
 </f:render>

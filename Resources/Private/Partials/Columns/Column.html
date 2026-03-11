@@ -1,3 +1,15 @@
+<f:variable name="fallbackUsed" value="no - good" />
+<f:if condition="!{classes}">
+    <f:variable name="classes" value="{fallbackClasses}" />
+    <f:variable name="fallbackUsed" value="yes" />
+</f:if>
+
+<!--
+    fallbackClasses: {fallbackClasses}
+    fallbackUsed: {fallbackUsed}
+    classes used: {classes}
+-->
+
 <div class="{classes}">
     {content -> f:format.raw()}
 </div>

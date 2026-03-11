@@ -1,7 +1,8 @@
 <f:variable name="sourceHint">EXT:themes_gridelements/Resources/Private/Templates/Elements/2ColumnGrid.html</f:variable>
 <f:variable name="rowClasses">row {current}</f:variable>
+<f:variable name="fallbackClasses">col-md-6 span-6</f:variable>
 
 <f:render partial="Columns/ColumnWrapper" arguments="{_all}" contentAs="columnContent">
-    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, content: data.tx_gridelements_view_columns.0}" />
-    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, content: data.tx_gridelements_view_columns.1}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, fallbackClasses:fallbackClasses, content: data.tx_gridelements_view_columns.0}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, fallbackClasses:fallbackClasses, content: data.tx_gridelements_view_columns.1}" />
 </f:render>
