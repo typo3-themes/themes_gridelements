@@ -13,6 +13,9 @@ lib.gridelements {
     cObject = FLUIDTEMPLATE
     cObject {
       file = EXT:themes_gridelements/Resources/Private/Templates/Elements/3ColumnGrid.html
+      partialRootPaths {
+        10 = EXT:themes_gridelements/Resources/Private/Partials/
+      }
       dataProcessing {
         30 = KayStrobach\Themes\DataProcessing\ThemesVariantsDataProcessor
         40 = KayStrobach\Themes\DataProcessing\ThemesBehaviourDataProcessor

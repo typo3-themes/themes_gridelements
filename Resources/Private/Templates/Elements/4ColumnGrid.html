@@ -1,14 +1,9 @@
-<div class="row {current}" id="c{data.uid}" data-typo3-source-hint="EXT:themes_gridelements/Resources/Private/Templates/Elements/4ColumnGrid.html">
-    <div class="{themes.responsive.column.0.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
-    </div>
-    <div class="{themes.responsive.column.1.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.1}</f:format.raw>
-    </div>
-    <div class="{themes.responsive.column.2.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.2}</f:format.raw>
-    </div>
-    <div class="{themes.responsive.column.0.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.3}</f:format.raw>
-    </div>
-</div>
+<f:variable name="sourceHint">EXT:themes_gridelements/Resources/Private/Templates/Elements/4ColumnGrid.html</f:variable>
+<f:variable name="rowClasses">row {current}</f:variable>
+
+<f:render partial="Columns/ColumnWrapper" arguments="{_all}" contentAs="columnContent">
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, content: data.tx_gridelements_view_columns.0}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, content: data.tx_gridelements_view_columns.1}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.2.cssClasses, content: data.tx_gridelements_view_columns.2}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.3.cssClasses, content: data.tx_gridelements_view_columns.3}" />
+</f:render>

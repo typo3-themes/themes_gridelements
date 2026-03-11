@@ -1,0 +1,9 @@
+<f:variable name="incommingGridData" value="{tx_gridelements_backend_layout:data.tx_gridelements_backend_layout,flexform_column_widths_md:data.flexform_column_widths_md, flexform_column_widths_sm:data.flexform_column_widths_sm, flexform_column_widths_xs:data.flexform_column_widths_xs, flexform_column_widths_lg:data.flexform_column_widths_lg}" />
+<f:variable name="calculatedGridData" value="{themes:themes}" />
+<!--
+    incomingGridData: {incommingGridData -> f:format.json()}
+    calculatedGridData: {calculatedGridData -> f:format.json()}
+-->
+<div class="{rowClasses}" id="c{data.uid}" data-typo3-source-hint="{sourceHint}">
+    {columnContent -> f:format.raw()}
+</div>

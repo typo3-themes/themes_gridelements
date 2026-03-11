@@ -1,8 +1,7 @@
-<div class="row {current}" id="c{data.uid}" data-typo3-source-hint="EXT:themes_gridelements/Resources/Private/Templates/Elements/2ColumnGrid.html">
-    <div class="{themes.responsive.column.0.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
-    </div>
-    <div class="{themes.responsive.column.1.cssClasses}">
-        <f:format.raw>{data.tx_gridelements_view_columns.1}</f:format.raw>
-    </div>
-</div>
+<f:variable name="sourceHint">EXT:themes_gridelements/Resources/Private/Templates/Elements/2ColumnGrid.html</f:variable>
+<f:variable name="rowClasses">row {current}</f:variable>
+
+<f:render partial="Columns/ColumnWrapper" arguments="{_all}" contentAs="columnContent">
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.0.cssClasses, content: data.tx_gridelements_view_columns.0}" />
+    <f:render partial="Columns/Column" arguments="{classes: themes.responsive.column.1.cssClasses, content: data.tx_gridelements_view_columns.1}" />
+</f:render>

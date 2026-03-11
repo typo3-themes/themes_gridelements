@@ -14,7 +14,10 @@ lib.gridelements {
 		cObject = FLUIDTEMPLATE
 		cObject {
 			file = EXT:themes_gridelements/Resources/Private/Templates/Elements/Tabs.html
-		}
+      partialRootPaths {
+        10 = EXT:themes_gridelements/Resources/Private/Partials/
+      }
+    }
 		columns.0 {
 			renderObj =< tt_content
 			renderObj.stdWrap {
@@ -35,7 +38,7 @@ lib.gridelements {
 						}
 					}
 				}
-				wrap2 = <div role="tabpanel" id="{register:containerId}" class="{register:containerClasses}">|</div>
+				wrap2 = <section role="tabpanel" title="{data:title}" id="{register:containerId}" class="{register:containerClasses}">|</section>
 				wrap2.insertData = 1
 				append = RESTORE_REGISTER
 			}
