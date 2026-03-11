@@ -1,13 +1,4 @@
-<div role="tabpanel" id="c{data.uid}">
-	<ul class="{current}" role="tablist">
-		<f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabnumber">
-			<li{f:if(condition:'{tabnumber.isFirst}',then:' class="active"')} role="presentation">
-				<a href="#tab-content-{tab.uid}" data-toggle="tab" role="tab">{tab.header}</a>
-			</li>
-		</f:for>
-	</ul>
-
-	<div class="tab-content">
-		<f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
-	</div>
-</div>
+<f:asset.script identifier="fucodo-tabs" src="EXT:themes_gridelements/Resources/Public/WebComponents/fucodo-tabs-simple/dist/index.js"></f:asset.script>
+<fucodo-tabs-simple>
+    <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
+</fucodo-tabs-simple>
