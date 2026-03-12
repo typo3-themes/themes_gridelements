@@ -17,6 +17,27 @@ lib.gridelements {
       partialRootPaths {
         10 = EXT:themes_gridelements/Resources/Private/Partials/
       }
+      dataProcessing {
+        10 = GridElementsTeam\Gridelements\DataProcessing\GridChildrenProcessor
+        10 {
+          default {
+            as = children
+            # Default options of the grid children processor
+            # Change them according to the needs of your layout
+            # Read more about it in the TypoScript section of the manual
+            options {
+                # sortingDirection = ASC
+                #sortingField = sorting
+                # recursive = 0
+                # resolveFlexFormData = 1
+                # resolveChildFlexFormData = 1
+                # resolveBackendLayout = 1
+                respectColumns = 1
+                respectRows = 1
+            }
+          }
+        }
+      }
     }
 		columns.0 {
 			renderObj =< tt_content
@@ -37,9 +58,12 @@ lib.gridelements {
 							behaviourMapping =< lib.content.cssMap.behaviour.tabs.panes
 						}
 					}
+          containerTitle {
+            dataWrap = {field:header}
+            stripHtml = 1
+          }
+
 				}
-				wrap2 = <section role="tabpanel" title="{data:title}" id="{register:containerId}" class="{register:containerClasses}">|</section>
-				wrap2.insertData = 1
 				append = RESTORE_REGISTER
 			}
 		}

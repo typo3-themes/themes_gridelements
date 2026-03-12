@@ -1,4 +1,8 @@
 <f:asset.script identifier="fucodo-tabs" src="EXT:themes_gridelements/Resources/Public/WebComponents/fucodo-tabs-simple/dist/index.js"></f:asset.script>
 <fucodo-tabs-simple>
-    <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
+    <f:for each="{data.tx_gridelements_view_children}" as="child" iteration="childnumber">
+        <section role="tabpanel" title="{child.header}" id="tab-content-{child.uid}">
+            <f:format.raw>{data.tx_gridelements_view_child_{child.uid}}</f:format.raw>
+        </section>
+    </f:for>
 </fucodo-tabs-simple>
