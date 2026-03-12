@@ -1,15 +1,18 @@
+<f:asset.script identifier="fucodo-details-summary" src="EXT:themes_gridelements/Resources/Public/WebComponents/fucodo-details-summary/dist/index.js"></f:asset.script>
+
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<div class="panel-group accordion {current}" id="accordion-{data.uid}" role="tablist" aria-multiselectable="true" data-typo3-source-hint="EXT:themes_gridelements/Resources/Private/Templates/Elements/Accordion.html">
-	<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
-        <f:variable name="openAttribute"></f:variable>
-        <f:if condition="{theme:inList(string: current, value: 'accordion-first-open')}">
-            <f:variable name="openAttribute">open</f:variable>
-        </f:if>
-        <details id="collapse{panel.uid}" class="panel panel-default" {openAttribute}>
+
+<f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
+    <f:variable name="openAttribute"></f:variable>
+    <f:if condition="{theme:inList(string: current, value: 'accordion-first-open')}">
+        <f:variable name="openAttribute">open</f:variable>
+    </f:if>
+    <fucodo-details-summary id="accordion-{data.uid}" role="tablist" data-typo3-source-hint="EXT:themes_gridelements/Resources/Private/Templates/Elements/Accordion.html">
+        <details id="collapse{panel.uid}" class="card card-default panel panel-default" {openAttribute}>
             <summary>
                 <h4 class="panel-title" style="display: inline-block;">{panel.header}</h4>
             </summary>
             <f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
         </details>
-	</f:for>
-</div>
+    </fucodo-details-summary>
+</f:for>
