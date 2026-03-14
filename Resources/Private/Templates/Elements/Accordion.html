@@ -8,9 +8,9 @@
         <f:variable name="openAttribute">open</f:variable>
     </f:if>
     <fucodo-details-summary id="accordion-{data.uid}" role="tablist" data-typo3-source-hint="EXT:themes_gridelements/Resources/Private/Templates/Elements/Accordion.html">
-        <details id="collapse{panel.uid}" class="card card-default panel panel-default" {openAttribute}>
+        <details {openAttribute}>
             <summary>
-                <h4 class="panel-title" style="display: inline-block;">{panel.header}</h4>
+                {panel.header}
             </summary>
             <f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
         </details>
