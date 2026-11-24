@@ -1,0 +1,11 @@
+base: 'https://example.com/school/'
+rootPageId: 1
+languages:
+  -
+    title: Deutsch
+    enabled: true
+    languageId: 0
+    base: /
+    locale: de_DE.UTF-8
+    navigationTitle: Deutsch
+    flag: de

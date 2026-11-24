@@ -1,0 +1,4 @@
+page >
+page = PAGE
+page.10 = USER
+page.10.userFunc = KayStrobach\ThemesGridelements\Tests\Functional\Fixtures\TypoScriptDump->dump

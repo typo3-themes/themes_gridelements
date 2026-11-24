@@ -6,14 +6,11 @@
     <sheets>
         <sDEF>
             <ROOT>
-                <TCEforms>
                     <sheetTitle>
                         LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_width_distribution
                     </sheetTitle>
-                </TCEforms>
                 <el type="array">
                     <column_widths_md type="array">
-                        <TCEforms type="array">
                             <label>
                                 LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_medium
                             </label>
@@ -22,34 +19,34 @@
                                 <renderType>selectSingle</renderType>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">6:6</numIndex>
-                                        <numIndex index="1">medium-width-6#medium-width-6</numIndex>
-                                        <numIndex index="2">content-el-2-column-6-6</numIndex>
+                                        <label>6:6</label>
+                                        <value>medium-width-6#medium-width-6</value>
+                                        <icon>content-el-2-column-6-6</icon>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">4:8</numIndex>
-                                        <numIndex index="1">medium-width-4#medium-width-8</numIndex>
-                                        <numIndex index="2">content-el-2-column-4-8</numIndex>
+                                        <label>4:8</label>
+                                        <value>medium-width-4#medium-width-8</value>
+                                        <icon>content-el-2-column-4-8</icon>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">8:4</numIndex>
-                                        <numIndex index="1">medium-width-8#medium-width-4</numIndex>
-                                        <numIndex index="2">content-el-2-column-8-4</numIndex>
+                                        <label>8:4</label>
+                                        <value>medium-width-8#medium-width-4</value>
+                                        <icon>content-el-2-column-8-4</icon>
                                     </numIndex>
                                     <numIndex index="3" type="array">
-                                        <numIndex index="0">3:9</numIndex>
-                                        <numIndex index="1">medium-width-3#medium-width-9</numIndex>
-                                        <numIndex index="2">content-el-2-column-3-9</numIndex>
+                                        <label>3:9</label>
+                                        <value>medium-width-3#medium-width-9</value>
+                                        <icon>content-el-2-column-3-9</icon>
                                     </numIndex>
                                     <numIndex index="4" type="array">
-                                        <numIndex index="0">9:3</numIndex>
-                                        <numIndex index="1">medium-width-9#medium-width-3</numIndex>
-                                        <numIndex index="2">content-el-2-column-9-3</numIndex>
+                                        <label>9:3</label>
+                                        <value>medium-width-9#medium-width-3</value>
+                                        <icon>content-el-2-column-9-3</icon>
                                     </numIndex>
                                     <numIndex index="5" type="array">
-                                        <numIndex index="0">12:12</numIndex>
-                                        <numIndex index="1">medium-width-12#medium-width-12</numIndex>
-                                        <numIndex index="2">content-el-2-column-12-12</numIndex>
+                                        <label>12:12</label>
+                                        <value>medium-width-12#medium-width-12</value>
+                                        <icon>content-el-2-column-12-12</icon>
                                     </numIndex>
                                 </items>
                                 <default>medium-width-6#medium-width-6</default>
@@ -59,10 +56,8 @@
                                     </selectIcons>
                                 </fieldWizard>
                             </config>
-                        </TCEforms>
                     </column_widths_md>
                     <column_widths_sm type="array">
-                        <TCEforms type="array">
                             <label>
                                 LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_small
                             </label>
@@ -71,39 +66,39 @@
                                 <renderType>selectSingle</renderType>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">-</numIndex>
-                                        <numIndex index="1">-</numIndex>
-                                        <numIndex index="2">content-el-column-placeholder</numIndex>
+                                        <label>-</label>
+                                        <value>-</value>
+                                        <icon>content-el-column-placeholder</icon>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">6:6</numIndex>
-                                        <numIndex index="1">small-width-6#small-width-6</numIndex>
-                                        <numIndex index="2">content-el-2-column-6-6</numIndex>
+                                        <label>6:6</label>
+                                        <value>small-width-6#small-width-6</value>
+                                        <icon>content-el-2-column-6-6</icon>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">4:8</numIndex>
-                                        <numIndex index="1">small-width-4#small-width-8</numIndex>
-                                        <numIndex index="2">content-el-2-column-4-8</numIndex>
+                                        <label>4:8</label>
+                                        <value>small-width-4#small-width-8</value>
+                                        <icon>content-el-2-column-4-8</icon>
                                     </numIndex>
                                     <numIndex index="3" type="array">
-                                        <numIndex index="0">8:4</numIndex>
-                                        <numIndex index="1">small-width-8#small-width-4</numIndex>
-                                        <numIndex index="2">content-el-2-column-8-4</numIndex>
+                                        <label>8:4</label>
+                                        <value>small-width-8#small-width-4</value>
+                                        <icon>content-el-2-column-8-4</icon>
                                     </numIndex>
                                     <numIndex index="4" type="array">
-                                        <numIndex index="0">3:9</numIndex>
-                                        <numIndex index="1">small-width-3#small-width-9</numIndex>
-                                        <numIndex index="2">content-el-2-column-3-9</numIndex>
+                                        <label>3:9</label>
+                                        <value>small-width-3#small-width-9</value>
+                                        <icon>content-el-2-column-3-9</icon>
                                     </numIndex>
                                     <numIndex index="5" type="array">
-                                        <numIndex index="0">9:3</numIndex>
-                                        <numIndex index="1">small-width-9#small-width-3</numIndex>
-                                        <numIndex index="2">content-el-2-column-9-3</numIndex>
+                                        <label>9:3</label>
+                                        <value>small-width-9#small-width-3</value>
+                                        <icon>content-el-2-column-9-3</icon>
                                     </numIndex>
                                     <numIndex index="6" type="array">
-                                        <numIndex index="0">12:12</numIndex>
-                                        <numIndex index="1">small-width-12#small-width-12</numIndex>
-                                        <numIndex index="2">content-el-2-column-12-12</numIndex>
+                                        <label>12:12</label>
+                                        <value>small-width-12#small-width-12</value>
+                                        <icon>content-el-2-column-12-12</icon>
                                     </numIndex>
                                 </items>
                                 <fieldWizard>
@@ -112,10 +107,8 @@
                                     </selectIcons>
                                 </fieldWizard>
                             </config>
-                        </TCEforms>
                     </column_widths_sm>
                     <column_widths_xs type="array">
-                        <TCEforms type="array">
                             <label>
                                 LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_extrasmall
                             </label>
@@ -124,39 +117,39 @@
                                 <renderType>selectSingle</renderType>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">-</numIndex>
-                                        <numIndex index="1">-</numIndex>
-                                        <numIndex index="2">content-el-column-placeholder</numIndex>
+                                        <label>-</label>
+                                        <value>-</value>
+                                        <icon>content-el-column-placeholder</icon>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">6:6</numIndex>
-                                        <numIndex index="1">extrasmall-width-6#extrasmall-width-6</numIndex>
-                                        <numIndex index="2">content-el-2-column-6-6</numIndex>
+                                        <label>6:6</label>
+                                        <value>extrasmall-width-6#extrasmall-width-6</value>
+                                        <icon>content-el-2-column-6-6</icon>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">4:8</numIndex>
-                                        <numIndex index="1">extrasmall-width-4#extrasmall-width-8</numIndex>
-                                        <numIndex index="2">content-el-2-column-4-8</numIndex>
+                                        <label>4:8</label>
+                                        <value>extrasmall-width-4#extrasmall-width-8</value>
+                                        <icon>content-el-2-column-4-8</icon>
                                     </numIndex>
                                     <numIndex index="3" type="array">
-                                        <numIndex index="0">8:4</numIndex>
-                                        <numIndex index="1">extrasmall-width-8#extrasmall-width-4</numIndex>
-                                        <numIndex index="2">content-el-2-column-8-4</numIndex>
+                                        <label>8:4</label>
+                                        <value>extrasmall-width-8#extrasmall-width-4</value>
+                                        <icon>content-el-2-column-8-4</icon>
                                     </numIndex>
                                     <numIndex index="4" type="array">
-                                        <numIndex index="0">3:9</numIndex>
-                                        <numIndex index="1">extrasmall-width-3#extrasmall-width-9</numIndex>
-                                        <numIndex index="2">content-el-2-column-3-9</numIndex>
+                                        <label>3:9</label>
+                                        <value>extrasmall-width-3#extrasmall-width-9</value>
+                                        <icon>content-el-2-column-3-9</icon>
                                     </numIndex>
                                     <numIndex index="5" type="array">
-                                        <numIndex index="0">9:3</numIndex>
-                                        <numIndex index="1">extrasmall-width-9#extrasmall-width-3</numIndex>
-                                        <numIndex index="2">content-el-2-column-9-3</numIndex>
+                                        <label>9:3</label>
+                                        <value>extrasmall-width-9#extrasmall-width-3</value>
+                                        <icon>content-el-2-column-9-3</icon>
                                     </numIndex>
                                     <numIndex index="6" type="array">
-                                        <numIndex index="0">12:12</numIndex>
-                                        <numIndex index="1">extrasmall-width-12#extrasmall-width-12</numIndex>
-                                        <numIndex index="2">content-el-2-column-12-12</numIndex>
+                                        <label>12:12</label>
+                                        <value>extrasmall-width-12#extrasmall-width-12</value>
+                                        <icon>content-el-2-column-12-12</icon>
                                     </numIndex>
                                 </items>
                                 <fieldWizard>
@@ -165,10 +158,8 @@
                                     </selectIcons>
                                 </fieldWizard>
                             </config>
-                        </TCEforms>
                     </column_widths_xs>
                     <column_widths_lg type="array">
-                        <TCEforms type="array">
                             <label>
                                 LLL:EXT:themes_gridelements/Resources/Private/Language/Elements.xlf:column_widths_large
                             </label>
@@ -177,39 +168,39 @@
                                 <renderType>selectSingle</renderType>
                                 <items type="array">
                                     <numIndex index="0" type="array">
-                                        <numIndex index="0">-</numIndex>
-                                        <numIndex index="1">-</numIndex>
-                                        <numIndex index="2">content-el-column-placeholder</numIndex>
+                                        <label>-</label>
+                                        <value>-</value>
+                                        <icon>content-el-column-placeholder</icon>
                                     </numIndex>
                                     <numIndex index="1" type="array">
-                                        <numIndex index="0">6:6</numIndex>
-                                        <numIndex index="1">large-width-6#large-width-6</numIndex>
-                                        <numIndex index="2">content-el-2-column-6-6</numIndex>
+                                        <label>6:6</label>
+                                        <value>large-width-6#large-width-6</value>
+                                        <icon>content-el-2-column-6-6</icon>
                                     </numIndex>
                                     <numIndex index="2" type="array">
-                                        <numIndex index="0">4:8</numIndex>
-                                        <numIndex index="1">large-width-4#large-width-8</numIndex>
-                                        <numIndex index="2">content-el-2-column-4-8</numIndex>
+                                        <label>4:8</label>
+                                        <value>large-width-4#large-width-8</value>
+                                        <icon>content-el-2-column-4-8</icon>
                                     </numIndex>
                                     <numIndex index="3" type="array">
-                                        <numIndex index="0">8:4</numIndex>
-                                        <numIndex index="1">large-width-8#large-width-4</numIndex>
-                                        <numIndex index="2">content-el-2-column-8-4</numIndex>
+                                        <label>8:4</label>
+                                        <value>large-width-8#large-width-4</value>
+                                        <icon>content-el-2-column-8-4</icon>
                                     </numIndex>
                                     <numIndex index="4" type="array">
-                                        <numIndex index="0">3:9</numIndex>
-                                        <numIndex index="1">large-width-3#large-width-9</numIndex>
-                                        <numIndex index="2">content-el-2-column-3-9</numIndex>
+                                        <label>3:9</label>
+                                        <value>large-width-3#large-width-9</value>
+                                        <icon>content-el-2-column-3-9</icon>
                                     </numIndex>
                                     <numIndex index="5" type="array">
-                                        <numIndex index="0">9:3</numIndex>
-                                        <numIndex index="1">large-width-9#large-width-3</numIndex>
-                                        <numIndex index="2">content-el-2-column-9-3</numIndex>
+                                        <label>9:3</label>
+                                        <value>large-width-9#large-width-3</value>
+                                        <icon>content-el-2-column-9-3</icon>
                                     </numIndex>
                                     <numIndex index="6" type="array">
-                                        <numIndex index="0">12:12</numIndex>
-                                        <numIndex index="1">large-width-12#large-width-12</numIndex>
-                                        <numIndex index="2">content-el-2-column-12-12</numIndex>
+                                        <label>12:12</label>
+                                        <value>large-width-12#large-width-12</value>
+                                        <icon>content-el-2-column-12-12</icon>
                                     </numIndex>
                                 </items>
                                 <fieldWizard>
@@ -218,7 +209,6 @@
                                     </selectIcons>
                                 </fieldWizard>
                             </config>
-                        </TCEforms>
                     </column_widths_lg>
                 </el>
             </ROOT>

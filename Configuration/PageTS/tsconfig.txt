@@ -1,2 +1,2 @@
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/BackendLayouts" extensions="typoscript">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:themes_gridelements/Configuration/Elements/PageTS" extensions="typoscript">
+@import 'EXT:themes_gridelements/Configuration/BackendLayouts/*.typoscript'
+@import 'EXT:themes_gridelements/Configuration/Elements/PageTS/*.typoscript'
