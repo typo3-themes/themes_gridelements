@@ -29,7 +29,7 @@ class ThemesGridelementsTest extends FunctionalTestCase
         // page TSconfig of the extension (theme_bootstrap includes Configuration/PageTS/)
         $this->get(ConnectionPool::class)->getConnectionForTable('pages')->update(
             'pages',
-            ['TSconfig' => (string)file_get_contents(GeneralUtility::getFileAbsFileName('EXT:themes_gridelements/Configuration/PageTS/tsconfig.txt'))],
+            ['TSconfig' => (string)file_get_contents(GeneralUtility::getFileAbsFileName('EXT:themes_gridelements/Configuration/PageTS/tsconfig.typoscript'))],
             ['uid' => 1]
         );
         $siteFolder = Environment::getConfigPath() . '/sites/school';

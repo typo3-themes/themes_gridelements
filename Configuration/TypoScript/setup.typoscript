@@ -29,7 +29,7 @@ lib.gridelements {
         }
 
         # --- THIS is the actual row wrapper around the whole grid output ---
-        wrap = <div class="row {register:geRowClasses} row-gridelements" data-typo3-source-hint="EXT:themes_gridelements/Configuration/TypoScript/setup.txt">|</div>
+        wrap = <div class="row {register:geRowClasses} row-gridelements" data-typo3-source-hint="EXT:themes_gridelements/Configuration/TypoScript/setup.typoscript">|</div>
         wrap.insertData = 1
         wrap >
 

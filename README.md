@@ -12,9 +12,9 @@ no release of gridelements for TYPO3 14 yet.
 
 ## Usage
 
-* Static template "Configuration/TypoScript" (`constants.txt`, `setup.txt`), themes like theme_bootstrap and the
+* Static template "Configuration/TypoScript" (`constants.typoscript`, `setup.typoscript`), themes like theme_bootstrap and the
   templavoila_framework emulation (themes_adapter_tvframework) include these files.
-* Page TSconfig `Configuration/PageTS/tsconfig.txt`: backend layouts and the grid elements (2, 3 and 4 columns,
+* Page TSconfig `Configuration/PageTS/tsconfig.typoscript`: backend layouts and the grid elements (2, 3 and 4 columns,
   accordion, carousel, tabs, …), included by the themes.
 * The files include their folders with `@import` (`<INCLUDE_TYPOSCRIPT>` is deprecated in TYPO3 v13 and ignored in
   v14). The file names `*.txt` stay, the themes reference them.
